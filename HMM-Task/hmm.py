@@ -10,6 +10,8 @@ class HMM:
         self.wordset = set()
         self.start_tag = "^START^_^TAG^"
         self.end_tag = "^END^_^TAG^"
+        self.unknown_tag = "^UNK^"
+        self.unknown_prob = -math.inf
 
 
     # Train the HMM on a given dataset
@@ -101,28 +103,34 @@ class HMM:
             self.transition_probs[self.end_tag] = {}
 
         # Normalize the transition and observation probabilities and take the log
+        small_prob = math.inf
         for prev_tag in self.transition_probs:
             total_transitions = sum(self.transition_probs[prev_tag].values())
             for tag in self.transition_probs[prev_tag]:
                 self.transition_probs[prev_tag][tag] /= total_transitions
                 self.transition_probs[prev_tag][tag] = math.log(self.transition_probs[prev_tag][tag])
+                if self.transition_probs[prev_tag][tag] < small_prob:
+                    small_prob = self.transition_probs[prev_tag][tag]
 
         for tag in self.observation_probs:
             total_observations = sum(self.observation_probs[tag].values())
             for word in self.observation_probs[tag]:
                 self.observation_probs[tag][word] /= total_observations
                 self.observation_probs[tag][word] = math.log(self.observation_probs[tag][word])
+                if self.observation_probs[tag][word] < small_prob:
+                    small_prob = self.observation_probs[tag][word]
+
+        # unknown_prob is a small probability that is used when a word is not in the training set and also for the transition to an unknown tag or from an unknown tag
+        self.unknown_prob = small_prob - 100
+
+        # Add the unknown tag to the tagset
+        self.tagset.add(self.unknown_tag)
 
 
     # Predict the sequence of tags for a given sentence
     def predict(self, sentence):
-        # Check if all words in the sentence are in the wordset
-        for word in sentence:
-            if word not in self.wordset:
-                return None
-
         # Initialize the Viterbi algorithm
-        viterbi = [{tag: {"prob": -math.inf, "prev": None} for tag in self.tagset} for _ in range(len(sentence)+1)]
+        viterbi = [{tag: {"prob": -math.inf, "prev": self.unknown_tag} for tag in self.tagset} for _ in range(len(sentence)+1)]
         for tag in self.tagset:
             viterbi[0][tag]["prob"] = self.transition_probs[self.start_tag].get(tag, -math.inf) 
             viterbi[0][tag]["prev"] = self.start_tag
@@ -131,9 +139,15 @@ class HMM:
         for t in range(1, len(sentence)+1):
             for tag in self.tagset:
                 max_prob = -math.inf
-                max_prev_tag = None
+                max_prev_tag = self.unknown_tag
                 for prev_tag in self.tagset:
-                    prob = viterbi[t - 1][prev_tag]["prob"] + self.observation_probs[prev_tag].get(sentence[t-1], -math.inf) + self.transition_probs[prev_tag].get(tag, -math.inf)
+                    prob = viterbi[t - 1][prev_tag]["prob"]
+                    if prev_tag == self.unknown_tag:
+                        prob += 2*self.unknown_prob
+                    elif tag == self.unknown_tag:
+                        prob += self.observation_probs[prev_tag].get(sentence[t-1], -math.inf) + self.unknown_prob
+                    else:
+                        prob += self.observation_probs[prev_tag].get(sentence[t-1], -math.inf) + self.transition_probs[prev_tag].get(tag, -math.inf)
                     if prob > max_prob:
                         max_prob = prob
                         max_prev_tag = prev_tag

@@ -1,6 +1,7 @@
 import nltk
 from nltk.corpus import brown
 from hmm import HMM
+import random
 
 # Download Brown corpus and universal tagset
 nltk.download('brown')
@@ -47,7 +48,12 @@ def evaluate(model, test_data):
 
 # Main function
 def main():
+    # Load the dataset
     dataset = load_dataset()
+
+    # Shuffle the dataset
+    random.seed(0)
+    random.shuffle(dataset)
 
     # Split the dataset into 5 parts
     data = []
@@ -65,6 +71,7 @@ def main():
                 train_data.extend(data[j])
         model = HMM()
         model.train(train_data)
+
         print(f"Fold {i+1}")
         token_acc, sentence_acc = evaluate(model, test_data)
         token_accs.append(token_acc)
@@ -74,10 +81,6 @@ def main():
     print(f"Average token accuracy: {sum(token_accs) / len(token_accs)}")
     print(f"Average sentence accuracy: {sum(sentence_accs) / len(sentence_accs)}")
 
-    # sentence = test_data[1]
-    # print(f"Sentence: {sentence}")
-    # print(f"Predicted tags: {model.predict([word for word, tag in sentence])}")
-    # print(f"Actual tags: {[tag for word, tag in sentence]}")
 
 if __name__ == "__main__":
     main()
