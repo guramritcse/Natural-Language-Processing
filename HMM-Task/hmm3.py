@@ -1,6 +1,6 @@
 import math
 
-class HMM:
+class HMM3:
 
     # Initialize the HMM
     def __init__(self):
@@ -45,6 +45,7 @@ class HMM:
             self.observation_probs[self.start_tag][self.start_tag] += 1
 
             prev_tag = self.start_tag
+            prev_prev_tag = self.start_tag
             for word, tag in sentence:
                 # Update the tag counts
                 if tag not in tag_counts:
@@ -57,11 +58,12 @@ class HMM:
                 word_counts[word] += 1
 
                 # Update the transition probabilities
-                if prev_tag not in self.transition_probs:
-                    self.transition_probs[prev_tag] = {}
-                if tag not in self.transition_probs[prev_tag]:
-                    self.transition_probs[prev_tag][tag] = 0
-                self.transition_probs[prev_tag][tag] += 1
+                com_tag = (prev_prev_tag, prev_tag)
+                if com_tag not in self.transition_probs:
+                    self.transition_probs[com_tag] = {}
+                if tag not in self.transition_probs[com_tag]:
+                    self.transition_probs[com_tag][tag] = 0
+                self.transition_probs[com_tag][tag] += 1
 
                 # Update the observation probabilities
                 if tag not in self.observation_probs:
@@ -74,6 +76,7 @@ class HMM:
                 self.tagset.add(tag)
                 self.wordset.add(word)
 
+                prev_prev_tag = prev_tag
                 prev_tag = tag
             
             # Update the tag counts and word counts for the end tag
@@ -85,11 +88,12 @@ class HMM:
             word_counts[self.end_tag] += 1
 
             # Update the transition probabilities for the end tag
-            if prev_tag not in self.transition_probs:
-                self.transition_probs[prev_tag] = {}
-            if self.end_tag not in self.transition_probs[prev_tag]:
-                self.transition_probs[prev_tag][self.end_tag] = 0
-            self.transition_probs[prev_tag][self.end_tag] += 1
+            com_tag = (prev_prev_tag, prev_tag)
+            if com_tag not in self.transition_probs:
+                self.transition_probs[com_tag] = {}
+            if self.end_tag not in self.transition_probs[com_tag]:
+                self.transition_probs[com_tag][self.end_tag] = 0
+            self.transition_probs[com_tag][self.end_tag] += 1
 
             # Update the observation probabilities for the end tag
             if self.end_tag not in self.observation_probs:
@@ -98,18 +102,15 @@ class HMM:
                 self.observation_probs[self.end_tag][self.end_tag] = 0
             self.observation_probs[self.end_tag][self.end_tag] += 1
 
-            # Set the transition probabilities from the end tag to zero
-            self.transition_probs[self.end_tag] = {}
-
         # Normalize the transition and observation probabilities and take the log
         self.small_prob = math.inf
-        for prev_tag in self.transition_probs:
-            total_transitions = sum(self.transition_probs[prev_tag].values())
-            for tag in self.transition_probs[prev_tag]:
-                self.transition_probs[prev_tag][tag] /= total_transitions
-                self.transition_probs[prev_tag][tag] = math.log(self.transition_probs[prev_tag][tag])
-                if self.transition_probs[prev_tag][tag] < self.small_prob:
-                    self.small_prob = self.transition_probs[prev_tag][tag]
+        for com_tag in self.transition_probs:
+            total_transitions = sum(self.transition_probs[com_tag].values())
+            for tag in self.transition_probs[com_tag]:
+                self.transition_probs[com_tag][tag] /= total_transitions
+                self.transition_probs[com_tag][tag] = math.log(self.transition_probs[com_tag][tag])
+                if self.transition_probs[com_tag][tag] < self.small_prob:
+                    self.small_prob = self.transition_probs[com_tag][tag]
 
         for tag in self.observation_probs:
             total_observations = sum(self.observation_probs[tag].values())
@@ -123,13 +124,20 @@ class HMM:
         else:
             self.small_prob -= 100
 
+        # Add transition probabilities for all possible tag pairs that are not in the training data
+        for tag1 in self.tagset:
+            for tag2 in self.tagset:
+                com_tag = (tag1, tag2)
+                if com_tag not in self.transition_probs:
+                    self.transition_probs[com_tag] = {}
+                    
 
     # Predict the sequence of tags for a given sentence
     def predict(self, sentence):
         # Initialize the Viterbi algorithm
         viterbi = [{tag: {"prob": -math.inf, "prev": None} for tag in self.tagset} for _ in range(len(sentence)+1)]
         for tag in self.tagset:
-            viterbi[0][tag]["prob"] = self.transition_probs[self.start_tag].get(tag, self.small_prob) 
+            viterbi[0][tag]["prob"] = self.transition_probs[(self.start_tag, self.start_tag)].get(tag, self.small_prob) 
             viterbi[0][tag]["prev"] = self.start_tag
 
         # Run the Viterbi algorithm
@@ -138,13 +146,17 @@ class HMM:
                 max_prob = -math.inf
                 max_prev_tag = None
                 for prev_tag in self.tagset:
-                    if sentence[t-1] not in self.wordset:
-                        prob = viterbi[t - 1][prev_tag]["prob"] + self.transition_probs[prev_tag].get(tag, self.small_prob)
-                    else:
-                        prob = viterbi[t - 1][prev_tag]["prob"] + self.observation_probs[prev_tag].get(sentence[t-1], self.small_prob) + self.transition_probs[prev_tag].get(tag, self.small_prob)
-                    if prob > max_prob:
-                        max_prob = prob
-                        max_prev_tag = prev_tag
+                    for prev_prev_tag in self.tagset:
+                        com_tag = (prev_prev_tag, prev_tag)
+                        if viterbi[t - 1][prev_tag]["prev"] != prev_prev_tag:
+                            continue
+                        if sentence[t-1] not in self.wordset:
+                            prob = viterbi[t - 1][prev_tag]["prob"] + self.transition_probs[com_tag].get(tag, self.small_prob)
+                        else:
+                            prob = viterbi[t - 1][prev_tag]["prob"] + self.observation_probs[prev_tag].get(sentence[t-1], self.small_prob) + self.transition_probs[com_tag].get(tag, self.small_prob)
+                        if prob > max_prob:
+                            max_prob = prob
+                            max_prev_tag = prev_tag
                 viterbi[t][tag]["prob"] = max_prob
                 viterbi[t][tag]["prev"] = max_prev_tag
 

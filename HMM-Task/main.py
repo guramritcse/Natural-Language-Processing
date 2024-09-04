@@ -1,6 +1,7 @@
 import nltk
 from nltk.corpus import brown
 from hmm import HMM
+from hmm3 import HMM3
 import random
 
 # Download Brown corpus and universal tagset
@@ -69,7 +70,8 @@ def main():
         for j in range(5):
             if j != i:
                 train_data.extend(data[j])
-        model = HMM()
+        # model = HMM()
+        model = HMM3()
         model.train(train_data)
 
         print(f"Fold {i+1}")
