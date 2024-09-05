@@ -10,6 +10,7 @@ class HMM3:
         self.wordset = set()
         self.start_tag = "^START^_^TAG^"
         self.end_tag = "^END^_^TAG^"
+        self.punc_tag = "."
         self.small_prob = -math.inf
 
 
@@ -151,7 +152,10 @@ class HMM3:
                         if viterbi[t - 1][prev_tag]["prev"] != prev_prev_tag:
                             continue
                         if sentence[t-1] not in self.wordset:
-                            prob = viterbi[t - 1][prev_tag]["prob"] + self.transition_probs[com_tag].get(tag, self.small_prob)
+                            if prev_tag in (self.start_tag, self.end_tag, self.punc_tag):
+                                prob = viterbi[t - 1][prev_tag]["prob"] + self.transition_probs[com_tag].get(tag, self.small_prob) + self.small_prob
+                            else:
+                                prob = viterbi[t - 1][prev_tag]["prob"] + self.transition_probs[com_tag].get(tag, self.small_prob)
                         else:
                             prob = viterbi[t - 1][prev_tag]["prob"] + self.observation_probs[prev_tag].get(sentence[t-1], self.small_prob) + self.transition_probs[com_tag].get(tag, self.small_prob)
                         if prob > max_prob:
