@@ -1,0 +1,502 @@
+{
+    "39": {
+        "words": "a friend of mine in new mexico said the court order had caused no particular trouble out there , that all had gone as merry as a marriage bell .",
+        "actual_tags": "DET NOUN ADP PRON ADP ADJ NOUN VERB DET NOUN NOUN VERB VERB DET ADJ NOUN ADP ADV . ADP PRT VERB VERB ADV ADJ ADP DET NOUN NOUN .",
+        "predicted_tags": "DET NOUN ADP NOUN ADP ADJ NOUN VERB DET NOUN NOUN VERB VERB DET ADJ NOUN ADP PRT . ADP PRT VERB VERB ADP ADJ ADP DET NOUN NOUN ."
+    },
+    "168": {
+        "words": "but before discussing it , i should like to record one vote of thanks to them for the clarity with which they have stated their case .",
+        "actual_tags": "CONJ ADP VERB PRON . PRON VERB VERB PRT VERB NUM NOUN ADP NOUN ADP PRON ADP DET NOUN ADP DET PRON VERB VERB DET NOUN .",
+        "predicted_tags": "CONJ ADV VERB PRON . PRON VERB VERB ADP NOUN NUM NOUN ADP NOUN ADP PRON ADP DET NOUN ADP DET PRON VERB VERB DET NOUN ."
+    },
+    "244": {
+        "words": "today , according to land economist homer hoyt , shopping centers and their associated parking lots cover some 46,000 acres of land , which is almost exactly the total land area in all the nation's central business districts put together .",
+        "actual_tags": "NOUN . ADV ADP NOUN NOUN NOUN NOUN . VERB NOUN CONJ DET VERB VERB NOUN VERB ADV NUM NOUN ADP NOUN . DET VERB ADV ADV DET ADJ NOUN NOUN ADP PRT DET NOUN ADJ NOUN NOUN VERB ADV .",
+        "predicted_tags": "NOUN . ADP PRT NOUN NOUN NOUN NOUN . VERB NOUN CONJ DET VERB VERB NOUN VERB DET NUM NOUN ADP NOUN . DET VERB ADV ADV DET ADJ NOUN NOUN ADP PRT DET NOUN ADJ NOUN NOUN VERB ADV ."
+    },
+    "372": {
+        "words": "in each city quick public reaction and fast action by the city government halted the threats of more serious incidents .",
+        "actual_tags": "ADP DET NOUN ADJ NOUN NOUN CONJ ADJ NOUN ADP DET NOUN NOUN VERB DET NOUN ADP ADV ADJ NOUN .",
+        "predicted_tags": "ADP DET NOUN ADV ADJ NOUN CONJ ADJ NOUN ADP DET NOUN NOUN VERB DET NOUN ADP ADJ ADJ NOUN ."
+    },
+    "385": {
+        "words": "it says that `` in the event congress does provide this increase in federal funds '' , the state board of education should be directed to `` give priority '' to teacher pay raises .",
+        "actual_tags": "PRON VERB ADP . ADP DET NOUN NOUN VERB VERB DET NOUN ADP ADJ NOUN . . DET NOUN NOUN ADP NOUN VERB VERB VERB PRT . VERB NOUN . ADP NOUN NOUN NOUN .",
+        "predicted_tags": "PRON VERB PRON . ADP DET NOUN NOUN VERB VERB DET NOUN ADP ADJ NOUN . . DET NOUN NOUN ADP NOUN VERB VERB VERB PRT . VERB NOUN . ADP NOUN VERB VERB ."
+    },
+    "403": {
+        "words": "this section shall not apply to corporations purchasing such stock solely for investment and not using the same by voting or otherwise to bring about , or in attempting to bring about , the substantial lessening of competition .",
+        "actual_tags": "DET NOUN VERB ADV VERB ADP NOUN VERB ADJ NOUN ADV ADP NOUN CONJ ADV VERB DET ADJ ADP VERB CONJ ADV PRT VERB PRT . CONJ ADP VERB PRT VERB PRT . DET ADJ NOUN ADP NOUN .",
+        "predicted_tags": "DET NOUN VERB ADV VERB ADP NOUN VERB ADJ NOUN ADV ADP NOUN CONJ ADV VERB DET ADJ ADP NOUN CONJ ADV PRT VERB ADV . CONJ ADP VERB PRT VERB ADV . DET ADJ NOUN ADP NOUN ."
+    },
+    "415": {
+        "words": "`` it's quite possible there's more than codfish down there , man '' , poet replied with a short , nervous laugh as he held the harness for elaine .",
+        "actual_tags": ". PRT ADV ADJ PRT ADJ ADP NOUN PRT ADV . NOUN . . NOUN VERB ADP DET ADJ . ADJ NOUN ADP PRON VERB DET NOUN ADP NOUN .",
+        "predicted_tags": ". PRT ADV ADJ PRT ADV ADP NOUN ADP PRT . NOUN . . NOUN VERB ADP DET ADJ . ADJ NOUN ADP PRON VERB DET NOUN ADP NOUN ."
+    },
+    "499": {
+        "words": "she had come to make her peace with the past , and of that past this ancient of the earth was only a kind of shadow .",
+        "actual_tags": "PRON VERB VERB PRT VERB DET NOUN ADP DET NOUN . CONJ ADP DET NOUN DET NOUN ADP DET NOUN VERB ADV DET NOUN ADP NOUN .",
+        "predicted_tags": "PRON VERB VERB PRT VERB DET NOUN ADP DET NOUN . CONJ ADP PRON ADP DET ADJ ADP DET NOUN VERB ADV DET NOUN ADP NOUN ."
+    },
+    "583": {
+        "words": "finally , it is suggested that in many respects the horse lung may be anatomically more comparable to that of the human than any other presently known species .",
+        "actual_tags": "ADV . PRON VERB VERB ADP ADP ADJ NOUN DET NOUN NOUN VERB VERB ADV ADV ADJ ADP DET ADP DET ADJ ADP DET ADJ ADV VERB NOUN .",
+        "predicted_tags": "ADV . PRON VERB VERB PRON ADP ADJ NOUN DET NOUN NOUN VERB VERB ADV ADV ADJ ADP PRON ADP DET NOUN ADP DET ADJ ADV VERB NOUN ."
+    },
+    "646": {
+        "words": "if , in a certain part of the range , it starts life 1 foot longer than do any of the other ( relatively large ) giants , and reaches maturity at , let us guess , 18 inches longer than the others , a quadrupling of the maturity length would result in a maximum of ( nearly ) 40 feet .",
+        "actual_tags": "ADP . ADP DET ADJ NOUN ADP DET NOUN . PRON VERB NOUN NUM NOUN ADJ ADP VERB DET ADP DET ADJ . ADV ADJ . NOUN . CONJ VERB NOUN ADP . VERB PRON VERB . NUM NOUN ADJ ADP DET NOUN . DET NOUN ADP DET NOUN NOUN VERB VERB ADP DET ADJ ADP . ADV . NUM NOUN .",
+        "predicted_tags": "ADP . ADP DET ADJ NOUN ADP DET NOUN . PRON VERB NOUN NUM NOUN ADV ADP VERB DET ADP DET ADJ . ADV ADJ . NOUN . CONJ VERB NOUN ADP . VERB PRON VERB . NUM NOUN ADV ADP DET NOUN . DET NOUN ADP DET NOUN NOUN VERB VERB ADP DET NOUN ADP . ADV . NUM NOUN ."
+    },
+    "652": {
+        "words": "sniffing its sweet smell and letting it fall to show its good crumbly consistency , he pointed to the nearby driveway and said , `` this soil used to be like that hard packed road over there '' .",
+        "actual_tags": "VERB DET ADJ NOUN CONJ VERB PRON VERB PRT VERB DET ADJ ADJ NOUN . PRON VERB ADP DET ADJ NOUN CONJ VERB . . DET NOUN VERB PRT VERB ADP DET ADJ VERB NOUN ADP ADV . .",
+        "predicted_tags": "VERB DET ADJ NOUN CONJ VERB PRON VERB PRT VERB DET ADJ ADJ NOUN . PRON VERB ADP DET ADJ NOUN CONJ VERB . . DET NOUN VERB PRT VERB ADP PRON ADV VERB NOUN ADP PRT . ."
+    },
+    "698": {
+        "words": "( page 33 ) on the other hand , a little later on he says : `` since 1692 a great but superficial change has wiped out god's beard and the devil's horns , but the world is still gripped between two diametrically opposed absolutes .",
+        "actual_tags": ". NOUN NUM . ADP DET ADJ NOUN . DET ADV ADV PRT PRON VERB . . ADP NUM DET ADJ CONJ ADJ NOUN VERB VERB PRT NOUN NOUN CONJ DET NOUN NOUN . CONJ DET NOUN VERB ADV VERB ADP NUM ADV VERB NOUN .",
+        "predicted_tags": ". NOUN NUM . ADP DET ADJ NOUN . DET ADJ ADV ADP PRON VERB . . ADP NUM DET ADJ CONJ ADJ NOUN VERB VERB ADP NOUN NOUN CONJ DET NOUN NOUN . CONJ DET NOUN VERB ADV VERB ADP NUM ADV VERB NOUN ."
+    },
+    "743": {
+        "words": "the many little tricks she knew made her embrace the ultimate one -- the ever more fantastic pressures deeper in her body squeezed not me but the air i breathed into a nitrogen anesthetic .",
+        "actual_tags": "DET ADJ ADJ NOUN PRON VERB VERB DET NOUN DET ADJ NOUN . DET ADV ADV ADJ NOUN ADJ ADP DET NOUN VERB ADV PRON CONJ DET NOUN PRON VERB ADP DET NOUN NOUN .",
+        "predicted_tags": "DET ADJ ADJ NOUN PRON VERB VERB PRON VERB DET ADJ NOUN . DET ADV ADJ ADJ NOUN ADJ ADP DET NOUN VERB ADV PRON CONJ DET NOUN PRON VERB ADP DET NOUN NOUN ."
+    },
+    "812": {
+        "words": "if such is the case , the particles within a distance of about af of the earth will have , relative to the earth , a kinetic energy less than their potential energy and they will be captured into orbits about the earth .",
+        "actual_tags": "ADP ADJ VERB DET NOUN . DET NOUN ADP DET NOUN ADP ADV NOUN ADP DET NOUN VERB VERB . ADJ ADP DET NOUN . DET ADJ NOUN ADJ ADP DET ADJ NOUN CONJ PRON VERB VERB VERB ADP NOUN ADP DET NOUN .",
+        "predicted_tags": "ADP PRT VERB DET NOUN . DET NOUN ADP DET NOUN ADP ADP NOUN ADP DET NOUN VERB VERB . ADJ ADP DET NOUN . DET ADJ NOUN ADV ADP DET ADJ NOUN CONJ PRON VERB VERB VERB ADP NOUN ADP DET NOUN ."
+    },
+    "984": {
+        "words": "the west may or not remain satisfied with the kind of neutralism that u thant represents .",
+        "actual_tags": "DET NOUN VERB CONJ ADV VERB VERB ADP DET NOUN ADP NOUN PRON NOUN NOUN VERB .",
+        "predicted_tags": "DET ADJ NOUN CONJ ADV VERB VERB ADP DET NOUN ADP NOUN ADP NOUN NOUN VERB ."
+    },
+    "1026": {
+        "words": "a quarter of a century has gone by since this bevy of walking dreams sashayed up and down the staircases of the old new amsterdam theater , n.y. .",
+        "actual_tags": "DET NOUN ADP DET NOUN VERB VERB ADV ADP DET NOUN ADP VERB NOUN VERB ADP CONJ ADP DET NOUN ADP DET ADJ ADJ NOUN NOUN . NOUN .",
+        "predicted_tags": "DET NOUN ADP DET NOUN VERB VERB ADP ADP DET NOUN ADP VERB NOUN VERB PRT CONJ PRT DET NOUN ADP DET ADJ ADJ NOUN NOUN . NOUN ."
+    },
+    "1149": {
+        "words": "tonal morphophonemics , in a common case , can do nothing but either raise or lower the tone .",
+        "actual_tags": "ADJ NOUN . ADP DET ADJ NOUN . VERB VERB NOUN ADP CONJ VERB CONJ VERB DET NOUN .",
+        "predicted_tags": "ADJ NOUN . ADP DET ADJ NOUN . VERB VERB NOUN CONJ DET NOUN CONJ VERB DET NOUN ."
+    },
+    "1188": {
+        "words": "despite the rejection of the traditional accounts on many points of detail , as late as 1948 it was still possible to postulate a massive and comparatively sudden ( beginning in ca. 450 ) influx of germans as the type of invasions .",
+        "actual_tags": "ADP DET NOUN ADP DET ADJ NOUN ADP ADJ NOUN ADP NOUN . ADV ADV ADP NUM PRON VERB ADV ADJ PRT VERB DET ADJ CONJ ADV ADJ . VERB ADP ADV NOUN . NOUN ADP NOUN ADP DET NOUN ADP NOUN .",
+        "predicted_tags": "ADP DET NOUN ADP DET ADJ NOUN ADP ADJ NOUN ADP NOUN . ADP ADJ ADP NUM PRON VERB ADV ADJ PRT VERB DET ADJ CONJ ADV ADJ . VERB ADP ADV NUM . NOUN ADP NOUN ADP DET NOUN ADP NOUN ."
+    },
+    "1200": {
+        "words": "out of this background of hunting and fishing , it was only natural that roy first painted subjects he knew best : hunters in the field , fishermen in the stream , ducks and geese on the wing -- almost always against a vast backdrop of weather landscape .",
+        "actual_tags": "ADP ADP DET NOUN ADP VERB CONJ VERB . PRON VERB ADV ADJ ADP NOUN ADV VERB NOUN PRON VERB ADV . NOUN ADP DET NOUN . NOUN ADP DET NOUN . NOUN CONJ NOUN ADP DET NOUN . ADV ADV ADP DET ADJ NOUN ADP NOUN NOUN .",
+        "predicted_tags": "PRT ADP DET NOUN ADP NOUN CONJ VERB . PRON VERB ADV ADJ ADP NOUN ADV VERB NOUN PRON VERB ADJ . NOUN ADP DET NOUN . NOUN ADP DET NOUN . NOUN CONJ NOUN ADP DET NOUN . ADV ADV ADP DET ADJ NOUN ADP NOUN NOUN ."
+    },
+    "1260": {
+        "words": "in any instance , you should determine the exposure according to the type of light which falls on most of the subject area .",
+        "actual_tags": "ADP DET NOUN . PRON VERB VERB DET NOUN ADP ADP DET NOUN ADP NOUN DET VERB ADP ADJ ADP DET NOUN NOUN .",
+        "predicted_tags": "ADP DET NOUN . PRON VERB VERB DET NOUN ADP PRT DET NOUN ADP NOUN DET NOUN ADP ADJ ADP DET ADJ NOUN ."
+    },
+    "1261": {
+        "words": "but the form in which the claim must be stated need not be different from what the state exacts in the enforcement of like obligations created by it , so long as a requirement does not add to , or diminish , the right as defined by federal law , nor burden the realization of this right in the actualities of litigation '' .",
+        "actual_tags": "CONJ DET NOUN ADP DET DET NOUN VERB VERB VERB VERB ADV VERB ADJ ADP DET DET NOUN VERB ADP DET NOUN ADP ADJ NOUN VERB ADP PRON . ADV ADV ADP DET NOUN VERB ADV VERB ADP . CONJ VERB . DET NOUN ADP VERB ADP ADJ NOUN . CONJ VERB DET NOUN ADP DET NOUN ADP DET NOUN ADP NOUN . .",
+        "predicted_tags": "CONJ DET NOUN ADP DET DET NOUN VERB VERB VERB VERB ADV VERB ADJ ADP DET DET NOUN VERB ADP DET NOUN ADP ADJ NOUN VERB ADP PRON . ADV ADJ ADP DET NOUN VERB ADV VERB PRT . CONJ VERB . DET NOUN ADP VERB ADP ADJ NOUN . CONJ NOUN DET NOUN ADP DET NOUN ADP DET NOUN ADP NOUN . ."
+    },
+    "1307": {
+        "words": "he expressed surprise to learn that pretty , blonde patricia holbrook , 16 , of mount rainier , had attended the joseph p. kennedy school for the handicapped in boston .",
+        "actual_tags": "PRON VERB NOUN PRT VERB ADP ADJ . ADJ NOUN NOUN . NUM . ADP NOUN NOUN . VERB VERB DET NOUN NOUN NOUN NOUN ADP DET VERB ADP NOUN .",
+        "predicted_tags": "PRON VERB VERB PRT VERB PRON ADV . ADJ NOUN NOUN . NUM . ADP NOUN NOUN . VERB VERB DET NOUN NOUN NOUN NOUN ADP DET VERB ADP NOUN ."
+    },
+    "1360": {
+        "words": "another yank parodied the familiar bedtime prayer : `` now i lay me down to sleep , the gray-backs o'er my body creep ; ;",
+        "actual_tags": "DET NOUN VERB DET ADJ NOUN NOUN . . ADV PRON VERB PRON PRT PRT VERB . DET NOUN ADP DET NOUN VERB . .",
+        "predicted_tags": "DET NOUN VERB DET ADJ NOUN NOUN . . ADV PRON VERB PRON PRT ADP NOUN . DET NOUN ADP DET NOUN NOUN . ."
+    },
+    "1371": {
+        "words": "in the steiners have busy lives without visiting relatives only context can indicate whether visiting relatives is equivalent in meaning to paying visits to relatives or to relatives who are visiting them , and in i looked up the number and i looked up the chimney only the meanings of number and chimney make it clear that up is syntactically a second complement in the first sentence and a preposition followed by its object in the second .",
+        "actual_tags": "ADP DET NOUN VERB ADJ NOUN ADP VERB NOUN ADJ NOUN VERB VERB ADP VERB NOUN VERB ADJ ADP NOUN ADP VERB NOUN ADP NOUN CONJ ADP NOUN PRON VERB VERB PRON . CONJ ADP PRON VERB PRT DET NOUN CONJ PRON VERB ADP DET NOUN ADV DET NOUN ADP NOUN CONJ NOUN VERB PRON ADJ ADP ADP VERB ADV DET ADJ NOUN ADP DET ADJ NOUN CONJ DET NOUN VERB ADP DET NOUN ADP DET ADJ .",
+        "predicted_tags": "ADP DET NOUN VERB ADJ NOUN ADP VERB NOUN ADJ NOUN VERB VERB ADP VERB NOUN VERB ADJ ADP NOUN PRT VERB NOUN ADP NOUN CONJ ADP NOUN PRON VERB VERB PRON . CONJ ADP PRON VERB PRT DET NOUN CONJ PRON VERB PRT DET NOUN ADV DET NOUN ADP NOUN CONJ NOUN VERB PRON ADJ ADP PRT VERB ADV DET ADJ NOUN ADP DET ADJ NOUN CONJ DET NOUN VERB ADP DET NOUN ADP DET ADJ ."
+    },
+    "1395": {
+        "words": "when the achaeans entertained wednesday last at their annual carnival masquerade ball , miss margaret pierson was chosen to rule over the festivities , presented at the muncipal auditorium and chosen as her ladies in waiting were misses clayton nairne , eleanor eustis , lynn chapman , irwin leatherman of robinsonville , miss. and helene rowley .",
+        "actual_tags": "ADV DET NOUN VERB NOUN ADJ ADP DET ADJ NOUN NOUN NOUN . NOUN NOUN NOUN VERB VERB PRT VERB ADP DET NOUN . VERB ADP DET ADJ NOUN CONJ VERB ADP DET NOUN ADP VERB VERB NOUN NOUN NOUN . NOUN NOUN . NOUN NOUN . NOUN NOUN ADP NOUN . NOUN CONJ NOUN NOUN .",
+        "predicted_tags": "ADV DET NOUN VERB NOUN ADJ ADP DET ADJ NOUN NOUN NOUN . NOUN NOUN NOUN VERB VERB ADP NOUN ADP DET NOUN . VERB ADP DET ADJ NOUN CONJ VERB ADP DET NOUN ADP VERB VERB VERB NOUN NOUN . NOUN NOUN . NOUN NOUN . NOUN NOUN ADP NOUN . NOUN CONJ NOUN NOUN ."
+    },
+    "1411": {
+        "words": "milton's name being fourth is neither too high nor too low to be assigned to the arbitrary action of vice-chancellor , proctor , master , or other mighty hand .",
+        "actual_tags": "NOUN NOUN VERB ADJ VERB CONJ ADV ADV CONJ ADV ADV PRT VERB VERB ADP DET ADJ NOUN ADP NOUN . NOUN . NOUN . CONJ ADJ ADJ NOUN .",
+        "predicted_tags": "NOUN NOUN VERB ADV VERB CONJ ADV ADJ CONJ ADV ADJ PRT VERB VERB ADP DET ADJ NOUN ADP NOUN . NOUN . NOUN . CONJ ADJ ADJ NOUN ."
+    },
+    "1459": {
+        "words": "no , they could kill him just as easy right now .",
+        "actual_tags": "ADV . PRON VERB VERB PRON ADV ADV ADV ADV ADV .",
+        "predicted_tags": "ADV . PRON VERB VERB PRON ADV ADP ADJ NOUN ADV ."
+    },
+    "1533": {
+        "words": "-- although there was some variation in results which must be attributed either to trace impurities or to variation in wall effects , the photochemical exchange in the gas phase was sufficiently reproducible so that it seemed meaningful to compare the reaction rates in different series of reaction tubes for the purpose of obtaining information on the effect of chlorine concentration and of carbon tetrachloride concentration on the reaction rate .",
+        "actual_tags": ". ADP PRT VERB DET NOUN ADP NOUN DET VERB VERB VERB CONJ ADP ADJ NOUN CONJ ADP NOUN ADP NOUN NOUN . DET ADJ NOUN ADP DET NOUN NOUN VERB ADV ADJ ADP ADP PRON VERB ADJ PRT VERB DET NOUN NOUN ADP ADJ NOUN ADP NOUN NOUN ADP DET NOUN ADP VERB NOUN ADP DET NOUN ADP NOUN NOUN CONJ ADP NOUN NOUN NOUN ADP DET NOUN NOUN .",
+        "predicted_tags": ". ADP PRT VERB DET NOUN ADP NOUN DET VERB VERB VERB CONJ PRT VERB NOUN CONJ ADP NOUN ADP NOUN NOUN . DET ADJ NOUN ADP DET NOUN NOUN VERB ADV ADJ ADV ADP PRON VERB ADJ PRT VERB DET NOUN NOUN ADP ADJ NOUN ADP NOUN NOUN ADP DET NOUN ADP VERB NOUN ADP DET NOUN ADP NOUN NOUN CONJ ADP NOUN NOUN NOUN ADP DET NOUN NOUN ."
+    },
+    "1549": {
+        "words": "at the other end of the spectrum , where the more advanced countries can be relied upon to make well thought through decisions as to project priorities within a consistent program , we should be prepared to depart substantially from detailed project approval as the basis for granting assistance and to move toward long-term support , in cooperation with other developed countries , of the essential foreign exchange requirements of the country's development program .",
+        "actual_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADV DET ADV VERB NOUN VERB VERB VERB ADV PRT VERB ADV VERB PRT NOUN ADP ADP NOUN NOUN ADP DET ADJ NOUN . PRON VERB VERB VERB PRT VERB ADV ADP VERB NOUN NOUN ADP DET NOUN ADP VERB NOUN CONJ PRT VERB ADP NOUN NOUN . ADP NOUN ADP ADJ VERB NOUN . ADP DET ADJ ADJ NOUN NOUN ADP DET NOUN NOUN NOUN .",
+        "predicted_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADV DET ADV VERB NOUN VERB VERB VERB ADP PRT VERB ADV VERB ADP NOUN ADP PRT NOUN NOUN ADP DET ADJ NOUN . PRON VERB VERB VERB PRT VERB ADV ADP VERB NOUN NOUN ADP DET NOUN ADP VERB NOUN CONJ PRT VERB ADP NOUN NOUN . ADP NOUN ADP ADJ VERB NOUN . ADP DET ADJ ADJ NOUN NOUN ADP DET NOUN NOUN NOUN ."
+    },
+    "1576": {
+        "words": "stuart had been laid off at the produce company and had to go back to sitting in his father's office , taking what salary his father could hand out to him .",
+        "actual_tags": "NOUN VERB VERB VERB PRT ADP DET NOUN NOUN CONJ VERB PRT VERB ADV ADP VERB ADP DET NOUN NOUN . VERB DET NOUN DET NOUN VERB VERB PRT ADP PRON .",
+        "predicted_tags": "NOUN VERB VERB VERB PRT ADP DET VERB NOUN CONJ VERB PRT VERB ADV PRT VERB ADP DET NOUN NOUN . VERB DET NOUN DET NOUN VERB NOUN PRT ADP PRON ."
+    },
+    "1621": {
+        "words": "all the manuals for setting up vocational courses stress the importance of first making a local survey of skill needs , of estimating the growth of local jobs , and of consulting with local employers on the types of courses and their content .",
+        "actual_tags": "PRT DET NOUN ADP VERB PRT ADJ NOUN VERB DET NOUN ADP ADV VERB DET ADJ NOUN ADP NOUN NOUN . ADP VERB DET NOUN ADP ADJ NOUN . CONJ ADP VERB ADP ADJ NOUN ADP DET NOUN ADP NOUN CONJ DET NOUN .",
+        "predicted_tags": "PRT DET NOUN ADP NOUN ADP ADJ NOUN VERB DET NOUN ADP ADJ VERB DET ADJ NOUN ADP NOUN NOUN . ADP VERB DET NOUN ADP ADJ NOUN . CONJ ADP VERB ADP ADJ NOUN ADP DET NOUN ADP NOUN CONJ DET NOUN ."
+    },
+    "1697": {
+        "words": "this epic effort to secure seed for the colony cost selkirk ab1,040 .",
+        "actual_tags": "DET ADJ NOUN PRT VERB NOUN ADP DET NOUN VERB NOUN NUM .",
+        "predicted_tags": "DET ADJ NOUN ADP ADJ NOUN ADP DET NOUN NOUN NOUN NUM ."
+    },
+    "1805": {
+        "words": "they emerged as interchangeable cogs in a faulty but formidable machine : shaved nearly naked , hair queued , greatcoated , jackbooted , and best of all -- in the opinion of the british professional , major semple-lisle -- `` their minds are not estranged from the paths of obedience by those smatterings of knowledge which only serve to lead to insubordination and mutiny '' .",
+        "actual_tags": "PRON VERB ADP ADJ NOUN ADP DET ADJ CONJ ADJ NOUN . VERB ADV ADJ . NOUN VERB . ADJ . ADJ . CONJ ADJ ADP PRT . ADP DET NOUN ADP DET ADJ NOUN . NOUN NOUN . . DET NOUN VERB ADV VERB ADP DET NOUN ADP NOUN ADP DET NOUN ADP NOUN DET ADV VERB PRT VERB ADP NOUN CONJ NOUN . .",
+        "predicted_tags": "PRON VERB ADV ADJ NOUN ADP DET ADJ CONJ ADJ NOUN . VERB ADV ADJ . NOUN VERB . ADJ . ADJ . CONJ ADV ADP PRT . ADP DET NOUN ADP DET ADJ NOUN . ADJ NOUN . . DET NOUN VERB ADV VERB ADP DET NOUN ADP NOUN ADP DET NOUN ADP NOUN DET ADV VERB PRT VERB ADP NOUN CONJ NOUN . ."
+    },
+    "1809": {
+        "words": "then via called to say they had decided to cremate her -- as they had ellen , the thought leaped to my mind -- and did i want to meet her at the funeral home the next morning .",
+        "actual_tags": "ADJ NOUN VERB PRT VERB PRON VERB VERB PRT VERB PRON . ADP PRON VERB NOUN . DET NOUN VERB ADP DET NOUN . CONJ VERB PRON VERB PRT VERB PRON ADP DET ADJ NOUN DET ADJ NOUN .",
+        "predicted_tags": "ADV NOUN VERB PRT VERB PRON VERB VERB PRT VERB PRON . ADP PRON VERB NOUN . DET VERB VERB ADP DET NOUN . CONJ VERB PRON VERB PRT VERB PRON ADP DET NOUN NOUN DET ADJ NOUN ."
+    },
+    "1830": {
+        "words": "the new city charter , which should get a yes vote as question no. 1 on nov. 7 , would not make a good mayor out of a bad one .",
+        "actual_tags": "DET ADJ NOUN NOUN . DET VERB VERB DET ADV NOUN ADP NOUN NOUN NUM ADP NOUN NUM . VERB ADV VERB DET ADJ NOUN ADP ADP DET ADJ NUM .",
+        "predicted_tags": "DET ADJ NOUN NOUN . DET VERB VERB DET ADV VERB ADP NOUN NOUN NUM ADP NOUN NUM . VERB ADV VERB DET ADJ NOUN PRT ADP DET ADJ NOUN ."
+    },
+    "1870": {
+        "words": "all this remembering took place the other night when i had supper with the ziegfeld girls at the beverly hills club .",
+        "actual_tags": "ADV DET NOUN VERB NOUN DET ADJ NOUN ADV PRON VERB NOUN ADP DET NOUN NOUN ADP DET NOUN NOUN NOUN .",
+        "predicted_tags": "PRT DET VERB VERB VERB DET ADJ NOUN ADV PRON VERB NOUN ADP DET NOUN NOUN ADP DET NOUN NOUN NOUN ."
+    },
+    "1880": {
+        "words": "this behavior on her part subsided only after i had come to see the uncomfortably close similarity between , on the one hand , her arranging the ventilation of the common living room to her own liking , or turning the television off or on without regard to the wishes of the others , and on the other hand , my own coming stolidly into her room despite her persistent and vociferous objections , bringing my big easy chair with me , usually shutting the windows of her room which she preferred to keep in a very cold state , and plunking myself down in my chair -- in short , behaving as if i owned her room .",
+        "actual_tags": "DET NOUN ADP DET NOUN VERB ADV ADP PRON VERB VERB PRT VERB DET ADV ADJ NOUN ADP . ADP DET NUM NOUN . DET VERB DET NOUN ADP DET ADJ VERB NOUN ADP DET ADJ NOUN . CONJ VERB DET NOUN PRT CONJ PRT ADP NOUN ADP DET NOUN ADP DET NOUN . CONJ ADP DET ADJ NOUN . DET ADJ NOUN ADV ADP DET NOUN ADP DET ADJ CONJ ADJ NOUN . VERB DET ADJ ADJ NOUN ADP PRON . ADV VERB DET NOUN ADP DET NOUN DET PRON VERB PRT VERB ADP DET ADV ADJ NOUN . CONJ VERB PRON PRT ADP DET NOUN . ADP ADJ . VERB ADP ADP PRON VERB DET NOUN .",
+        "predicted_tags": "DET NOUN ADP DET NOUN VERB ADV ADP PRON VERB VERB PRT VERB DET ADV ADJ NOUN ADP . ADP DET NUM NOUN . PRON VERB DET NOUN ADP DET ADJ VERB NOUN ADP DET ADJ NOUN . CONJ VERB DET NOUN PRT CONJ PRT ADP NOUN ADP DET NOUN ADP DET NOUN . CONJ ADP DET ADJ NOUN . DET ADJ VERB ADV ADP DET NOUN ADP DET ADJ CONJ ADJ NOUN . VERB DET ADJ ADJ NOUN ADP PRON . ADV VERB DET NOUN ADP DET NOUN DET PRON VERB PRT VERB ADP DET ADV ADJ NOUN . CONJ VERB PRON PRT ADP DET NOUN . ADP ADJ . VERB ADV ADP PRON VERB DET NOUN ."
+    },
+    "1912": {
+        "words": "after a short time , both george and donald joined the class with me so they wouldn't feel lonely , and we used to hang a sign on the door of the brush-off reading out to work .",
+        "actual_tags": "ADP DET ADJ NOUN . DET NOUN CONJ NOUN VERB DET NOUN ADP PRON ADP PRON VERB VERB ADJ . CONJ PRON VERB PRT VERB DET NOUN ADP DET NOUN ADP DET NOUN VERB PRT PRT VERB .",
+        "predicted_tags": "ADP DET ADJ NOUN . DET NOUN CONJ NOUN VERB DET NOUN ADP PRON ADV PRON VERB VERB ADJ . CONJ PRON VERB PRT VERB DET NOUN ADP DET NOUN ADP DET NOUN VERB PRT ADP NOUN ."
+    },
+    "1923": {
+        "words": "this includes foreseeing balance-of-payments crises , with adequate attention to reducing dependence on imports and adopting realistic exchange rates to encourage infant industries and spur exports .",
+        "actual_tags": "DET VERB VERB NOUN NOUN . ADP ADJ NOUN ADP VERB NOUN ADP NOUN CONJ VERB ADJ NOUN NOUN PRT VERB ADJ NOUN CONJ VERB NOUN .",
+        "predicted_tags": "DET VERB VERB NOUN NOUN . ADP ADJ NOUN PRT VERB NOUN ADP NOUN CONJ VERB ADJ NOUN NOUN PRT VERB NOUN NOUN CONJ NOUN NOUN ."
+    },
+    "1944": {
+        "words": "it was a cadillac , black grayed with the dust of the road , its windows closed tight so you knew that the people who climbed out of it would be cool and unwrinkled .",
+        "actual_tags": "PRON VERB DET NOUN . ADJ VERB ADP DET NOUN ADP DET NOUN . DET NOUN VERB ADV ADP PRON VERB ADP DET NOUN PRON VERB ADP ADP PRON VERB VERB ADJ CONJ ADJ .",
+        "predicted_tags": "PRON VERB DET NOUN . NOUN VERB ADP DET NOUN ADP DET NOUN . DET NOUN VERB ADV ADV PRON VERB ADP DET NOUN PRON VERB PRT ADP PRON VERB VERB ADJ CONJ ADJ ."
+    },
+    "1977": {
+        "words": "what that spirit and attitude were we can best understand if we see more precisely how it contrasts with the communist tradition with the longest continuous history , the one which reached christianity by the way of stoicism through the church fathers of late antiquity .",
+        "actual_tags": "DET DET NOUN CONJ NOUN VERB PRON VERB ADV VERB ADP PRON VERB ADV ADV ADV PRON VERB ADP DET NOUN NOUN ADP DET ADJ ADJ NOUN . DET NUM DET VERB NOUN ADP DET NOUN ADP NOUN ADP DET NOUN NOUN ADP ADJ NOUN .",
+        "predicted_tags": "DET ADP NOUN CONJ NOUN VERB PRON VERB ADV VERB ADP PRON VERB ADV ADV ADV PRON VERB ADP DET ADJ NOUN ADP DET ADJ ADJ NOUN . DET NOUN DET VERB NOUN ADP DET NOUN ADP NOUN ADP DET NOUN NOUN ADP ADJ NOUN ."
+    },
+    "2070": {
+        "words": "command's new brahms second is a major effort to make a record that sounds like a real orchestra rather than a copy of one .",
+        "actual_tags": "NOUN ADJ NOUN NOUN VERB DET ADJ NOUN PRT VERB DET NOUN PRON VERB ADP DET ADJ NOUN ADP ADP DET NOUN ADP NUM .",
+        "predicted_tags": "NOUN ADJ NOUN NOUN VERB DET ADJ NOUN PRT VERB DET NOUN ADP NOUN ADP DET ADJ NOUN ADV ADP DET NOUN ADP NUM ."
+    },
+    "2099": {
+        "words": "she felt the look and looked back because she could not help it , seeing that he was neither as old nor as thick as she had at first believed .",
+        "actual_tags": "PRON VERB DET NOUN CONJ VERB ADV ADP PRON VERB ADV VERB PRON . ADP ADP PRON VERB CONJ ADV ADJ CONJ ADV ADJ ADP PRON VERB ADP ADV VERB .",
+        "predicted_tags": "PRON VERB DET NOUN CONJ VERB ADV ADP PRON VERB ADV VERB PRON . VERB ADP PRON VERB ADV ADP ADJ CONJ ADV ADJ ADP PRON VERB ADP ADV VERB ."
+    },
+    "2123": {
+        "words": "sanitation in the confines of the family shelter will require much thought and planning .",
+        "actual_tags": "NOUN ADP DET NOUN ADP DET NOUN NOUN VERB VERB ADJ NOUN CONJ NOUN .",
+        "predicted_tags": "NOUN ADP DET NOUN ADP DET NOUN NOUN VERB VERB ADV VERB CONJ VERB ."
+    },
+    "2184": {
+        "words": "graceful as his fencing and dancing lessons had taught him to be in addition to the natural grace of his slight , wiry frame , he cut enough of a figure to have evoked a nickname in the college , to which he himself referred in prolusion 6 : :",
+        "actual_tags": "ADJ ADP DET VERB CONJ VERB NOUN VERB VERB PRON PRT VERB ADP NOUN ADP DET ADJ NOUN ADP DET ADJ . ADJ NOUN . PRON VERB ADJ ADP DET NOUN PRT VERB VERB DET NOUN ADP DET NOUN . ADP DET PRON PRON VERB ADP NOUN NUM . .",
+        "predicted_tags": "ADJ ADP DET NOUN CONJ NOUN NOUN VERB VERB PRON PRT VERB ADP NOUN ADP DET ADJ NOUN ADP DET ADJ . ADJ NOUN . PRON VERB ADV ADP DET NOUN PRT VERB VERB DET NOUN ADP DET NOUN . ADP DET PRON PRON VERB ADP NOUN NUM . ."
+    },
+    "2250": {
+        "words": "kimmell ordered the driver to back up , watched the children safely across and was approaching the car when it suddenly `` took off at high speed '' , he said , narrowly missing him .",
+        "actual_tags": "NOUN VERB DET NOUN PRT VERB PRT . VERB DET NOUN ADV PRT CONJ VERB VERB DET NOUN ADV PRON ADV . VERB PRT ADP ADJ NOUN . . PRON VERB . ADV VERB PRON .",
+        "predicted_tags": "NOUN VERB DET NOUN ADP ADV PRT . VERB DET NOUN ADV ADV CONJ VERB VERB DET NOUN ADV PRON ADV . VERB PRT ADP ADJ NOUN . . PRON VERB . ADV VERB PRON ."
+    },
+    "2270": {
+        "words": "when the insoluble fraction was suspended in a volume of saline equal to that of the original serum sample , no complete antibody activity could be detected .",
+        "actual_tags": "ADV DET ADJ NOUN VERB VERB ADP DET NOUN ADP NOUN ADJ ADP DET ADP DET ADJ NOUN NOUN . DET ADJ NOUN NOUN VERB VERB VERB .",
+        "predicted_tags": "ADV DET ADJ NOUN VERB VERB ADP DET NOUN ADP NOUN VERB PRT ADP ADP DET ADJ NOUN NOUN . DET ADJ NOUN NOUN VERB VERB VERB ."
+    },
+    "2321": {
+        "words": "be sure the head drops backward so that the child looks at the floor rather than toward the ceiling .",
+        "actual_tags": "VERB ADJ DET NOUN VERB ADV ADP ADP DET NOUN VERB ADP DET NOUN ADP ADP ADP DET NOUN .",
+        "predicted_tags": "VERB ADV DET NOUN VERB ADV ADV ADP DET NOUN VERB ADP DET NOUN ADV ADP ADP DET NOUN ."
+    },
+    "2322": {
+        "words": "statistically this has represented a loss to the nation , although one must admit that in an individual case the decision in retrospect may have been a wise one .",
+        "actual_tags": "ADV DET VERB VERB DET NOUN ADP DET NOUN . ADP NOUN VERB VERB ADP ADP DET ADJ NOUN DET NOUN ADP NOUN VERB VERB VERB DET ADJ NUM .",
+        "predicted_tags": "ADV DET VERB VERB DET NOUN ADP DET NOUN . ADP NUM VERB VERB PRON ADP DET ADJ NOUN DET NOUN ADP NOUN VERB VERB VERB DET ADJ NOUN ."
+    },
+    "2327": {
+        "words": "he would go in there , climb through the window , and at least be safe for a little while and able to rest .",
+        "actual_tags": "PRON VERB VERB ADP ADV . VERB ADP DET NOUN . CONJ ADP ADJ VERB ADJ ADP DET ADJ NOUN CONJ ADJ PRT VERB .",
+        "predicted_tags": "PRON VERB VERB ADP PRT . VERB ADP DET NOUN . CONJ ADP ADJ VERB ADJ ADP DET ADJ NOUN CONJ ADJ ADP NOUN ."
+    },
+    "2370": {
+        "words": "to the average american , this must sound like an incredible tale from a saturday night tv movie .",
+        "actual_tags": "ADP DET NOUN ADJ . DET VERB VERB ADP DET ADJ NOUN ADP DET NOUN NOUN NOUN NOUN .",
+        "predicted_tags": "ADP DET ADJ NOUN . DET VERB NOUN ADP DET ADJ NOUN ADP DET NOUN NOUN NOUN NOUN ."
+    },
+    "2380": {
+        "words": "they quote about the same mass threshold as that of the u.s. apparatus , but a momentum threshold about 40 times greater .",
+        "actual_tags": "PRON VERB ADV DET ADJ NOUN NOUN ADP DET ADP DET NOUN NOUN . CONJ DET NOUN NOUN ADV NUM NOUN ADJ .",
+        "predicted_tags": "PRON VERB ADP DET ADJ NOUN NOUN ADP PRON ADP DET NOUN NOUN . CONJ DET NOUN NOUN ADP NUM NOUN ADJ ."
+    },
+    "2444": {
+        "words": "on delving deeper , walton discovered that most of the buildings fronting the square could be classified as `` early nondescript '' .",
+        "actual_tags": "ADP VERB ADV . NOUN VERB ADP ADJ ADP DET NOUN VERB DET NOUN VERB VERB VERB ADP . ADJ ADJ . .",
+        "predicted_tags": "PRT VERB ADJ . NOUN VERB ADP ADV ADP DET NOUN VERB DET NOUN VERB VERB VERB ADP . ADJ ADJ . ."
+    },
+    "2458": {
+        "words": "my man came out an hour later , drove to the beach , turned right and after half a mile went to the swim and tan motel .",
+        "actual_tags": "DET NOUN VERB PRT DET NOUN ADV . VERB ADP DET NOUN . VERB NOUN CONJ ADP PRT DET NOUN VERB ADP DET VERB CONJ VERB NOUN .",
+        "predicted_tags": "DET NOUN VERB PRT DET NOUN ADV . VERB ADP DET NOUN . VERB ADJ CONJ ADP PRT DET NOUN VERB ADP DET NOUN CONJ ADJ NOUN ."
+    },
+    "2506": {
+        "words": "going , he saw as often before some queer , hideous yellow face over his head , shining and weird like the old images which had invested him at other times like those that appear sometimes near the eyeballs when they are perhaps pressed by the thumbs .",
+        "actual_tags": "VERB . PRON VERB ADP ADV ADV DET ADJ . ADJ ADJ NOUN ADP DET NOUN . VERB CONJ ADJ ADP DET ADJ NOUN DET VERB VERB PRON ADP ADJ NOUN VERB DET PRON VERB ADV ADP DET NOUN ADV PRON VERB ADV VERB ADP DET NOUN .",
+        "predicted_tags": "VERB . PRON VERB ADV ADV ADP DET ADJ . ADJ ADJ NOUN ADP DET NOUN . VERB CONJ ADJ ADP DET ADJ NOUN DET VERB VERB PRON ADP ADJ NOUN ADP DET PRON VERB ADV ADP DET NOUN ADV PRON VERB ADV VERB ADP DET NOUN ."
+    },
+    "2557": {
+        "words": "new obligational authority for 1961 recommended in this budget for aircraft procurement ( excluding amounts for related research and construction ) totals $4,753 million , which is $1,390 million below that enacted for 1960 .",
+        "actual_tags": "ADJ ADJ NOUN ADP NUM VERB ADP DET NOUN ADP NOUN NOUN . ADP VERB ADP VERB NOUN CONJ NOUN . VERB NOUN NUM . DET VERB NOUN NUM ADP DET VERB ADP NUM .",
+        "predicted_tags": "ADJ ADJ NOUN ADP NUM VERB ADP DET NOUN ADP NOUN NOUN . ADP NOUN ADP VERB NOUN CONJ NOUN . NOUN NOUN NUM . DET VERB NOUN NUM ADP PRON VERB ADP NUM ."
+    },
+    "2651": {
+        "words": "from international airport in los angeles to international airport in houston , as the great four-jet boeing 707 flies , is a routine five hours and 25 minutes , including stopovers at phoenix , el paso , and san antonio .",
+        "actual_tags": "ADP ADJ NOUN ADP NOUN NOUN ADP ADJ NOUN ADP NOUN . ADP DET ADJ ADJ NOUN NUM VERB . VERB DET ADJ NUM NOUN CONJ NUM NOUN . ADP NOUN ADP NOUN . NOUN NOUN . CONJ NOUN NOUN .",
+        "predicted_tags": "ADP ADJ NOUN ADP NOUN NOUN ADP ADJ NOUN ADP NOUN . ADP DET ADJ ADJ NOUN NUM NOUN . VERB DET ADJ NUM NOUN CONJ NUM NOUN . ADP NOUN ADP NOUN . X X . CONJ NOUN NOUN ."
+    },
+    "2653": {
+        "words": "hell's own amount of chaulmoogra oil did nothing to alleviate their torment ; ;",
+        "actual_tags": "NOUN VERB VERB ADP NOUN NOUN VERB NOUN PRT VERB DET NOUN . .",
+        "predicted_tags": "PRT ADJ NOUN ADP NOUN NOUN VERB NOUN PRT VERB DET NOUN . ."
+    },
+    "2707": {
+        "words": "i don't even own the house i'm standing in .",
+        "actual_tags": "PRON VERB VERB VERB DET NOUN PRT VERB PRT .",
+        "predicted_tags": "PRON VERB ADV ADJ DET NOUN PRT VERB ADP ."
+    },
+    "2745": {
+        "words": "place clay piece a inside ; ;",
+        "actual_tags": "VERB NOUN NOUN NOUN ADV . .",
+        "predicted_tags": "NOUN NOUN NOUN DET NOUN . ."
+    },
+    "2754": {
+        "words": "only four towns indicated that they made any more than a normal effort to list property of this kind .",
+        "actual_tags": "ADV NUM NOUN VERB ADP PRON VERB ADV ADJ ADP DET ADJ NOUN PRT VERB NOUN ADP DET NOUN .",
+        "predicted_tags": "ADV NUM NOUN VERB ADP PRON VERB DET ADJ ADP DET ADJ NOUN ADP NOUN NOUN ADP DET NOUN ."
+    },
+    "2757": {
+        "words": "first of all , as we had surmised , the highly compulsive children in the structured setting score significantly better ( af ) on achievement than do similar children in the unstructured schools .",
+        "actual_tags": "ADV ADP PRT . ADP PRON VERB VERB . DET ADV ADJ NOUN ADP DET VERB NOUN NOUN ADV ADV . NOUN . ADP NOUN ADP VERB ADJ NOUN ADP DET ADJ NOUN .",
+        "predicted_tags": "ADJ ADP PRT . ADP PRON VERB VERB . DET ADV ADJ NOUN ADP DET VERB NOUN VERB ADV ADJ . NOUN . ADP NOUN ADP VERB ADJ NOUN ADP DET ADJ NOUN ."
+    },
+    "2851": {
+        "words": "one means to help the birds occurs to me : let the chimes that ring over washington square twice daily , discontinue any piece of music but one .",
+        "actual_tags": "NUM NOUN PRT VERB DET NOUN VERB ADP PRON . VERB DET NOUN PRON VERB ADP NOUN NOUN ADV ADV . VERB DET NOUN ADP NOUN ADP NUM .",
+        "predicted_tags": "NUM NOUN PRT VERB DET NOUN VERB ADP PRON . VERB DET NOUN ADP NOUN ADP NOUN NOUN ADV ADV . VERB DET NOUN ADP NOUN CONJ NUM ."
+    },
+    "2852": {
+        "words": "`` neither better nor worse '' .",
+        "actual_tags": ". CONJ ADV CONJ ADV . .",
+        "predicted_tags": ". DET ADJ CONJ ADJ . ."
+    },
+    "2966": {
+        "words": "rep. charles e. hughes of sherman , sponsor of the bill , said a failure to enact it would amount `` to making a gift out of the taxpayers' pockets to banks , insurance and pipeline companies '' .",
+        "actual_tags": "NOUN NOUN NOUN NOUN ADP NOUN . NOUN ADP DET NOUN . VERB DET NOUN PRT VERB PRON VERB VERB . ADP VERB DET NOUN PRT ADP DET NOUN NOUN ADP NOUN . NOUN CONJ NOUN NOUN . .",
+        "predicted_tags": "NOUN NOUN NOUN NOUN ADP NOUN . VERB ADP DET NOUN . VERB DET NOUN PRT VERB PRON VERB NOUN . PRT VERB DET NOUN PRT ADP DET NOUN NOUN ADP NOUN . NOUN CONJ NOUN NOUN . ."
+    },
+    "3063": {
+        "words": "but when the situation was so complicated that even nogaret , one of the principal actors in the drama , could misinterpret the pope's motives , it is possible that othon and his companions , equally baffled , attributed their difficulties to a more immediate cause .",
+        "actual_tags": "CONJ ADV DET NOUN VERB ADV VERB ADP ADV NOUN . NUM ADP DET ADJ NOUN ADP DET NOUN . VERB VERB DET NOUN NOUN . PRON VERB ADJ ADP NOUN CONJ DET NOUN . ADV VERB . VERB DET NOUN ADP DET ADV ADJ NOUN .",
+        "predicted_tags": "CONJ ADV DET NOUN VERB ADV VERB DET ADJ NOUN . NUM ADP DET ADJ NOUN ADP DET NOUN . VERB VERB DET NOUN NOUN . PRON VERB ADJ ADP NOUN CONJ DET NOUN . ADV VERB . VERB DET NOUN ADP DET ADJ ADJ NOUN ."
+    },
+    "3090": {
+        "words": "maclean stressed correctly the importance of the visceral brain for preservation of the individual and the species , as evidenced by the influence of the limbic brain ( including the hypothalamus ) on emotions related to fight and flight and also on sexual functions .",
+        "actual_tags": "NOUN VERB ADV DET NOUN ADP DET ADJ NOUN ADP NOUN ADP DET NOUN CONJ DET NOUN . ADP VERB ADP DET NOUN ADP DET ADJ NOUN . ADP DET NOUN . ADP NOUN VERB ADP NOUN CONJ NOUN CONJ ADV ADP ADJ NOUN .",
+        "predicted_tags": "NOUN VERB ADV DET NOUN ADP DET ADJ NOUN ADP NOUN ADP DET ADJ CONJ DET NOUN . ADP VERB ADP DET NOUN ADP DET ADJ NOUN . ADP DET NOUN . ADP NOUN VERB PRT VERB CONJ NOUN CONJ ADV ADP ADJ NOUN ."
+    },
+    "3100": {
+        "words": "the panel's action depends on the return of representative james w. trimble , democrat of arkansas , who has been siding with speaker sam rayburn's forces in the rules committee in moving bills to the floor .",
+        "actual_tags": "DET NOUN NOUN VERB ADP DET NOUN ADP NOUN NOUN NOUN NOUN . NOUN ADP NOUN . PRON VERB VERB VERB ADP NOUN NOUN NOUN NOUN ADP DET NOUN NOUN ADP VERB NOUN ADP DET NOUN .",
+        "predicted_tags": "DET NOUN NOUN VERB ADP DET NOUN ADP ADJ NOUN NOUN NOUN . NOUN ADP NOUN . PRON VERB VERB NOUN ADP NOUN NOUN NOUN NOUN ADP DET NOUN NOUN ADP ADJ NOUN ADP DET NOUN ."
+    },
+    "3127": {
+        "words": "there his vote , along with those of chairman howard smith , the courtly virginia judge , and the four republican members , could and often did produce a 6-6 deadlock that blocked far-out , democratic-sponsored welfare legislation ( a tactic often acceptable to the rayburn-johnson congressional leadership to avoid embarrassing votes ) .",
+        "actual_tags": "ADV DET NOUN . ADP ADP DET ADP NOUN NOUN NOUN . DET ADJ NOUN NOUN . CONJ DET NUM NOUN NOUN . VERB CONJ ADV VERB VERB DET NUM NOUN PRON VERB ADJ . ADJ NOUN NOUN . DET NOUN ADV ADJ ADP DET NOUN ADJ NOUN PRT VERB VERB NOUN . .",
+        "predicted_tags": "PRT DET NOUN . ADV ADP DET ADP NOUN NOUN NOUN . DET ADJ NOUN NOUN . CONJ DET NUM ADJ NOUN . VERB CONJ ADV VERB VERB DET NUM NOUN PRON VERB ADJ . ADJ NOUN NOUN . DET NOUN ADV ADJ ADP DET NOUN ADJ NOUN PRT VERB VERB NOUN . ."
+    },
+    "3136": {
+        "words": "both i and my feelings come up out of a chain of events that fan out into the past into sources that are ultimately very unlike the entity which i now am .",
+        "actual_tags": "DET PRON CONJ DET NOUN VERB PRT ADP ADP DET NOUN ADP NOUN PRON VERB PRT ADP DET NOUN ADP NOUN PRON VERB ADV ADV ADP DET NOUN DET PRON ADV VERB .",
+        "predicted_tags": "DET PRON CONJ DET NOUN VERB PRT PRT ADP DET NOUN ADP NOUN ADP NOUN PRT ADP DET NOUN ADP NOUN PRON VERB ADV ADV ADP DET NOUN DET PRON ADV VERB ."
+    },
+    "3143": {
+        "words": "it was not exactly panic they gave way to , but they could not just sit there .",
+        "actual_tags": "PRON VERB ADV ADV NOUN PRON VERB NOUN ADP . CONJ PRON VERB ADV ADV VERB ADV .",
+        "predicted_tags": "PRON VERB ADV ADV VERB PRON VERB NOUN PRT . CONJ PRON VERB ADV ADV VERB PRT ."
+    },
+    "3281": {
+        "words": "the music drove them off , or away , and he was free to walk on air in a very few moments , humming and jiving within , beating the rhythm within .",
+        "actual_tags": "DET NOUN VERB PRON PRT . CONJ ADV . CONJ PRON VERB ADJ PRT VERB ADP NOUN ADP DET ADV ADJ NOUN . VERB CONJ VERB ADV . VERB DET NOUN ADV .",
+        "predicted_tags": "DET NOUN VERB PRON PRT . CONJ ADV . CONJ PRON VERB ADJ PRT VERB ADP NOUN ADP DET ADV ADJ NOUN . NOUN CONJ VERB ADP . VERB DET NOUN ADP ."
+    },
+    "3325": {
+        "words": "as for coming back here -- well , i'll tell you the truth , i didn't even know where i was when i came to .",
+        "actual_tags": "ADP ADP VERB ADV ADV . PRT . PRT VERB PRON DET NOUN . PRON VERB ADV VERB ADV PRON VERB ADV PRON VERB ADP .",
+        "predicted_tags": "ADV ADP VERB ADV ADV . ADV . PRT VERB PRON DET NOUN . PRON VERB ADV VERB ADV PRON VERB ADV PRON VERB PRT ."
+    },
+    "3326": {
+        "words": "as it was the custom of that alert colony to take over the property of persons asking for protection , this was an act roughly equivalent to throwing open the door to a pack of wolves and saying `` come and get it '' .",
+        "actual_tags": "ADP PRON VERB DET NOUN ADP DET ADJ NOUN PRT VERB PRT DET NOUN ADP NOUN VERB ADP NOUN . DET VERB DET NOUN ADV ADJ ADP VERB ADJ DET NOUN ADP DET NOUN ADP NOUN CONJ VERB . VERB CONJ VERB PRON . .",
+        "predicted_tags": "ADP PRON VERB DET NOUN ADP DET ADJ NOUN PRT VERB ADP DET NOUN ADP NOUN VERB ADP NOUN . DET VERB DET NOUN ADV ADJ PRT VERB VERB DET NOUN ADP DET NOUN ADP NOUN CONJ VERB . VERB CONJ VERB PRON . ."
+    },
+    "3372": {
+        "words": "many legislators are already weary and frustrated over the so-far losing battle to block token integration .",
+        "actual_tags": "ADJ NOUN VERB ADV ADJ CONJ VERB ADP DET ADV VERB NOUN PRT VERB ADJ NOUN .",
+        "predicted_tags": "ADJ NOUN VERB ADV ADJ CONJ VERB ADP DET ADV VERB NOUN ADP NOUN NOUN NOUN ."
+    },
+    "3396": {
+        "words": "others , less consciously but quite probably influenced by the trends of the times , experiment with approaches that parallel those of the contemporary poet , painter , and musician .",
+        "actual_tags": "NOUN . ADV ADV CONJ ADV ADV VERB ADP DET NOUN ADP DET NOUN . VERB ADP NOUN PRON VERB DET ADP DET ADJ NOUN . NOUN . CONJ NOUN .",
+        "predicted_tags": "NOUN . ADV ADV CONJ ADV ADV VERB ADP DET NOUN ADP DET NOUN . NOUN ADP NOUN ADP ADV DET ADP DET ADJ NOUN . NOUN . CONJ NOUN ."
+    },
+    "3567": {
+        "words": "a unified concept can serve as a guide to budgeting and , if public support is gained , will command congressional support .",
+        "actual_tags": "DET VERB NOUN VERB VERB ADP DET NOUN ADP VERB CONJ . ADP NOUN NOUN VERB VERB . VERB VERB ADJ NOUN .",
+        "predicted_tags": "DET VERB NOUN VERB VERB ADP DET NOUN ADP NOUN CONJ . ADP ADJ NOUN VERB VERB . VERB NOUN ADJ NOUN ."
+    },
+    "3710": {
+        "words": "crowds press along the terraces , down the steps , in and out of the arcades , massing against it as though it were a fortress under siege .",
+        "actual_tags": "NOUN VERB ADP DET NOUN . ADP DET NOUN . ADP CONJ ADP ADP DET NOUN . VERB ADP PRON ADP ADP PRON VERB DET NOUN ADP NOUN .",
+        "predicted_tags": "NOUN NOUN ADP DET NOUN . ADP DET NOUN . ADP CONJ PRT ADP DET NOUN . VERB ADP PRON ADV ADP PRON VERB DET NOUN ADP NOUN ."
+    },
+    "3791": {
+        "words": "the part of the mind that preserves dates and events may remonstrate , `` it could have been like that for only a little while '' ; ;",
+        "actual_tags": "DET NOUN ADP DET NOUN PRON VERB NOUN CONJ NOUN VERB VERB . . PRON VERB VERB VERB ADP DET ADP ADV DET ADJ NOUN . . .",
+        "predicted_tags": "DET NOUN ADP DET NOUN ADP NOUN NOUN CONJ NOUN VERB VERB . . PRON VERB VERB VERB ADP PRON ADP ADV DET ADJ NOUN . . ."
+    },
+    "3836": {
+        "words": "during early childhood boys tease and bully , on the average , more than girls ; ;",
+        "actual_tags": "ADP ADJ NOUN NOUN VERB CONJ VERB . ADP DET ADJ . ADV ADP NOUN . .",
+        "predicted_tags": "ADP ADJ NOUN NOUN NOUN CONJ NOUN . ADP DET NOUN . ADV ADP NOUN . ."
+    },
+    "3861": {
+        "words": "a more tenable explanation for the change in reactions is that the added knowledge and increased familiarity with the total situation made it possible for these subjects to be less guarded and to relax , since any reaction seemed acceptable to the examiner as `` normal '' .",
+        "actual_tags": "DET ADV ADJ NOUN ADP DET NOUN ADP NOUN VERB ADP DET VERB NOUN CONJ VERB NOUN ADP DET NOUN NOUN VERB PRON ADJ ADP DET NOUN PRT VERB ADV VERB CONJ PRT VERB . ADP DET NOUN VERB ADJ ADP DET NOUN ADP . ADJ . .",
+        "predicted_tags": "DET ADJ ADJ NOUN ADP DET NOUN ADP NOUN VERB ADP DET VERB NOUN CONJ VERB NOUN ADP DET ADJ NOUN VERB PRON ADJ ADP DET NOUN PRT VERB ADV VERB CONJ PRT VERB . ADP DET NOUN VERB ADJ ADP DET NOUN ADV . ADJ . ."
+    },
+    "3916": {
+        "words": "the orioles got a run in the first inning when breeding , along with robinson , the two birds who got a pair of hits , doubled to right center , moved to third on russ snyder's single to right and crossed on kunkel's wild pitch into the dirt in front of the plate .",
+        "actual_tags": "DET NOUN VERB DET NOUN ADP DET ADJ NOUN ADV NOUN . ADP ADP NOUN . DET NUM NOUN PRON VERB DET NOUN ADP NOUN . VERB ADP ADJ NOUN . VERB ADP ADJ ADP NOUN NOUN NOUN ADP NOUN CONJ VERB ADP NOUN ADJ NOUN ADP DET NOUN ADP NOUN ADP DET NOUN .",
+        "predicted_tags": "DET NOUN VERB DET NOUN ADP DET ADJ NOUN ADV VERB . ADV ADP NOUN . DET NUM NOUN PRON VERB DET NOUN ADP NOUN . VERB ADP ADJ NOUN . VERB ADP ADJ ADP NOUN NOUN ADJ ADP NOUN CONJ VERB ADP NOUN ADJ NOUN ADP DET NOUN ADP NOUN ADP DET NOUN ."
+    },
+    "4001": {
+        "words": "otherwise , special care must be taken to branch around them so that the program will not attempt to execute something in a data area as an instruction .",
+        "actual_tags": "ADV . ADJ NOUN VERB VERB VERB PRT VERB ADP PRON ADP ADP DET NOUN VERB ADV VERB PRT VERB NOUN ADP DET NOUN NOUN ADP DET NOUN .",
+        "predicted_tags": "ADV . ADJ NOUN VERB VERB VERB ADP NOUN ADP PRON ADV ADP DET NOUN VERB ADV VERB PRT VERB NOUN ADP DET NOUN NOUN ADP DET NOUN ."
+    },
+    "4005": {
+        "words": "all this expands the oscillation between surface and depth so as to encompass fictive space in front of the surface as well as behind it .",
+        "actual_tags": "PRT DET VERB DET NOUN ADP NOUN CONJ NOUN ADP ADP PRT VERB ADJ NOUN ADP NOUN ADP DET NOUN ADV ADV ADP ADP PRON .",
+        "predicted_tags": "PRT DET VERB DET NOUN ADP NOUN CONJ NOUN ADV ADP PRT VERB ADJ NOUN ADP NOUN ADP DET NOUN ADP ADV ADV ADP PRON ."
+    },
+    "4026": {
+        "words": "that is , they used opaque color throughout , getting solid highlights with active lime white .",
+        "actual_tags": "DET VERB . PRON VERB ADJ NOUN ADV . VERB ADJ NOUN ADP ADJ NOUN NOUN .",
+        "predicted_tags": "PRON VERB . PRON VERB ADJ NOUN ADP . VERB ADJ NOUN ADP ADJ NOUN ADJ ."
+    },
+    "4077": {
+        "words": "finally we got them out of the house , after the boy had run away four times looking for other nazis , threatening to murder village schoolchildren and bragging that he was to be the next fuhrer .",
+        "actual_tags": "ADV PRON VERB PRON ADP ADP DET NOUN . ADP DET NOUN VERB VERB ADV NUM NOUN VERB ADP ADJ NOUN . VERB PRT VERB NOUN NOUN CONJ VERB ADP PRON VERB PRT VERB DET ADJ NOUN .",
+        "predicted_tags": "ADV PRON VERB PRON PRT ADP DET NOUN . ADP DET NOUN VERB VERB ADV NUM NOUN VERB ADP ADJ NOUN . VERB ADP NOUN NOUN NOUN CONJ VERB ADP PRON VERB PRT VERB DET ADJ NOUN ."
+    },
+    "4090": {
+        "words": "the jury asked judge cash to send in his written definition of the difference between first and second-degree murder and manslaughter .",
+        "actual_tags": "DET NOUN VERB NOUN NOUN PRT VERB PRT DET VERB NOUN ADP DET NOUN ADP ADJ CONJ NOUN NOUN CONJ NOUN .",
+        "predicted_tags": "DET NOUN VERB VERB VERB PRT VERB ADP DET VERB NOUN ADP DET NOUN ADP ADJ CONJ NOUN NOUN CONJ NOUN ."
+    },
+    "4117": {
+        "words": "an aggressive woman wants a man to demand , not knuckle under .",
+        "actual_tags": "DET ADJ NOUN VERB DET NOUN PRT VERB . ADV VERB ADV .",
+        "predicted_tags": "DET ADJ NOUN VERB DET NOUN ADP NOUN . ADV VERB ADP ."
+    },
+    "4131": {
+        "words": "it might be added that as he kept his word so he expected that others keep theirs .",
+        "actual_tags": "PRON VERB VERB VERB ADP ADP PRON VERB DET NOUN ADP PRON VERB ADP NOUN VERB PRON .",
+        "predicted_tags": "PRON VERB VERB VERB PRON ADP PRON VERB DET NOUN ADV PRON VERB DET NOUN VERB PRON ."
+    },
+    "4140": {
+        "words": "joyce went on , `` when we'd finished , lou -- mr. thor -- asked me to stay a little longer .",
+        "actual_tags": "NOUN VERB PRT . . ADV PRT VERB . NOUN . NOUN NOUN . VERB PRON PRT VERB DET ADV ADJ .",
+        "predicted_tags": "NOUN VERB ADP . . ADV PRT VERB . NOUN . NOUN NOUN . VERB PRON PRT VERB DET ADJ ADV ."
+    },
+    "4153": {
+        "words": "he stared at the report in killpath's hand , sure it was written by accacia -- just as sure as if he'd submitted it in his scrawled longhand .",
+        "actual_tags": "PRON VERB ADP DET NOUN ADP NOUN NOUN . ADJ PRON VERB VERB ADP NOUN . ADV ADV ADJ ADP ADP PRT VERB PRON ADP DET VERB NOUN .",
+        "predicted_tags": "PRON VERB ADP DET NOUN ADP NOUN NOUN . ADV PRON VERB VERB ADP NOUN . ADV ADV ADV ADV ADP PRT VERB PRON ADP DET VERB NOUN ."
+    },
+    "4274": {
+        "words": "it appears possible to set a lower limit of about af for the activation energy of the abstraction of a chlorine atom from a carbon tetrachloride molecule by a chlorine atom to form af radical .",
+        "actual_tags": "PRON VERB ADJ PRT VERB DET ADJ NOUN ADP ADV NOUN ADP DET NOUN NOUN ADP DET NOUN ADP DET NOUN NOUN ADP DET NOUN NOUN NOUN ADP DET NOUN NOUN PRT VERB NOUN NOUN .",
+        "predicted_tags": "PRON VERB ADJ PRT VERB DET ADJ NOUN ADP ADP NOUN ADP DET NOUN NOUN ADP DET NOUN ADP DET NOUN NOUN ADP DET NOUN NOUN NOUN ADP DET NOUN NOUN ADP NOUN NOUN NOUN ."
+    },
+    "4401": {
+        "words": "a process of elimination which leaves the artist with nothing but the play of his materials themselves cannot sustain interest in either artist or public for very long .",
+        "actual_tags": "DET NOUN ADP NOUN DET VERB DET NOUN ADP NOUN ADP DET NOUN ADP DET NOUN PRON VERB VERB NOUN ADP CONJ NOUN CONJ NOUN ADP ADV ADV .",
+        "predicted_tags": "DET NOUN ADP NOUN DET VERB DET NOUN ADP NOUN CONJ DET NOUN ADP DET NOUN PRON VERB VERB NOUN ADP DET NOUN CONJ NOUN ADP ADV ADJ ."
+    },
+    "4413": {
+        "words": "proximate in the sense that there are more distant , more `` positive '' ends we seek , to which victory over communism is but a means .",
+        "actual_tags": "ADJ ADP DET NOUN ADP PRT VERB ADV ADJ . ADV . ADJ . NOUN PRON VERB . ADP DET NOUN ADP NOUN VERB ADP DET NOUN .",
+        "predicted_tags": "ADJ ADP DET NOUN ADP PRT VERB ADV ADJ . ADJ . ADJ . VERB PRON VERB . ADP DET NOUN ADP NOUN VERB CONJ DET NOUN ."
+    },
+    "4522": {
+        "words": "the unit consists of a small motor that goes on as soon as it is plugged in .",
+        "actual_tags": "DET NOUN VERB ADP DET ADJ NOUN DET VERB PRT ADV ADV ADP PRON VERB VERB PRT .",
+        "predicted_tags": "DET NOUN VERB ADP DET ADJ NOUN PRON VERB PRT ADP ADV ADP PRON VERB VERB ADP ."
+    },
+    "4547": {
+        "words": "on the contrary , even in the heart of `` the bible belt '' itself , as can be attested by any one who is called to work there , the industrial and technological revolutions have long been under way , together with the corresponding changes in man's picture of himself and his world .",
+        "actual_tags": "ADP DET ADJ . ADV ADP DET NOUN ADP . DET NOUN NOUN . PRON . ADP VERB VERB VERB ADP DET NOUN PRON VERB VERB PRT VERB ADV . DET ADJ CONJ ADJ NOUN VERB ADV VERB ADP NOUN . ADV ADP DET ADJ NOUN ADP NOUN NOUN ADP PRON CONJ DET NOUN .",
+        "predicted_tags": "ADP DET NOUN . ADV ADP DET NOUN ADP . DET NOUN NOUN . PRON . ADV VERB VERB VERB ADP DET NOUN PRON VERB VERB PRT VERB PRT . DET ADJ CONJ ADJ NOUN VERB ADV VERB ADP NOUN . ADV ADP DET ADJ NOUN ADP NOUN NOUN ADP PRON CONJ DET NOUN ."
+    },
+    "4665": {
+        "words": "in six years , u.s. aid had amounted to more than $1.60 for each american -- a total of three hundred million dollars .",
+        "actual_tags": "ADP NUM NOUN . NOUN NOUN VERB VERB ADP ADJ ADP NOUN ADP DET NOUN . DET NOUN ADP NUM NUM NUM NOUN .",
+        "predicted_tags": "ADP NUM NOUN . NOUN NOUN VERB VERB PRT ADV ADP NOUN ADP DET ADJ . DET NOUN ADP NUM NUM NUM NOUN ."
+    },
+    "4732": {
+        "words": "a volunteer food brigade had been arranged , they told me , which would supply me with the necessities as long as i remained at the bridge .",
+        "actual_tags": "DET NOUN NOUN NOUN VERB VERB VERB . PRON VERB PRON . DET VERB VERB PRON ADP DET NOUN ADV ADV ADP PRON VERB ADP DET NOUN .",
+        "predicted_tags": "DET NOUN NOUN NOUN VERB VERB VERB . PRON VERB PRON . DET VERB NOUN PRON ADP DET NOUN ADP ADJ ADP PRON VERB ADP DET NOUN ."
+    },
+    "4841": {
+        "words": "that done , her work is accomplished and she ignores the plant .",
+        "actual_tags": "DET VERB . DET NOUN VERB VERB CONJ PRON VERB DET NOUN .",
+        "predicted_tags": "PRON VERB . PRON VERB VERB VERB CONJ PRON VERB DET NOUN ."
+    },
+    "4855": {
+        "words": "pin right sides of pieces together , keeping edges even and matching rows or patterns .",
+        "actual_tags": "VERB ADJ NOUN ADP NOUN ADV . VERB NOUN ADJ CONJ VERB NOUN CONJ NOUN .",
+        "predicted_tags": "NOUN NOUN NOUN ADP NOUN ADV . VERB NOUN ADV CONJ VERB NOUN CONJ NOUN ."
+    }
+}
