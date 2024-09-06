@@ -1,0 +1,37 @@
+{
+    "9": {
+        "words": "he ordered his editors to tone down on sensationalism and to refrain from using such words as `` seduction '' , `` rape '' , `` abortion '' , `` criminal assault '' and `` born out of wedlock '' .",
+        "actual_tags": "PRON VERB DET NOUN PRT VERB PRT ADP NOUN CONJ PRT VERB ADP VERB ADJ NOUN ADP . NOUN . . . NOUN . . . NOUN . . . ADJ NOUN . CONJ . VERB ADV ADP NOUN . .",
+        "chatgpt_tags": "PRON VERB PRON NOUN ADP VERB ADV ADP NOUN CONJ ADP VERB ADP VERB DET NOUN ADP . NOUN . . . NOUN . . . NOUN . . . ADJ NOUN . CONJ . ADJ ADP ADP NOUN . ."
+    },
+    "47": {
+        "words": "the chinese , north vietnamese and north koreans , on the other hand , feel that , militarily , russia is strong enough to support them in the `` just wars of liberation '' they would like to embark on before long : with china attacking formosa and the north koreans and north vietnamese liberating the southern half of their respective countries .",
+        "actual_tags": "DET NOUN . ADJ NOUN CONJ ADJ NOUN . ADP DET ADJ NOUN . VERB ADP . ADV . NOUN VERB ADJ ADV PRT VERB PRON ADP DET . ADJ NOUN ADP NOUN . PRON VERB VERB PRT VERB ADP ADP ADV . ADP NOUN VERB NOUN CONJ DET ADJ NOUN CONJ ADJ NOUN VERB DET ADJ PRT ADP DET ADJ NOUN .",
+        "chatgpt_tags": "DET ADJ . ADJ ADJ CONJ ADJ NOUN . ADP DET ADJ NOUN . VERB PRON . ADV . PRON VERB ADJ ADV ADP VERB PRON ADP DET . ADJ NOUN ADP NOUN . PRON VERB VERB ADP VERB ADP ADP ADV . ADP PRON VERB NOUN CONJ DET ADJ NOUN CONJ ADJ ADJ VERB DET ADJ NOUN ADP PRON ADJ NOUN ."
+    },
+    "387": {
+        "words": "the shades tend to be a little softer in the forests that blanket so much of maine .",
+        "actual_tags": "DET NOUN VERB PRT VERB DET ADV ADJ ADP DET NOUN PRON VERB ADV ADJ ADP NOUN .",
+        "chatgpt_tags": "DET NOUN VERB ADP VERB DET ADJ ADJ ADP DET NOUN PRON VERB ADV ADJ ADP PRON ."
+    },
+    "445": {
+        "words": "the argument against this last approach is comparable to that which rejects stories about hoop snakes , about snakes that break themselves into many pieces and join up again , or even of ghosts that chase people out of graveyards ; ;",
+        "actual_tags": "DET NOUN ADP DET ADJ NOUN VERB ADJ ADP DET DET VERB NOUN ADP NOUN NOUN . ADP NOUN PRON VERB PRON ADP ADJ NOUN CONJ VERB PRT ADV . CONJ ADV ADP NOUN PRON VERB NOUN PRT ADP NOUN . .",
+        "chatgpt_tags": "DET NOUN ADP DET ADJ NOUN VERB ADJ ADP PRON PRON VERB NOUN ADP ADJ NOUN . ADP NOUN PRON VERB PRON ADP ADJ NOUN CONJ VERB ADV ADV . CONJ ADV ADP NOUN PRON VERB NOUN ADP ADP NOUN . ."
+    },
+    "503": {
+        "words": "on the whole , however , one must wonder at just what it is that forces a beloved artist to besmirch her own reputation as time marches inexorably on .",
+        "actual_tags": "ADP DET ADJ . ADV . NOUN VERB VERB ADP ADV DET PRON VERB PRON VERB DET ADJ NOUN PRT VERB DET ADJ NOUN ADP NOUN VERB ADV PRT .",
+        "chatgpt_tags": "ADP DET NOUN . ADV . PRON VERB VERB ADP ADV PRON PRON VERB PRON VERB DET ADJ NOUN ADP VERB PRON ADJ NOUN ADP NOUN VERB ADV ADP ."
+    },
+    "512": {
+        "words": "my double was made with standard-weight revolver barrels ( before cutting to revolver length ) , and although it compares well in other respects , it's considerably heavier than the deerstalker , which only scales about 6-1/2 pounds .",
+        "actual_tags": "DET NOUN VERB VERB ADP NOUN NOUN NOUN . ADV VERB ADP NOUN NOUN . . CONJ ADP PRON VERB ADV ADP ADJ NOUN . PRT ADV ADJ ADP DET NOUN . DET ADV VERB ADV NUM NOUN .",
+        "chatgpt_tags": "PRON NOUN VERB VERB ADP ADJ NOUN NOUN . ADP VERB ADP NOUN NOUN . . CONJ CONJ PRON VERB ADV ADP ADJ NOUN . PRON ADV ADJ ADP DET NOUN . PRON ADV VERB ADP NUM NOUN ."
+    },
+    "676": {
+        "words": "despite several years of front-page stories , the average citizen was unable to get a complete picture of mccarthy until he saw on the television screen what the reporters had been seeing all along but had no effective way of communicating .",
+        "actual_tags": "ADP ADJ NOUN ADP NOUN NOUN . DET NOUN NOUN VERB ADJ PRT VERB DET ADJ NOUN ADP NOUN ADP PRON VERB ADP DET NOUN NOUN DET DET NOUN VERB VERB VERB ADV ADV CONJ VERB DET ADJ NOUN ADP VERB .",
+        "chatgpt_tags": "ADP ADJ NOUN ADP ADJ NOUN . DET ADJ NOUN VERB ADJ ADP VERB DET ADJ NOUN ADP PRON ADP PRON VERB ADP DET NOUN NOUN PRON DET NOUN VERB VERB VERB ADV ADV CONJ VERB DET ADJ NOUN ADP VERB ."
+    }
+}

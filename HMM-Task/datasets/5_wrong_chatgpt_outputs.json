@@ -1,0 +1,17 @@
+{
+    "424": {
+        "words": "in connection with our continuing development of new and more efficient mill machinery , a sounder u. s. income tax policy on depreciation of production equipment , enabling the mills to charge off the cost of new machines on a more realistic basis , could , if adopted , have favorable effects on leesona's business in the next few years .",
+        "actual_tags": "ADP NOUN ADP DET VERB NOUN ADP ADJ CONJ ADV ADJ NOUN NOUN . DET ADJ NOUN NOUN NOUN NOUN NOUN ADP NOUN ADP NOUN NOUN . VERB DET NOUN PRT VERB PRT DET NOUN ADP ADJ NOUN ADP DET ADV ADJ NOUN . VERB . ADP VERB . VERB ADJ NOUN ADP NOUN NOUN ADP DET ADJ ADJ NOUN .",
+        "chatgpt_tags": "ADP NOUN ADP PRON VERB NOUN ADP ADJ CONJ ADJ ADJ NOUN NOUN . DET ADJ PRON PRON ADJ NOUN NOUN ADP NOUN ADP ADJ NOUN . VERB DET NOUN ADP VERB ADV DET NOUN ADP ADJ NOUN ADP DET ADJ ADJ NOUN . VERB . CONJ VERB . VERB ADJ NOUN ADP PRON NOUN ADP DET ADJ ADJ NOUN ."
+    },
+    "981": {
+        "words": "it truly relives another age for the inhabitants use carriages rather than autos and old british and french forts are left intact for tourists to visit and record .",
+        "actual_tags": "PRON ADV VERB DET NOUN ADP DET NOUN VERB NOUN ADP ADP NOUN CONJ ADJ ADJ CONJ ADJ NOUN VERB VERB ADJ ADP NOUN PRT VERB CONJ VERB .",
+        "chatgpt_tags": "PRON ADV VERB ADJ NOUN ADP DET NOUN VERB NOUN ADV ADP NOUN CONJ ADJ ADJ CONJ ADJ NOUN VERB VERB ADJ ADP NOUN ADP VERB CONJ VERB ."
+    },
+    "1251": {
+        "words": "but when tiny , 145-pound albert gregory pearson of the los angeles angels , who once caught three straight fly balls in center field because , as a teammate explained , `` the other team thought no one was out there '' , hits seven home runs in four months ( three more than his total in 1958 , 1959 , and 1960 ) , his achievement borders on the ridiculous .",
+        "actual_tags": "CONJ ADV ADJ . ADJ NOUN NOUN NOUN ADP DET NOUN NOUN NOUN . PRON ADV VERB NUM ADJ NOUN NOUN ADP NOUN NOUN ADP . ADP DET NOUN VERB . . DET ADJ NOUN VERB DET NOUN VERB PRT ADV . . VERB NUM NOUN NOUN ADP NUM NOUN . NUM ADJ ADP DET NOUN ADP NUM . NUM . CONJ NUM . . DET NOUN VERB ADP DET ADJ .",
+        "chatgpt_tags": "CONJ ADP ADJ . ADJ PRON PRON PRON ADP DET PRON PRON NOUN . PRON ADV VERB NUM ADJ ADJ NOUN ADP ADJ NOUN CONJ . ADP DET NOUN VERB . . DET ADJ NOUN VERB DET PRON VERB ADV ADV . . VERB NUM ADJ NOUN ADP NUM NOUN . NUM ADJ ADP PRON NOUN ADP NUM . NUM . CONJ NUM . . PRON NOUN VERB ADP DET ADJ ."
+    }
+}

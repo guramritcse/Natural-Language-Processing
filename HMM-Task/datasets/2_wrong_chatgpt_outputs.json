@@ -1,0 +1,27 @@
+{
+    "24": {
+        "words": "and he had a feeling -- thanks to the girl -- that things would get worse before they got better .",
+        "actual_tags": "CONJ PRON VERB DET NOUN . NOUN ADP DET NOUN . ADP NOUN VERB VERB ADJ ADP PRON VERB ADJ .",
+        "chatgpt_tags": "CONJ PRON VERB DET NOUN . VERB ADP DET NOUN . PRON NOUN VERB VERB ADJ ADP PRON VERB ADJ ."
+    },
+    "38": {
+        "words": "never a `` quick study '' , he now made no attempt to learn his `` lines '' and many a mile of film was wasted , many a scene -- sometimes involving as many as a thousand fellow thespians -- was taken thirty , forty , fifty times because miss poitrine's co-star and `` helpmate '' had never learned his part .",
+        "actual_tags": "ADV DET . ADJ NOUN . . PRON ADV VERB DET NOUN PRT VERB DET . NOUN . CONJ PRT DET NOUN ADP NOUN VERB VERB . PRT DET NOUN . ADV ADP ADV ADJ ADP DET NUM NOUN NOUN . VERB VERB NUM . NUM . NUM NOUN ADP NOUN NOUN NOUN CONJ . NOUN . VERB ADV VERB DET NOUN .",
+        "chatgpt_tags": "ADV DET X ADJ NOUN X . PRON ADV VERB DET NOUN ADP VERB PRON X NOUN X CONJ DET DET NOUN ADP NOUN VERB VERB . DET DET NOUN . ADV VERB ADP DET ADP DET NOUN ADJ NOUN . . VERB VERB NUM . NUM . NUM NOUN CONJ X X NOUN CONJ X NOUN VERB ADV VERB PRON NOUN ."
+    },
+    "58": {
+        "words": "in medicine the frequencies are much higher , transducers and the sonar beams themselves are much smaller , and different scanning techniques may be used , but the principles involved are the same as in sonar .",
+        "actual_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ VERB NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADP ADP NOUN .",
+        "chatgpt_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ ADJ NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADP ADP NOUN ."
+    },
+    "59": {
+        "words": "but curtis poured over $1 million into it and in time it again became one of the most popular weeklies of the country .",
+        "actual_tags": "CONJ NOUN VERB PRT NOUN NUM ADP PRON CONJ ADP NOUN PRON ADV VERB NUM ADP DET ADV ADJ NOUN ADP DET NOUN .",
+        "chatgpt_tags": "CONJ NOUN VERB ADP X X ADP PRON CONJ ADP NOUN PRON ADV VERB NUM ADP DET ADV ADJ NOUN ADP DET NOUN ."
+    },
+    "69": {
+        "words": "`` you are looking tired and there you can rest .",
+        "actual_tags": ". PRON VERB VERB ADJ CONJ ADV PRON VERB VERB .",
+        "chatgpt_tags": ". PRON VERB VERB ADJ CONJ ADV PRON VERB VERB ."
+    }
+}

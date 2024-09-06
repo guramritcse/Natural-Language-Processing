@@ -1,0 +1,122 @@
+{
+    "2": {
+        "words": "as we expected , on the following day my uncle was completely recovered and opened the store as usual at 10 in the morning .",
+        "actual_tags": "ADP PRON VERB . ADP DET VERB NOUN DET NOUN VERB ADV VERB CONJ VERB DET NOUN ADV ADJ ADP NUM ADP DET NOUN .",
+        "chatgpt_tags": "PRT PRON VERB . ADP DET ADJ NOUN PRON NOUN VERB ADV VERB CONJ VERB DET NOUN PRT ADJ ADP NUM ADP DET NOUN ."
+    },
+    "4": {
+        "words": "at the sun and the heat of mediterranean lands , always much brighter and hotter to an englishman than to an american used to summers in new york or kansas city ; ;",
+        "actual_tags": "ADP DET NOUN CONJ DET NOUN ADP NOUN NOUN . ADV ADV ADJ CONJ ADJ ADP DET NOUN ADP ADP DET ADJ VERB ADP NOUN ADP ADJ NOUN CONJ NOUN NOUN . .",
+        "chatgpt_tags": "ADP DET NOUN CONJ DET NOUN ADP ADJ NOUN . ADV ADV ADJ CONJ ADJ ADP DET NOUN ADP DET NOUN CONJ ADP DET NOUN VERB ADP NOUN ADP NOUN NOUN . ."
+    },
+    "12": {
+        "words": "he also drew precise crisp spots , which he sold to various literary and artistic journals , the new yorker , for instance , or esquire .",
+        "actual_tags": "PRON ADV VERB ADJ NOUN NOUN . DET PRON VERB ADP ADJ ADJ CONJ ADJ NOUN . DET ADJ NOUN . ADP NOUN . CONJ NOUN .",
+        "chatgpt_tags": "PRON ADV VERB ADJ ADJ NOUN . PRON PRON VERB ADP ADJ ADJ CONJ ADJ NOUN . DET NOUN . ADP NOUN . CONJ NOUN . ."
+    },
+    "13": {
+        "words": "it is only then that the ancient habits of feeling and the classic orderings of material and psychological experience were abandoned .",
+        "actual_tags": "PRON VERB ADV ADV ADP DET ADJ NOUN ADP VERB CONJ DET ADJ NOUN ADP NOUN CONJ ADJ NOUN VERB VERB .",
+        "chatgpt_tags": "PRON VERB ADV ADV CONJ DET ADJ NOUN ADP NOUN CONJ DET ADJ NOUN ADP NOUN CONJ ADJ NOUN VERB VERB ."
+    },
+    "17": {
+        "words": "`` i wouldn't even want it to get around '' .",
+        "actual_tags": ". PRON VERB VERB VERB PRON PRT VERB ADV . .",
+        "chatgpt_tags": "PRON VERB ADV VERB PRON ADP VERB PRON . . . "
+    },
+    "18": {
+        "words": "i won't be long '' .",
+        "actual_tags": "PRON VERB VERB ADV . .",
+        "chatgpt_tags": "PRON VERB VERB ADJ . ."
+    },
+    "21": {
+        "words": "`` you are the only man aboard who can be in doubt '' .",
+        "actual_tags": ". PRON VERB DET ADJ NOUN ADV PRON VERB VERB ADP NOUN . .",
+        "chatgpt_tags": ". PRON VERB DET ADJ NOUN ADP PRON VERB VERB ADP NOUN . ."
+    },
+    "26": {
+        "words": "there is little enthusiasm for spending money to develop more powerful engines because of the erroneous belief that the aircraft has been made obsolete by the missile .",
+        "actual_tags": "PRT VERB ADJ NOUN ADP VERB NOUN PRT VERB ADV ADJ NOUN ADP ADP DET ADJ NOUN ADP DET NOUN VERB VERB VERB ADJ ADP DET NOUN .",
+        "chatgpt_tags": "PRON VERB ADJ NOUN ADP VERB NOUN ADP VERB ADJ ADJ NOUN CONJ ADP DET ADJ NOUN PRON VERB VERB VERB ADP DET NOUN ADP DET NOUN ."
+    },
+    "27": {
+        "words": "i think , too '' , he said , his dark eyes mischievous , `` that you will find there some clue to the secret of the cathedrals about which you have spoken '' .",
+        "actual_tags": "PRON VERB . ADV . . PRON VERB . DET ADJ NOUN ADJ . . ADP PRON VERB VERB ADV DET NOUN ADP DET NOUN ADP DET NOUN ADP DET PRON VERB VERB . .",
+        "chatgpt_tags": "PRON VERB . ADV . . PRON VERB . PRON ADJ NOUN ADJ . . CONJ PRON VERB VERB PRON ADJ NOUN ADP DET NOUN ADP DET NOUN ADP CONJ PRON VERB VERB . ."
+    },
+    "29": {
+        "words": "he might not have gone that far if pa hadn't been locked in laughing fit to shake the house .",
+        "actual_tags": "PRON VERB ADV VERB VERB DET ADV ADP NOUN VERB VERB VERB ADP VERB VERB PRT VERB DET NOUN .",
+        "chatgpt_tags": "PRON VERB ADV VERB ADP ADV ADP VERB ADJ ADP VERB PRON VERB VERB ADP DET NOUN . . ."
+    },
+    "36": {
+        "words": "his history is his alone , yet each man must recognize his own history in it .",
+        "actual_tags": "DET NOUN VERB PRON ADV . CONJ DET NOUN VERB VERB DET ADJ NOUN ADP PRON .",
+        "chatgpt_tags": "PRON NOUN VERB PRON ADJ . CONJ DET NOUN VERB PRON ADJ NOUN ADP PRON . ."
+    },
+    "41": {
+        "words": "she was too young , that was all ; ;",
+        "actual_tags": "PRON VERB ADV ADJ . DET VERB PRT . .",
+        "chatgpt_tags": "PRON VERB ADV ADJ . PRON VERB PRON . ."
+    },
+    "43": {
+        "words": "that upsets me more than anything .",
+        "actual_tags": "DET VERB PRON ADV ADP NOUN .",
+        "chatgpt_tags": "PRON VERB PRON ADV ADP ADV ."
+    },
+    "45": {
+        "words": "the senator had boxed them in with their own restrictions .",
+        "actual_tags": "DET NOUN VERB VERB PRON PRT ADP DET ADJ NOUN .",
+        "chatgpt_tags": "DET NOUN VERB VERB PRON ADP ADP PRON ADJ NOUN ."
+    },
+    "48": {
+        "words": "a gross boy in his teens , shuffling in from the kitchen with a sandwich in his hands ; ;",
+        "actual_tags": "DET ADJ NOUN ADP DET NOUN . VERB PRT ADP DET NOUN ADP DET NOUN ADP DET NOUN . .",
+        "chatgpt_tags": "DET ADJ NOUN ADP PRON NOUN . VERB ADP ADP DET NOUN ADP DET NOUN ADP PRON NOUN . . "
+    },
+    "60": {
+        "words": "before you let loose a howl saying we announced its coming , not once but several times , indeed we did .",
+        "actual_tags": "ADP PRON VERB ADJ DET NOUN VERB PRON VERB DET NOUN . ADV ADV CONJ ADJ NOUN . ADV PRON VERB .",
+        "chatgpt_tags": "ADP PRON VERB ADJ DET NOUN VERB PRON VERB PRON VERB . ADV ADV CONJ ADJ NOUN . ADV PRON VERB ."
+    },
+    "62": {
+        "words": "structurally , the u.n. is still fluid , vulnerable to the pressures that its new and enlarged membership are bringing to bear upon it .",
+        "actual_tags": "ADV . DET NOUN VERB ADV ADJ . ADJ ADP DET NOUN PRON DET ADJ CONJ VERB NOUN VERB VERB PRT VERB ADP PRON .",
+        "chatgpt_tags": "ADV . DET X VERB ADV ADJ . ADJ ADP DET NOUN PRON PRON ADJ CONJ ADJ NOUN VERB VERB ADP VERB ADP PRON ."
+    },
+    "63": {
+        "words": "the first question is : would i like to live here ? ?",
+        "actual_tags": "DET ADJ NOUN VERB . VERB PRON VERB PRT VERB ADV . .",
+        "chatgpt_tags": "DET ADJ NOUN VERB . VERB PRON VERB ADP VERB ADV . ."
+    },
+    "66": {
+        "words": "finally , as time began to run out , he headed into ormoc and glide-bombed a group of houses that intelligence had thought might contain japanese supplies .",
+        "actual_tags": "ADV . ADP NOUN VERB PRT VERB PRT . PRON VERB ADP NOUN CONJ VERB DET NOUN ADP NOUN PRON NOUN VERB VERB VERB VERB ADJ NOUN .",
+        "chatgpt_tags": "ADV . ADP NOUN VERB ADP VERB ADV . PRON VERB ADP X CONJ VERB DET NOUN ADP NOUN PRON NOUN VERB VERB VERB VERB ADJ NOUN ."
+    },
+    "67": {
+        "words": "`` not quite '' .",
+        "actual_tags": ". ADV PRT . .",
+        "chatgpt_tags": ". ADV ADV . ."
+    },
+    "68": {
+        "words": "that and her death .",
+        "actual_tags": "DET CONJ DET NOUN .",
+        "chatgpt_tags": "PRON CONJ PRON NOUN ."
+    },
+    "72": {
+        "words": "the proclamation of the churches is almost totally confined to pastoral contacts by the clergy ( 17.3 per cent of new members ) and friendly contacts by members ( over two thirds if organizational activities are included ) .",
+        "actual_tags": "DET NOUN ADP DET NOUN VERB ADV ADV VERB ADP ADJ NOUN ADP DET NOUN . NUM ADP NOUN ADP ADJ NOUN . CONJ ADJ NOUN ADP NOUN . PRT NUM NOUN ADP ADJ NOUN VERB VERB . .",
+        "chatgpt_tags": "DET NOUN ADP DET NOUN VERB ADV ADV VERB ADP ADJ NOUN ADP DET NOUN . X ADP NOUN ADP ADJ NOUN . CONJ ADJ NOUN ADP NOUN . ADV NUM NOUN CONJ ADJ NOUN VERB VERB . ."
+    },
+    "74": {
+        "words": "there are many such competently anonymous performances among the earlier poems .",
+        "actual_tags": "PRT VERB ADJ ADJ ADV ADJ NOUN ADP DET ADJ NOUN .",
+        "chatgpt_tags": "PRON VERB DET ADJ ADV ADJ NOUN ADP DET ADJ NOUN ."
+    },
+    "79": {
+        "words": "the only thing unusual about the old man had long since happened .",
+        "actual_tags": "DET ADJ NOUN ADJ ADP DET ADJ NOUN VERB ADJ ADV VERB .",
+        "chatgpt_tags": "DET ADJ NOUN ADJ ADP DET ADJ NOUN VERB ADV ADV VERB ."
+    }
+}

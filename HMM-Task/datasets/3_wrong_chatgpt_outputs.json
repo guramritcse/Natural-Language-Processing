@@ -1,0 +1,47 @@
+{
+    "39": {
+        "words": "a friend of mine in new mexico said the court order had caused no particular trouble out there , that all had gone as merry as a marriage bell .",
+        "actual_tags": "DET NOUN ADP PRON ADP ADJ NOUN VERB DET NOUN NOUN VERB VERB DET ADJ NOUN ADP ADV . ADP PRT VERB VERB ADV ADJ ADP DET NOUN NOUN .",
+        "chatgpt_tags": "DET NOUN ADP PRON ADP ADJ PRON VERB DET NOUN NOUN VERB VERB DET ADJ NOUN ADV PRON . PRON PRON VERB VERB ADP ADJ ADP DET ADJ NOUN ."
+    },
+    "168": {
+        "words": "but before discussing it , i should like to record one vote of thanks to them for the clarity with which they have stated their case .",
+        "actual_tags": "CONJ ADP VERB PRON . PRON VERB VERB PRT VERB NUM NOUN ADP NOUN ADP PRON ADP DET NOUN ADP DET PRON VERB VERB DET NOUN .",
+        "chatgpt_tags": "CONJ ADP VERB PRON . PRON VERB VERB ADP VERB NUM NOUN ADP NOUN ADP PRON ADP DET NOUN ADP PRON PRON VERB VERB PRON NOUN ."
+    },
+    "244": {
+        "words": "today , according to land economist homer hoyt , shopping centers and their associated parking lots cover some 46,000 acres of land , which is almost exactly the total land area in all the nation's central business districts put together .",
+        "actual_tags": "NOUN . ADV ADP NOUN NOUN NOUN NOUN . VERB NOUN CONJ DET VERB VERB NOUN VERB ADV NUM NOUN ADP NOUN . DET VERB ADV ADV DET ADJ NOUN NOUN ADP PRT DET NOUN ADJ NOUN NOUN VERB ADV .",
+        "chatgpt_tags": "ADV . VERB ADP NOUN NOUN PRON PRON . NOUN NOUN CONJ PRON ADJ NOUN NOUN VERB DET NUM NOUN ADP NOUN . PRON VERB ADV ADV DET ADJ NOUN NOUN ADP PRON DET PRON ADJ ADJ NOUN VERB ADV ."
+    },
+    "372": {
+        "words": "in each city quick public reaction and fast action by the city government halted the threats of more serious incidents .",
+        "actual_tags": "ADP DET NOUN ADJ NOUN NOUN CONJ ADJ NOUN ADP DET NOUN NOUN VERB DET NOUN ADP ADV ADJ NOUN .",
+        "chatgpt_tags": "ADP DET NOUN ADJ ADJ NOUN CONJ ADJ NOUN ADP DET NOUN NOUN VERB DET NOUN ADP ADJ ADJ NOUN ."
+    },
+    "385": {
+        "words": "it says that `` in the event congress does provide this increase in federal funds '' , the state board of education should be directed to `` give priority '' to teacher pay raises .",
+        "actual_tags": "PRON VERB ADP . ADP DET NOUN NOUN VERB VERB DET NOUN ADP ADJ NOUN . . DET NOUN NOUN ADP NOUN VERB VERB VERB PRT . VERB NOUN . ADP NOUN NOUN NOUN .",
+        "chatgpt_tags": "PRON VERB PRON . ADP DET NOUN PRON VERB VERB DET NOUN ADP ADJ NOUN . . DET ADJ NOUN ADP NOUN VERB VERB VERB ADP . VERB NOUN . ADP NOUN NOUN NOUN ."
+    },
+    "403": {
+        "words": "this section shall not apply to corporations purchasing such stock solely for investment and not using the same by voting or otherwise to bring about , or in attempting to bring about , the substantial lessening of competition .",
+        "actual_tags": "DET NOUN VERB ADV VERB ADP NOUN VERB ADJ NOUN ADV ADP NOUN CONJ ADV VERB DET ADJ ADP VERB CONJ ADV PRT VERB PRT . CONJ ADP VERB PRT VERB PRT . DET ADJ NOUN ADP NOUN .",
+        "chatgpt_tags": "DET NOUN VERB ADV VERB ADP NOUN VERB DET NOUN ADV ADP NOUN CONJ ADV VERB DET PRON ADP VERB CONJ ADV ADP VERB ADP . CONJ ADP VERB ADP VERB ADP . DET ADJ NOUN ADP NOUN ."
+    },
+    "415": {
+        "words": "`` it's quite possible there's more than codfish down there , man '' , poet replied with a short , nervous laugh as he held the harness for elaine .",
+        "actual_tags": ". PRT ADV ADJ PRT ADJ ADP NOUN PRT ADV . NOUN . . NOUN VERB ADP DET ADJ . ADJ NOUN ADP PRON VERB DET NOUN ADP NOUN .",
+        "chatgpt_tags": ". PRON ADV ADJ PRON VERB ADJ ADP NOUN ADV PRON . NOUN . NOUN VERB ADP DET ADJ . ADJ NOUN ADP PRON VERB DET NOUN ADP PRON ."
+    },
+    "499": {
+        "words": "she had come to make her peace with the past , and of that past this ancient of the earth was only a kind of shadow .",
+        "actual_tags": "PRON VERB VERB PRT VERB DET NOUN ADP DET NOUN . CONJ ADP DET NOUN DET NOUN ADP DET NOUN VERB ADV DET NOUN ADP NOUN .",
+        "chatgpt_tags": "PRON VERB VERB ADP VERB PRON NOUN ADP DET NOUN . CONJ ADP PRON NOUN DET ADJ ADP DET NOUN VERB ADV DET NOUN ADP NOUN ."
+    },
+    "583": {
+        "words": "finally , it is suggested that in many respects the horse lung may be anatomically more comparable to that of the human than any other presently known species .",
+        "actual_tags": "ADV . PRON VERB VERB ADP ADP ADJ NOUN DET NOUN NOUN VERB VERB ADV ADV ADJ ADP DET ADP DET ADJ ADP DET ADJ ADV VERB NOUN .",
+        "chatgpt_tags": "ADV . PRON VERB VERB PRON ADP ADJ NOUN DET NOUN NOUN VERB VERB ADV ADJ ADJ ADP PRON ADP DET ADJ ADP DET ADJ ADV ADJ NOUN ."
+    }
+}
