@@ -1,0 +1,402 @@
+{
+    "0": {
+        "words": "stars for marriage",
+        "actual_tags": "NOUN ADP NOUN",
+        "chatgpt_tags": "NOUN ADP NOUN",
+        "predicted_tags": "NOUN ADP NOUN",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "1": {
+        "words": "during the first pass of phase 3 , , references to the actual addresses of index words and electronic switches are collected and the availability table is updated .",
+        "actual_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
+        "chatgpt_tags": "ADP DET ADJ NOUN ADP NOUN . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
+        "predicted_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "3": {
+        "words": "books are not the only resource of the system .",
+        "actual_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
+        "chatgpt_tags": "NOUN VERB PRT DET ADJ NOUN ADP DET NOUN .",
+        "predicted_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "5": {
+        "words": "during the hottest part of the day , of course , the sun comes straight down and there isn't any shade '' .",
+        "actual_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
+        "chatgpt_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADV . DET NOUN VERB ADV ADV CONJ ADV VERB PRT DET NOUN . .",
+        "predicted_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "6": {
+        "words": "however , it was virtually impossible to screen the mob outside , even if bonner had manpower available for the purpose .",
+        "actual_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
+        "chatgpt_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV CONJ NOUN VERB NOUN ADJ ADJ ADP DET NOUN .",
+        "predicted_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "7": {
+        "words": "but there are at least two reasons for contemplating one's mind in even a cracked mirror .",
+        "actual_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
+        "chatgpt_tags": "CONJ PRON VERB ADV ADJ NOUN ADP VERB PRON NOUN ADP ADV DET ADJ NOUN .",
+        "predicted_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "8": {
+        "words": "well-wishers around the world hoped that the congo would quickly assume a respectable position in the society of nations .",
+        "actual_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
+        "chatgpt_tags": "NOUN ADP DET NOUN VERB CONJ DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
+        "predicted_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "10": {
+        "words": "eugenia sighed .",
+        "actual_tags": "NOUN VERB .",
+        "chatgpt_tags": "NOUN VERB .",
+        "predicted_tags": "NOUN VERB .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "11": {
+        "words": "( 3 )",
+        "actual_tags": ". NUM .",
+        "chatgpt_tags": ". NUM .",
+        "predicted_tags": ". NUM .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "14": {
+        "words": "mahzeer's office '' .",
+        "actual_tags": "NOUN NOUN . .",
+        "chatgpt_tags": "NOUN NOUN . .",
+        "predicted_tags": "NOUN NOUN . .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "15": {
+        "words": "''",
+        "actual_tags": ".",
+        "chatgpt_tags": ".",
+        "predicted_tags": ".",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "16": {
+        "words": "`` a bullet '' , she answered .",
+        "actual_tags": ". DET NOUN . . PRON VERB .",
+        "chatgpt_tags": ". DET NOUN . PRON VERB .",
+        "predicted_tags": ". DET NOUN . . PRON VERB .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "19": {
+        "words": "the war to subdue them taxed the resources of the colony and piled up enormous debts .",
+        "actual_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
+        "chatgpt_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
+        "predicted_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "20": {
+        "words": "under this plan both cranston and providence would be on the uniform fiscal year but would still be using the same installment periods .",
+        "actual_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
+        "chatgpt_tags": "ADP DET NOUN CONJ NOUN VERB VERB ADP DET ADJ NOUN NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
+        "predicted_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "22": {
+        "words": "she did suddenly , through the link of memory with his father , old titus , who must have been in his nineties when henrietta ran away .",
+        "actual_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
+        "chatgpt_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB ADP PRON NOUN . DET NOUN VERB VERB ADP DET NUM PRT ADV NOUN CONJ NOUN VERB ADV .",
+        "predicted_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "23": {
+        "words": "he generally heard freddy's suggestions without interest , being absorbed by his own prospering concerns .",
+        "actual_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
+        "chatgpt_tags": "PRON ADV VERB NOUN PRT NOUN . VERB ADP PRON ADJ VERB NOUN .",
+        "predicted_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "25": {
+        "words": "the valves were normal except for thin yellow plaques on the inferior surface of the mitral leaflets .",
+        "actual_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "chatgpt_tags": "DET NOUN VERB ADJ CONJ ADJ NOUN ADP DET ADJ NOUN ADP DET NOUN NOUN .",
+        "predicted_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "28": {
+        "words": "they killed big charlie , dumped his body in my rose garden two nights ago .",
+        "actual_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
+        "chatgpt_tags": "PRON VERB ADJ NOUN . VERB PRON NOUN ADP PRON NOUN NOUN NUM NOUN ADV .",
+        "predicted_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "30": {
+        "words": "mutants may also be developed with changes in biochemical properties that are of importance in identification .",
+        "actual_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
+        "chatgpt_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP NOUN ADP DET NOUN ADP NOUN .",
+        "predicted_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "31": {
+        "words": "in the century from 1815 to 1914 the law of nations became international law .",
+        "actual_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
+        "chatgpt_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
+        "predicted_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "32": {
+        "words": "part of his house had been moved to the other side of the road .",
+        "actual_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
+        "chatgpt_tags": "NOUN ADP PRON NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
+        "predicted_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "33": {
+        "words": "nate '' ! !",
+        "actual_tags": "NOUN . . .",
+        "chatgpt_tags": "NOUN . .",
+        "predicted_tags": "NOUN . . .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "34": {
+        "words": "the crystallographic data given include interaxial angles and unit cell dimensions ; ;",
+        "actual_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
+        "chatgpt_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN . .",
+        "predicted_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "35": {
+        "words": "if desired , sprinkle with 1 teaspoon drained crushed pineapple .",
+        "actual_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
+        "chatgpt_tags": "ADP VERB . VERB ADP NUM NOUN VERB ADJ NOUN .",
+        "predicted_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "37": {
+        "words": "what are the relevant data ? ?",
+        "actual_tags": "DET VERB DET ADJ NOUN . .",
+        "chatgpt_tags": "PRON VERB DET ADJ NOUN . .",
+        "predicted_tags": "DET VERB DET ADJ NOUN . .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "40": {
+        "words": "we attended the premieres of his concertos , symphonies , and suites ; ;",
+        "actual_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
+        "chatgpt_tags": "PRON VERB DET NOUN ADP PRON NOUN . NOUN . CONJ NOUN . .",
+        "predicted_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "42": {
+        "words": "she might like to take him to st. peter's .",
+        "actual_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
+        "chatgpt_tags": "PRON VERB VERB ADP VERB PRON ADP NOUN .",
+        "predicted_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "44": {
+        "words": "they had a two-hour luncheon together in `` an atmosphere of cordial understanding and relaxation '' , she said .",
+        "actual_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
+        "chatgpt_tags": "PRON VERB DET NOUN NOUN ADV ADP DET NOUN ADP ADJ NOUN CONJ NOUN . PRON VERB .",
+        "predicted_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "46": {
+        "words": "in addition , their establishment made it unnecessary to begin publication of a contemplated air force medical bulletin .",
+        "actual_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
+        "chatgpt_tags": "ADP DET NOUN PRON NOUN VERB ADJ VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN .",
+        "predicted_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "49": {
+        "words": "he was determined to spend an industrious summer .",
+        "actual_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
+        "chatgpt_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
+        "predicted_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "50": {
+        "words": "( however , there is little evidence that the late lumumba was a communist .",
+        "actual_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
+        "chatgpt_tags": ". ADV . PRON VERB DET ADJ NOUN PRON VERB DET NOUN .",
+        "predicted_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "51": {
+        "words": "take augustine's doctrine of grace given and grace withheld : have you pondered the dramatic qualities in this theology ? ?",
+        "actual_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
+        "chatgpt_tags": "VERB NOUN PRT NOUN ADP NOUN PRT NOUN PRT VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
+        "predicted_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "52": {
+        "words": "there's only one way they can get out now and that's through the gap -- if we ride hard we can take them '' .",
+        "actual_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
+        "chatgpt_tags": "PRON VERB ADV NUM NOUN PRON VERB VERB ADV CONJ DET VERB ADP DET NOUN . ADV PRON VERB VERB PRON . .",
+        "predicted_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "53": {
+        "words": "there , ernest gross further assured him :",
+        "actual_tags": "ADV . NOUN NOUN ADV VERB PRON .",
+        "chatgpt_tags": "ADV . NOUN ADV VERB PRON .",
+        "predicted_tags": "ADV . NOUN NOUN ADV VERB PRON .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "54": {
+        "words": "a daughter , mrs. sidney s. stein jr. , dorenzo , calif. ; ;",
+        "actual_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
+        "chatgpt_tags": "DET NOUN . NOUN NOUN . NOUN . NOUN . NOUN . .",
+        "predicted_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "55": {
+        "words": "some are blest with an abundance of good health -- some are in poor health and many are invalids .",
+        "actual_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
+        "chatgpt_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ DET VERB NOUN .",
+        "predicted_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "56": {
+        "words": "and shelby carlson , cleveland .",
+        "actual_tags": "CONJ NOUN NOUN . NOUN .",
+        "chatgpt_tags": "CONJ NOUN NOUN . NOUN .",
+        "predicted_tags": "CONJ NOUN NOUN . NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "57": {
+        "words": "in plato's judgment , the arts play a meaningful role in society only in the education of the young , prior to the full development of their intellectual powers .",
+        "actual_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "chatgpt_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ NOUN ADP DET NOUN .",
+        "predicted_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "61": {
+        "words": "historians have traditionally regarded the great debates of the seventeen nineties as polarizing the issues of centralized vs. limited government , with hamilton and the nationalists supporting the former and jefferson and madison upholding the latter position .",
+        "actual_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
+        "chatgpt_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM . PRON NOUN ADP NOUN CONJ NOUN VERB DET ADP ADJ NOUN CONJ NOUN CONJ NOUN VERB DET NOUN .",
+        "predicted_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "64": {
+        "words": "you'll find an old transit in the basement .",
+        "actual_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
+        "chatgpt_tags": "PRON VERB VERB DET ADJ NOUN ADP DET NOUN .",
+        "predicted_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "65": {
+        "words": "for this change is not a change from one positive position to another , but a change from order and truth to disorder and negation .",
+        "actual_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
+        "chatgpt_tags": "ADP DET NOUN VERB ADV DET NOUN ADP DET ADJ NOUN ADP DET NOUN CONJ NOUN .",
+        "predicted_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "71": {
+        "words": "as their interpreter and guide , he had broken with tuskegee and become a spokesman of the coloured people of the world .",
+        "actual_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
+        "chatgpt_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET NOUN NOUN ADP DET NOUN .",
+        "predicted_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "73": {
+        "words": "strenuous efforts were made to remove pin pricking from administration statements .",
+        "actual_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
+        "chatgpt_tags": "ADJ NOUN VERB VERB PRT VERB ADJ ADP NOUN NOUN .",
+        "predicted_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "76": {
+        "words": "there is a broad spectrum of organisms from which selection for a specified military purpose might be made .",
+        "actual_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
+        "chatgpt_tags": "PRON VERB DET ADJ NOUN ADP NOUN ADP DET VERB ADP DET ADJ NOUN NOUN VERB VERB VERB .",
+        "predicted_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "77": {
+        "words": "only 27% ( 11 subjects ) gave a positive kohnstamm reaction when completely naive concerning the phenomenon .",
+        "actual_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
+        "chatgpt_tags": "ADV NUM . NUM NOUN . VERB DET ADJ NOUN ADV PRT ADJ ADP DET NOUN .",
+        "predicted_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "78": {
+        "words": "shortening the results in this manner will not have any detrimental effect on the accuracy of the final result .",
+        "actual_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
+        "chatgpt_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB ADV VERB ADP DET NOUN ADP DET NOUN NOUN .",
+        "predicted_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "80": {
+        "words": ".",
+        "actual_tags": ".",
+        "chatgpt_tags": ".",
+        "predicted_tags": ".",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "83": {
+        "words": "morse could have returned openly while bridget was sick in the back yard and gone up to the room he had occupied .",
+        "actual_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
+        "chatgpt_tags": "NOUN VERB VERB ADV PRT NOUN VERB ADJ ADP DET NOUN NOUN CONJ VERB ADV ADP DET NOUN PRON VERB VERB PRT DET NOUN PRON VERB VERB .",
+        "predicted_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    },
+    "86": {
+        "words": "conscience and religion are concerned with private sin : the civil law is concerned with public crimes .",
+        "actual_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
+        "chatgpt_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
+        "predicted_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
+        "actual_chatgpt_length_match": true,
+        "all_tags_universal": true
+    },
+    "87": {
+        "words": "when it stopped he began busily typing , sitting up in a virtuous way .",
+        "actual_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
+        "chatgpt_tags": "ADV PRON VERB ADV PRT VERB . VERB ADV ADP DET ADJ NOUN .",
+        "predicted_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
+        "actual_chatgpt_length_match": false,
+        "all_tags_universal": true
+    }
+}
