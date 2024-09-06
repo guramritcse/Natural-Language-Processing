@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 from metric import load_dataset, save_model, load_model
 from hmm3 import HMM3
-import nltk
-from nltk.tokenize import word_tokenize
 from nltk.tokenize import TreebankWordTokenizer
 
 # Sentence tokenizer
@@ -12,6 +10,7 @@ tokenizer = TreebankWordTokenizer()
 # Title of the app
 st.title("HMM-based POS Tagger")
 
+# Load the model
 model = load_model('results/model.pkl')
 
 # Input field for user to enter a sentence

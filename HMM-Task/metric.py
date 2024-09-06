@@ -6,6 +6,7 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pickle
 
 # Download Brown corpus and universal tagset
 nltk.download('brown')
@@ -27,6 +28,17 @@ def load_dataset():
         sentence_tuples = [(word.lower(), tag) for word, tag in sentence]
         dataset.append(sentence_tuples)
     return dataset
+
+# Save the model
+def save_model(model, filename):
+    with open(filename, 'wb') as f:
+        pickle.dump(model, f)
+
+# Load the model
+def load_model(filename):
+    with open(filename, 'rb') as f:
+        model = pickle.load(f)
+    return model
 
 # Evaluate the model on the test data
 def evaluate(model, test_data):
