@@ -1,0 +1,452 @@
+{
+    "2949": {
+        "words": "but is that not like going to a chemistry laboratory and blindly pouring out liquids and powders from an array of bottles and then , after stirring , expecting a new wonder drug inevitably to result ? ?",
+        "actual_tags": "CONJ VERB DET ADV ADJ VERB ADP DET NOUN NOUN CONJ ADV VERB PRT NOUN CONJ NOUN ADP DET NOUN ADP NOUN CONJ ADV . ADP VERB . VERB DET ADJ ADJ NOUN ADV PRT VERB . .",
+        "CRF_tags": "CONJ VERB ADP ADV ADP VERB ADP DET NOUN NOUN CONJ ADV VERB PRT NOUN CONJ NOUN ADP DET NOUN ADP NOUN CONJ ADV . ADP VERB . VERB DET ADJ NOUN NOUN ADV PRT VERB . .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "CONJ VERB PRON ADV VERB VERB ADP DET NOUN NOUN CONJ ADV VERB ADP NOUN CONJ NOUN ADP DET NOUN ADP NOUN CONJ ADV . ADP VERB . VERB DET ADJ NOUN NOUN ADV ADP NOUN . .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "that",
+                "DET",
+                "ADP",
+                "PRON"
+            ],
+            [
+                "like",
+                "ADJ",
+                "ADP",
+                "VERB"
+            ],
+            [
+                "out",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "wonder",
+                "ADJ",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "result",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "9503": {
+        "words": "it is also sufficient to show the christian and any other champion of justice that he needs to make sure not only that his cause is just but also that his conduct is just , i.e. , that , if economic pressure has to be resorted to , this be applied directly against those persons directly in the way of some salutary change in business or institutional practices , while , if injury fall upon others , it fall upon them indirectly and secondarily ( however inevitably ) and not by deliberate intent and direct action against them .",
+        "actual_tags": "PRON VERB ADV ADJ PRT VERB DET NOUN CONJ DET ADJ NOUN ADP NOUN ADP PRON VERB PRT VERB ADJ ADV ADV ADP DET NOUN VERB ADJ CONJ ADV ADP DET NOUN VERB ADJ . ADV . ADP . ADP ADJ NOUN VERB PRT VERB VERB ADP . DET VERB VERB ADV ADP DET NOUN ADV ADP DET NOUN ADP DET ADJ NOUN ADP NOUN CONJ ADJ NOUN . ADP . ADP NOUN VERB ADP NOUN . PRON VERB ADP PRON ADV CONJ ADV . ADV ADV . CONJ ADV ADP ADJ NOUN CONJ ADJ NOUN ADP PRON .",
+        "CRF_tags": "PRON VERB ADV ADJ PRT VERB DET ADJ CONJ DET ADJ NOUN ADP NOUN ADP PRON VERB PRT VERB ADJ ADV ADV ADP DET NOUN VERB ADV CONJ ADV ADP DET NOUN VERB ADV . ADV . ADP . ADP ADJ NOUN VERB PRT VERB VERB ADP . DET VERB VERB ADV ADP DET NOUN ADV ADP DET NOUN ADP DET ADJ NOUN ADP NOUN CONJ ADJ NOUN . ADP . ADP NOUN VERB ADP NOUN . PRON VERB ADP PRON ADV CONJ ADV . ADV ADV . CONJ ADV ADP ADJ NOUN CONJ ADJ NOUN ADP PRON .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "PRON VERB ADV ADJ PRT VERB DET ADJ CONJ DET ADJ NOUN ADP NOUN ADP PRON VERB PRT VERB ADJ ADV ADV ADP DET NOUN VERB ADV CONJ ADV ADP DET NOUN VERB ADV . ADV . ADP . ADP ADJ NOUN VERB PRT VERB VERB PRT . DET VERB VERB ADV ADP DET NOUN ADV ADP DET NOUN ADP DET ADJ NOUN ADP NOUN CONJ ADJ NOUN . NOUN . ADP NOUN NOUN ADP NOUN . PRON VERB ADP PRON ADV CONJ ADV . ADV ADV . CONJ ADV ADP ADJ NOUN CONJ ADJ NOUN ADP PRON .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "christian",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "just",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "just",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "to",
+                "ADP",
+                "ADP",
+                "PRT"
+            ],
+            [
+                "while",
+                "ADP",
+                "ADP",
+                "NOUN"
+            ],
+            [
+                "fall",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "18113": {
+        "words": "the new english bible ( the old testament and apocrypha will be published at a future date ) has not been planned to rival or replace the king james version , but , as its cover states , it is offered `` simply as the bible to all those who will use it in reading , teaching , or worship '' .",
+        "actual_tags": "DET ADJ NOUN NOUN . DET ADJ NOUN CONJ NOUN VERB VERB VERB ADP DET ADJ NOUN . VERB ADV VERB VERB PRT VERB CONJ VERB DET NOUN NOUN NOUN . CONJ . ADP DET NOUN VERB . PRON VERB VERB . ADV ADP DET NOUN ADP PRT DET PRON VERB VERB PRON ADP VERB . VERB . CONJ NOUN . .",
+        "CRF_tags": "DET ADJ ADJ NOUN . DET ADJ NOUN CONJ NOUN VERB VERB VERB ADP DET ADJ NOUN . VERB ADV VERB VERB PRT VERB CONJ VERB DET NOUN NOUN NOUN . CONJ . ADP DET NOUN NOUN . PRON VERB VERB . ADV ADP DET NOUN ADP PRT DET PRON VERB VERB PRON ADP NOUN . VERB . CONJ NOUN . .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "DET ADJ ADJ NOUN . DET ADJ NOUN CONJ NOUN VERB VERB VERB ADP DET ADJ NOUN . VERB ADV VERB VERB ADP NOUN CONJ VERB DET NOUN NOUN NOUN . CONJ . ADP DET NOUN NOUN . PRON VERB VERB . ADV ADP DET NOUN ADP PRT DET PRON VERB VERB PRON ADP NOUN . NOUN . CONJ NOUN . .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "english",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "rival",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "states",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "reading",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "teaching",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "35212": {
+        "words": "`` it is as though '' , i said on the historic three-hour , coast-to-coast radio broadcast which i bought ( following father coughlin and pre-empting the eddie cantor , manhattan merry-go-round and major bowes shows ) `` that man in the white house , like some despot of yore , insisted on reading my diary , raiding my larder and ransacking my lingerie ! !",
+        "actual_tags": ". PRON VERB ADP ADP . . PRON VERB ADP DET ADJ ADJ . NOUN NOUN NOUN DET PRON VERB . VERB NOUN NOUN CONJ ADJ DET NOUN NOUN . NOUN NOUN CONJ NOUN NOUN NOUN . . DET NOUN ADP DET ADJ NOUN . ADP DET NOUN ADP NOUN . VERB ADP VERB DET NOUN . VERB DET NOUN CONJ VERB DET NOUN . .",
+        "CRF_tags": ". PRON VERB ADP ADV . . PRON VERB ADP DET ADJ ADJ . NOUN NOUN NOUN DET PRON VERB . VERB NOUN NOUN CONJ VERB DET NOUN NOUN . NOUN NOUN CONJ ADJ NOUN NOUN . . DET NOUN ADP DET ADJ NOUN . ADP DET NOUN ADP NOUN . VERB ADP VERB DET NOUN . VERB DET NOUN CONJ VERB DET NOUN . .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": ". PRON VERB ADV ADV . . PRON VERB ADP DET ADJ ADJ . NOUN NOUN VERB DET PRON VERB . VERB NOUN NOUN CONJ ADJ DET NOUN NOUN . NOUN NOUN CONJ ADJ NOUN VERB . . DET NOUN ADP DET ADJ NOUN . ADP DET NOUN ADP NOUN . VERB PRT VERB DET NOUN . VERB DET NOUN CONJ VERB DET NOUN . .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "as",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "though",
+                "ADP",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "broadcast",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "pre-empting",
+                "ADJ",
+                "VERB",
+                "ADJ"
+            ],
+            [
+                "major",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "shows",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "on",
+                "ADP",
+                "ADP",
+                "PRT"
+            ]
+        ]
+    },
+    "36106": {
+        "words": "at two that morning , he was still walking -- up and down peony , up and down the veranda , up and down the silent , moonlit beach .",
+        "actual_tags": "ADP NUM DET NOUN . PRON VERB ADV VERB . ADP CONJ ADP NOUN . ADP CONJ ADP DET NOUN . ADP CONJ ADP DET ADJ . ADJ NOUN .",
+        "CRF_tags": "ADP NUM DET NOUN . PRON VERB ADV VERB . PRT CONJ ADP NOUN . PRT CONJ ADP DET NOUN . PRT CONJ ADP DET ADJ . ADJ NOUN .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "ADP NUM ADP NOUN . PRON VERB ADV VERB . PRT CONJ PRT NOUN . PRT CONJ PRT DET NOUN . PRT CONJ PRT DET ADJ . ADJ NOUN .",
+        "num_HMM_mismatches": 7,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "that",
+                "DET",
+                "DET",
+                "ADP"
+            ],
+            [
+                "up",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "down",
+                "ADP",
+                "ADP",
+                "PRT"
+            ],
+            [
+                "up",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "down",
+                "ADP",
+                "ADP",
+                "PRT"
+            ],
+            [
+                "up",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "down",
+                "ADP",
+                "ADP",
+                "PRT"
+            ]
+        ]
+    },
+    "38679": {
+        "words": "most of this testimony may have been legally admissible as bearing on the corpus delicti of the total nazi crime but seemed subject to question when not tied to the part in it of the defendant's department of jewish affairs .",
+        "actual_tags": "ADJ ADP DET NOUN VERB VERB VERB ADV ADJ ADP VERB ADP DET X X ADP DET NOUN NOUN NOUN CONJ VERB ADJ PRT VERB ADV ADV VERB ADP DET NOUN ADP PRON ADP DET NOUN NOUN ADP ADJ NOUN .",
+        "CRF_tags": "ADV ADP DET NOUN VERB VERB VERB ADV ADJ ADP VERB ADP DET X X ADP DET NOUN NOUN NOUN CONJ VERB ADJ ADP NOUN ADV ADV VERB ADP DET NOUN ADP PRON ADP DET NOUN NOUN ADP ADJ NOUN .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "ADV ADP DET NOUN VERB VERB VERB ADV ADJ ADP NOUN ADP DET X X ADP DET ADJ NOUN NOUN CONJ VERB NOUN ADP NOUN ADV ADV VERB ADP DET NOUN ADP PRON ADP DET NOUN NOUN ADP ADJ NOUN .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "most",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "bearing",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "total",
+                "NOUN",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "subject",
+                "ADJ",
+                "ADJ",
+                "NOUN"
+            ],
+            [
+                "to",
+                "PRT",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "question",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ]
+        ]
+    },
+    "47207": {
+        "words": "arkansas combined 280 yards rushing with 64 yards passing ( on 5 completions in 7 tosses ) and a tough defense to whip tcu , and a & m , with a 38-point bulge against texas tech ran up its biggest total loop play since 1950 .",
+        "actual_tags": "NOUN VERB NUM NOUN VERB ADP NUM NOUN VERB . ADP NUM NOUN ADP NUM NOUN . CONJ DET ADJ NOUN PRT VERB NOUN . CONJ NOUN CONJ NOUN . ADP DET ADJ NOUN ADP NOUN NOUN VERB PRT DET ADJ NOUN NOUN NOUN ADP NUM .",
+        "CRF_tags": "NOUN VERB NUM NOUN VERB ADP NUM NOUN VERB . ADP NUM NOUN ADP NUM NOUN . CONJ DET ADJ NOUN ADP NOUN NOUN . CONJ DET CONJ NOUN . ADP DET ADJ NOUN ADP NOUN NOUN VERB PRT DET ADJ NOUN NOUN NOUN ADP NUM .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "NOUN VERB NUM NOUN VERB ADP NUM NOUN VERB . ADP NUM NOUN ADP NUM NOUN . CONJ DET ADJ NOUN ADP NOUN NOUN . CONJ DET NOUN NOUN . ADP DET ADJ NOUN ADP NOUN NOUN VERB PRT DET ADJ ADJ NOUN VERB ADP NUM .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "to",
+                "PRT",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "whip",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "a",
+                "NOUN",
+                "DET",
+                "DET"
+            ],
+            [
+                "&",
+                "CONJ",
+                "CONJ",
+                "NOUN"
+            ],
+            [
+                "total",
+                "NOUN",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "play",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ]
+        ]
+    },
+    "51693": {
+        "words": "but for the united states and its seato allies to attempt to shore up a less tough , less combat-tested government army in monsoon-shrouded , road-shy , guerrilla-th'-wisp terrain is a risk not savored by pentagon planners .",
+        "actual_tags": "CONJ ADP DET VERB NOUN CONJ DET NOUN NOUN PRT VERB PRT VERB PRT DET ADV ADJ . ADV ADJ NOUN NOUN ADP ADJ . ADJ . ADJ NOUN VERB DET NOUN ADV VERB ADP NOUN NOUN .",
+        "CRF_tags": "CONJ ADP DET VERB NOUN CONJ DET NOUN NOUN PRT VERB PRT VERB PRT DET ADV ADJ . ADV VERB NOUN NOUN ADP ADJ . NOUN . NOUN NOUN VERB DET NOUN ADV VERB ADP NOUN NOUN .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "CONJ ADP DET VERB NOUN CONJ DET NOUN NOUN ADP NOUN ADP NOUN ADP DET ADJ ADJ . ADJ ADJ NOUN NOUN ADP ADJ . ADJ . ADJ NOUN VERB DET NOUN ADV VERB ADP NOUN NOUN .",
+        "num_HMM_mismatches": 7,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "attempt",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "shore",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "up",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "less",
+                "ADV",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "less",
+                "ADV",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "combat-tested",
+                "ADJ",
+                "VERB",
+                "ADJ"
+            ],
+            [
+                "road-shy",
+                "ADJ",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "guerrilla-th'-wisp",
+                "ADJ",
+                "NOUN",
+                "ADJ"
+            ]
+        ]
+    },
+    "52500": {
+        "words": "the girls seemed to spend half their time tiptoeing in `` to see if mike was all right '' and they were too preoccupied to cook , much less be secretaries .",
+        "actual_tags": "DET NOUN VERB PRT VERB PRT DET NOUN VERB PRT . PRT VERB ADP NOUN VERB ADV ADJ . CONJ PRON VERB ADV VERB PRT VERB . ADV ADJ VERB NOUN .",
+        "CRF_tags": "DET NOUN VERB PRT VERB PRT DET NOUN VERB ADP . PRT VERB ADP NOUN VERB ADV ADV . CONJ PRON VERB ADV VERB PRT VERB . ADV ADV VERB NOUN .",
+        "num_CRF_mismatches": 3,
+        "HMM_tags": "DET NOUN VERB PRT VERB PRT DET NOUN VERB ADP . PRT VERB ADP NOUN VERB PRT ADV . CONJ PRON VERB ADV VERB ADP NOUN . ADV ADV VERB NOUN .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "in",
+                "PRT",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "all",
+                "ADV",
+                "ADV",
+                "PRT"
+            ],
+            [
+                "right",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "cook",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "less",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ]
+        ]
+    }
+}

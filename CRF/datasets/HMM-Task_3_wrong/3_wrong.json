@@ -1,0 +1,34 @@
+{
+    "1809": {
+        "words": "then via called to say they had decided to cremate her -- as they had ellen , the thought leaped to my mind -- and did i want to meet her at the funeral home the next morning .",
+        "actual_tags": "ADJ NOUN VERB PRT VERB PRON VERB VERB PRT VERB PRON . ADP PRON VERB NOUN . DET NOUN VERB ADP DET NOUN . CONJ VERB PRON VERB PRT VERB PRON ADP DET ADJ NOUN DET ADJ NOUN .",
+        "CRF_tags": "ADV ADP VERB PRT VERB PRON VERB VERB PRT VERB PRON . ADP PRON VERB NOUN . DET NOUN VERB ADP DET NOUN . CONJ VERB PRON VERB PRT VERB PRON ADP DET NOUN NOUN DET ADJ NOUN .",
+        "HMM_tags": "ADV NOUN VERB PRT VERB PRON VERB VERB PRT VERB PRON . ADP PRON VERB NOUN . DET VERB VERB ADP DET NOUN . CONJ VERB PRON VERB PRT VERB PRON ADP DET NOUN NOUN DET ADJ NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "then",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "via",
+                "NOUN",
+                "ADP",
+                "NOUN"
+            ],
+            [
+                "thought",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "funeral",
+                "ADJ",
+                "NOUN",
+                "NOUN"
+            ]
+        ]
+    }
+}

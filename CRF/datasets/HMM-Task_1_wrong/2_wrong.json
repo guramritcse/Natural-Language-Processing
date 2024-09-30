@@ -1,0 +1,74 @@
+{
+    "236": {
+        "words": "it seems to me the time has come for the american press to start experimenting with ways of reporting the news that will do a better job of communicating and will be less subject to abuse by those who have learned how to manipulate the present stereotype to serve their own ends .",
+        "actual_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP VERB CONJ VERB VERB ADJ NOUN ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "CRF_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP VERB CONJ VERB VERB ADV ADJ ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "HMM_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP NOUN CONJ VERB VERB ADJ NOUN ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "communicating",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "less",
+                "ADJ",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "subject",
+                "NOUN",
+                "ADJ",
+                "NOUN"
+            ]
+        ]
+    },
+    "240": {
+        "words": "the raising of the $25,000 improvement fund two days before the time limit expired , and the spontaneous `` praise demonstration '' held afterward on the campus , were reported as events which had brought happiness to miss giles .",
+        "actual_tags": "DET NOUN ADP DET NOUN NOUN NOUN NUM NOUN ADP DET NOUN NOUN VERB . CONJ DET ADJ . NOUN NOUN . VERB ADV ADP DET NOUN . VERB VERB ADP NOUN DET VERB VERB NOUN ADP NOUN NOUN .",
+        "CRF_tags": "DET NOUN ADP DET NOUN NOUN NOUN NUM NOUN ADP DET NOUN NOUN VERB . CONJ DET ADJ . NOUN NOUN . VERB ADV ADP DET NOUN . VERB VERB ADP NOUN DET VERB VERB NOUN PRT VERB NOUN .",
+        "HMM_tags": "DET NOUN ADP DET NOUN NOUN NOUN NUM NOUN ADP DET NOUN VERB VERB . CONJ DET ADJ . NOUN NOUN . VERB ADV ADP DET NOUN . VERB VERB ADP NOUN DET VERB VERB NOUN ADP NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "limit",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "to",
+                "ADP",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "miss",
+                "NOUN",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "318": {
+        "words": "since then he had worked at this and that , though some said his main interest was gambling .",
+        "actual_tags": "ADP ADV PRON VERB VERB ADP DET CONJ DET . ADP DET VERB DET NOUN NOUN VERB VERB .",
+        "CRF_tags": "ADP ADV PRON VERB VERB ADP DET CONJ ADP . ADP DET VERB DET ADJ NOUN VERB VERB .",
+        "HMM_tags": "ADP ADV PRON VERB VERB ADP DET CONJ DET . ADP DET VERB DET ADJ NOUN VERB VERB .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "that",
+                "DET",
+                "ADP",
+                "DET"
+            ],
+            [
+                "main",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ]
+        ]
+    }
+}

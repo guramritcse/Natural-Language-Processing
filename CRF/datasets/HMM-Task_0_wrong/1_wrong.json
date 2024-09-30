@@ -1,0 +1,72 @@
+{
+    "14": {
+        "words": "mahzeer's office '' .",
+        "actual_tags": "NOUN NOUN . .",
+        "CRF_tags": "PRT NOUN . .",
+        "HMM_tags": "NOUN NOUN . .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "mahzeer's",
+                "NOUN",
+                "PRT",
+                "NOUN"
+            ]
+        ]
+    },
+    "53": {
+        "words": "there , ernest gross further assured him :",
+        "actual_tags": "ADV . NOUN NOUN ADV VERB PRON .",
+        "CRF_tags": "PRT . NOUN NOUN ADV VERB PRON .",
+        "HMM_tags": "ADV . NOUN NOUN ADV VERB PRON .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "there",
+                "ADV",
+                "PRT",
+                "ADV"
+            ]
+        ]
+    },
+    "115": {
+        "words": "colorful , bright eastman chromspun fabrics , with the magenta , pink and white tones predominating as well as golden shades are used with composite .",
+        "actual_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "CRF_tags": "ADJ . ADJ NOUN VERB NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "HMM_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "chromspun",
+                "NOUN",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "121": {
+        "words": "product research and development",
+        "actual_tags": "NOUN NOUN CONJ NOUN",
+        "CRF_tags": "VERB NOUN CONJ NOUN",
+        "HMM_tags": "NOUN NOUN CONJ NOUN",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "product",
+                "NOUN",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "131": {
+        "words": "the police were disqualified along with certain categories of naturalized citizens , criminals and those punished for protectorate activities .",
+        "actual_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
+        "CRF_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP ADJ NOUN .",
+        "HMM_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "protectorate",
+                "NOUN",
+                "ADJ",
+                "NOUN"
+            ]
+        ]
+    }
+}

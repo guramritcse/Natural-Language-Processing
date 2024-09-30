@@ -1,0 +1,192 @@
+{
+    "38": {
+        "words": "never a `` quick study '' , he now made no attempt to learn his `` lines '' and many a mile of film was wasted , many a scene -- sometimes involving as many as a thousand fellow thespians -- was taken thirty , forty , fifty times because miss poitrine's co-star and `` helpmate '' had never learned his part .",
+        "actual_tags": "ADV DET . ADJ NOUN . . PRON ADV VERB DET NOUN PRT VERB DET . NOUN . CONJ PRT DET NOUN ADP NOUN VERB VERB . PRT DET NOUN . ADV ADP ADV ADJ ADP DET NUM NOUN NOUN . VERB VERB NUM . NUM . NUM NOUN ADP NOUN NOUN NOUN CONJ . NOUN . VERB ADV VERB DET NOUN .",
+        "CRF_tags": "ADV DET . ADJ NOUN . . PRON ADV VERB DET NOUN PRT VERB DET . NOUN . CONJ ADJ DET NOUN ADP NOUN VERB VERB . PRT DET NOUN . ADV VERB ADV ADJ ADP DET NUM NOUN NOUN . VERB VERB NUM . NUM . NUM NOUN ADP NOUN NOUN NOUN CONJ . NOUN . VERB ADV VERB DET NOUN .",
+        "HMM_tags": "ADV DET . ADJ NOUN . . PRON ADV VERB DET NOUN PRT VERB DET . NOUN . CONJ PRT DET NOUN ADP NOUN VERB VERB . PRT DET NOUN . ADV VERB ADP ADJ ADP DET NUM NOUN NOUN . VERB VERB NUM . NUM . NUM NOUN ADP NOUN NOUN NOUN CONJ . NOUN . VERB ADV VERB DET NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "many",
+                "PRT",
+                "ADJ",
+                "PRT"
+            ],
+            [
+                "involving",
+                "ADP",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "as",
+                "ADV",
+                "ADV",
+                "ADP"
+            ]
+        ]
+    },
+    "412": {
+        "words": "`` does any sane democrat believe that mr. hearst , a person unknown even to his constituency and his colleagues , without a word or act in the public life of his country , past or present , that can be shown to be his to commend him , could by any possibility be elected president of the united states ? ?",
+        "actual_tags": ". VERB DET ADJ NOUN VERB ADP NOUN NOUN . DET NOUN ADJ ADV ADP DET NOUN CONJ DET NOUN . ADP DET NOUN CONJ NOUN ADP DET ADJ NOUN ADP DET NOUN . ADJ CONJ ADJ . DET VERB VERB VERB PRT VERB DET PRT VERB PRON . VERB ADP DET NOUN VERB VERB NOUN ADP DET VERB NOUN . .",
+        "CRF_tags": ". VERB DET ADJ NOUN VERB ADP NOUN NOUN . DET NOUN ADJ ADV ADP DET NOUN CONJ DET NOUN . ADP DET NOUN CONJ NOUN ADP DET ADJ NOUN ADP DET NOUN . ADP CONJ ADV . DET VERB VERB VERB PRT VERB DET PRT VERB PRON . VERB ADP DET NOUN VERB VERB NOUN ADP DET VERB NOUN . .",
+        "HMM_tags": ". VERB DET ADJ NOUN VERB ADP NOUN NOUN . DET NOUN ADJ ADV ADP DET NOUN CONJ DET NOUN . ADP DET NOUN CONJ NOUN ADP DET ADJ NOUN ADP DET NOUN . NOUN CONJ ADJ . PRON VERB VERB VERB PRT VERB DET PRT VERB PRON . VERB ADP DET NOUN VERB VERB NOUN ADP DET VERB NOUN . .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "past",
+                "ADJ",
+                "ADP",
+                "NOUN"
+            ],
+            [
+                "present",
+                "ADJ",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "that",
+                "DET",
+                "DET",
+                "PRON"
+            ]
+        ]
+    },
+    "707": {
+        "words": "if anyone thought of the john harvey , it was to observe that she was straddled by a pair of ships heavily laden with high explosive and if they were hit the john harvey would likely be blown up with her own ammo and whatever else it was that she carried .",
+        "actual_tags": "ADP NOUN VERB ADP DET NOUN NOUN . PRON VERB PRT VERB ADP PRON VERB VERB ADP DET NOUN ADP NOUN ADV ADJ ADP ADJ NOUN CONJ ADP PRON VERB VERB DET NOUN NOUN VERB ADV VERB VERB PRT ADP DET ADJ NOUN CONJ DET ADV PRON VERB PRON PRON VERB .",
+        "CRF_tags": "ADP NOUN VERB ADP DET NOUN NOUN . PRON VERB PRT VERB ADP PRON VERB VERB ADP DET NOUN ADP NOUN ADV ADJ ADP ADJ ADJ CONJ ADP PRON VERB VERB DET NOUN NOUN VERB ADV VERB VERB PRT ADP DET ADJ NOUN CONJ DET ADV PRON VERB ADP PRON VERB .",
+        "HMM_tags": "ADP NOUN VERB ADP DET NOUN NOUN . PRON VERB PRT VERB ADP PRON VERB VERB ADP DET NOUN ADP NOUN ADV ADJ ADP ADJ ADJ CONJ ADP PRON VERB VERB DET NOUN NOUN VERB ADV VERB VERB PRT ADP DET ADJ NOUN CONJ DET ADV PRON VERB ADP PRON VERB .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "explosive",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "that",
+                "PRON",
+                "ADP",
+                "ADP"
+            ]
+        ]
+    },
+    "926": {
+        "words": "secretary hart had taught jack , at least partially , to be content with small beginnings in all diplomatic matters ; ;",
+        "actual_tags": "NOUN NOUN VERB VERB NOUN . ADP ADV ADV . PRT VERB ADJ ADP ADJ NOUN ADP PRT ADJ NOUN . .",
+        "CRF_tags": "ADJ NOUN VERB VERB NOUN . ADP ADJ ADV . PRT VERB ADJ ADP ADJ NOUN ADP PRT ADJ NOUN . .",
+        "HMM_tags": "NOUN NOUN VERB VERB NOUN . ADP ADJ ADV . PRT VERB NOUN ADP ADJ NOUN ADP PRT ADJ NOUN . .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "secretary",
+                "NOUN",
+                "ADJ",
+                "NOUN"
+            ],
+            [
+                "least",
+                "ADV",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "content",
+                "ADJ",
+                "ADJ",
+                "NOUN"
+            ]
+        ]
+    },
+    "963": {
+        "words": "on the whole they maintain much the same high standard , but they are much more difficult to discuss in detail because of their wider variety of subject matter .",
+        "actual_tags": "ADP DET ADJ PRON VERB ADV DET ADJ ADJ NOUN . CONJ PRON VERB ADV ADV ADJ PRT VERB ADP NOUN ADV ADP DET ADJ NOUN ADP NOUN NOUN .",
+        "CRF_tags": "ADP DET NOUN PRON VERB ADV DET ADJ ADJ NOUN . CONJ PRON VERB ADV ADV ADJ PRT VERB ADP NOUN ADP ADP DET ADJ NOUN ADP NOUN NOUN .",
+        "HMM_tags": "ADP DET NOUN PRON VERB ADV DET ADJ ADJ NOUN . CONJ PRON VERB ADV ADV ADJ PRT VERB ADP NOUN ADV ADP DET ADJ NOUN ADP ADJ NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "whole",
+                "ADJ",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "because",
+                "ADV",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "subject",
+                "NOUN",
+                "NOUN",
+                "ADJ"
+            ]
+        ]
+    },
+    "982": {
+        "words": "in fact , hudson's sail up the great north river had disposed of one of the last hopes .",
+        "actual_tags": "ADP NOUN . NOUN NOUN ADP DET ADJ ADJ NOUN VERB VERB ADP NUM ADP DET ADJ NOUN .",
+        "CRF_tags": "ADP NOUN . PRT VERB ADP DET ADJ ADJ NOUN VERB VERB ADP NUM ADP DET ADJ NOUN .",
+        "HMM_tags": "ADP NOUN . NOUN VERB PRT DET ADJ ADJ NOUN VERB VERB ADP NUM ADP DET ADJ NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "hudson's",
+                "NOUN",
+                "PRT",
+                "NOUN"
+            ],
+            [
+                "sail",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "up",
+                "ADP",
+                "ADP",
+                "PRT"
+            ]
+        ]
+    },
+    "1098": {
+        "words": "before long the atmosphere reverted to its old normalcy , and insects hummed and birds occasionally called .",
+        "actual_tags": "ADP ADJ DET NOUN VERB ADP DET ADJ NOUN . CONJ NOUN VERB CONJ NOUN ADV VERB .",
+        "CRF_tags": "ADV ADV DET NOUN VERB ADP DET ADJ NOUN . CONJ NOUN VERB CONJ NOUN ADV VERB .",
+        "HMM_tags": "ADV ADV DET NOUN VERB ADP DET ADJ NOUN . CONJ NOUN VERB CONJ NOUN ADV VERB .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "before",
+                "ADP",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "long",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ]
+        ]
+    },
+    "1103": {
+        "words": "the effect of radiation is cumulative over the years -- and on to succeeding generations .",
+        "actual_tags": "DET NOUN ADP NOUN VERB ADJ ADP DET NOUN . CONJ PRT ADP VERB NOUN .",
+        "CRF_tags": "DET NOUN ADP NOUN VERB ADJ ADP DET NOUN . CONJ ADP PRT VERB NOUN .",
+        "HMM_tags": "DET NOUN ADP NOUN VERB ADJ ADP DET NOUN . CONJ ADP PRT VERB NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "on",
+                "PRT",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "to",
+                "ADP",
+                "PRT",
+                "PRT"
+            ]
+        ]
+    }
+}

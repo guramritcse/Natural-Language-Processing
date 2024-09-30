@@ -1,0 +1,40 @@
+{
+    "2651": {
+        "words": "from international airport in los angeles to international airport in houston , as the great four-jet boeing 707 flies , is a routine five hours and 25 minutes , including stopovers at phoenix , el paso , and san antonio .",
+        "actual_tags": "ADP ADJ NOUN ADP NOUN NOUN ADP ADJ NOUN ADP NOUN . ADP DET ADJ ADJ NOUN NUM VERB . VERB DET ADJ NUM NOUN CONJ NUM NOUN . ADP NOUN ADP NOUN . NOUN NOUN . CONJ NOUN NOUN .",
+        "CRF_tags": "ADP ADJ NOUN ADP NOUN NOUN ADP ADJ NOUN ADP NOUN . ADP DET ADJ NOUN VERB NUM VERB . VERB DET ADJ NUM NOUN CONJ NUM NOUN . ADP NOUN ADP NOUN . X X . CONJ NOUN NOUN .",
+        "HMM_tags": "ADP ADJ NOUN ADP NOUN NOUN ADP ADJ NOUN ADP NOUN . ADP DET ADJ ADJ NOUN NUM NOUN . VERB DET ADJ NUM NOUN CONJ NUM NOUN . ADP NOUN ADP NOUN . X X . CONJ NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "four-jet",
+                "ADJ",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "boeing",
+                "NOUN",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "flies",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "el",
+                "NOUN",
+                "X",
+                "X"
+            ],
+            [
+                "paso",
+                "NOUN",
+                "X",
+                "X"
+            ]
+        ]
+    }
+}

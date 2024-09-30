@@ -1,0 +1,22 @@
+{
+    "158": {
+        "words": "at juice bars in los angeles' 35 `` health '' stores , a new sensation is a pink , high-protein cocktail , concocted of dried eggs , powdered milk and cherry-flavored no-cal , which sells for 59-cents per 8-oz. glass .",
+        "actual_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "CRF_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ VERB ADJ . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "HMM_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "cherry-flavored",
+                "ADJ",
+                "VERB",
+                "ADJ"
+            ],
+            [
+                "no-cal",
+                "NOUN",
+                "ADJ",
+                "NOUN"
+            ]
+        ]
+    }
+}

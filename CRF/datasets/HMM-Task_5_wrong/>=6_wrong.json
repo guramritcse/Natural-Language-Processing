@@ -1,0 +1,64 @@
+{
+    "50842": {
+        "words": "brevet major general george armstrong custer was the regiment's first permanent commander and , like such generals as george s. patton and terry de la mesa allen in their rise to military prominence , custer was a believer in blood and guts warfare .",
+        "actual_tags": "ADJ NOUN NOUN NOUN NOUN NOUN VERB DET NOUN ADJ ADJ NOUN CONJ . ADP ADJ NOUN ADP NOUN NOUN NOUN CONJ NOUN NOUN NOUN NOUN NOUN ADP DET NOUN ADP ADJ NOUN . NOUN VERB DET NOUN ADP NOUN CONJ NOUN NOUN .",
+        "CRF_tags": "NOUN ADJ NOUN NOUN NOUN NOUN VERB DET NOUN ADV ADJ NOUN CONJ . ADP ADJ NOUN ADP NOUN NOUN NOUN CONJ X X X X X ADP DET NOUN ADP ADJ NOUN . NOUN VERB DET NOUN ADP NOUN CONJ NOUN NOUN .",
+        "HMM_tags": "ADJ ADJ ADJ NOUN NOUN NOUN VERB DET NOUN ADV ADJ NOUN CONJ . ADP ADJ NOUN ADP NOUN NOUN NOUN CONJ NOUN X X NOUN NOUN ADP DET NOUN ADP ADJ NOUN . NOUN VERB DET NOUN ADP NOUN CONJ NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "brevet",
+                "ADJ",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "major",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "general",
+                "NOUN",
+                "NOUN",
+                "ADJ"
+            ],
+            [
+                "first",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "terry",
+                "NOUN",
+                "X",
+                "NOUN"
+            ],
+            [
+                "de",
+                "NOUN",
+                "X",
+                "X"
+            ],
+            [
+                "la",
+                "NOUN",
+                "X",
+                "X"
+            ],
+            [
+                "mesa",
+                "NOUN",
+                "X",
+                "NOUN"
+            ],
+            [
+                "allen",
+                "NOUN",
+                "X",
+                "NOUN"
+            ]
+        ]
+    }
+}

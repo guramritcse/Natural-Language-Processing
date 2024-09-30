@@ -1,0 +1,204 @@
+{
+    "29291": {
+        "words": "the video signal is amplified and then switched , in synchronism with the three ultraviolet light sources which are sequenced by the rotating mirror so that during one-twentieth of a second only one wavelength , corresponding to red , green , or blue , is seen .",
+        "actual_tags": "DET NOUN NOUN VERB VERB CONJ ADV VERB . ADP NOUN ADP DET NUM ADJ NOUN NOUN DET VERB VERB ADP DET VERB NOUN ADP ADP ADP NOUN ADP DET NOUN ADV NUM NOUN . VERB ADP NOUN . NOUN . CONJ NOUN . VERB VERB .",
+        "CRF_tags": "DET NOUN NOUN VERB VERB CONJ ADV VERB . ADP NOUN ADP DET NUM ADJ NOUN NOUN DET VERB VERB ADP DET VERB NOUN ADP ADP ADP NOUN ADP DET ADJ ADV NUM NOUN . VERB ADP ADJ . ADJ . CONJ ADJ . VERB VERB .",
+        "num_CRF_mismatches": 4,
+        "HMM_tags": "DET NOUN NOUN VERB VERB CONJ ADV VERB . ADP NOUN ADP DET NUM ADJ NOUN NOUN DET VERB VERB ADP DET VERB NOUN ADV ADP ADP NOUN ADP DET ADJ ADJ NOUN NOUN . ADJ ADP ADJ . ADJ . CONJ ADJ . VERB VERB .",
+        "num_HMM_mismatches": 8,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "so",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "second",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "only",
+                "ADV",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "one",
+                "NUM",
+                "NUM",
+                "NOUN"
+            ],
+            [
+                "corresponding",
+                "VERB",
+                "VERB",
+                "ADJ"
+            ],
+            [
+                "red",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "green",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "blue",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ]
+        ]
+    },
+    "48700": {
+        "words": "`` the dictionary of occupational titles '' published by the u. s. department of labor describes him as follows : `` designs , plans and furnishes interiors of houses , commercial and institutional structures , hotels , clubs , ships , theaters , as well as set decorations for motion picture arts and television .",
+        "actual_tags": ". DET NOUN ADP ADJ NOUN . VERB ADP DET NOUN NOUN NOUN ADP NOUN VERB PRON ADP VERB . . VERB . VERB CONJ VERB NOUN ADP NOUN . ADJ CONJ ADJ NOUN . NOUN . NOUN . NOUN . NOUN . ADV ADV ADP NOUN NOUN ADP NOUN NOUN NOUN CONJ NOUN .",
+        "CRF_tags": ". DET NOUN ADP ADJ NOUN . VERB ADP DET NOUN NOUN NOUN ADP NOUN VERB PRON ADP VERB . . NOUN . NOUN CONJ VERB NOUN ADP NOUN . ADJ CONJ ADJ NOUN . NOUN . NOUN . NOUN . NOUN . ADV ADV ADV VERB NOUN ADP NOUN NOUN NOUN CONJ NOUN .",
+        "num_CRF_mismatches": 4,
+        "HMM_tags": ". DET NOUN ADP ADJ NOUN . VERB ADP DET NOUN NOUN NOUN ADP NOUN VERB PRON ADV VERB . . NOUN . NOUN CONJ VERB NOUN ADP NOUN . ADJ CONJ ADJ NOUN . NOUN . NOUN . NOUN . NOUN . ADP ADV ADV VERB NOUN ADP NOUN NOUN NOUN CONJ NOUN .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "as",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "designs",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "plans",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "as",
+                "ADV",
+                "ADV",
+                "ADP"
+            ],
+            [
+                "as",
+                "ADP",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "set",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ]
+        ]
+    },
+    "51282": {
+        "words": "soon we were deep in a conversation that was interrupted many times by little things like jennie's holding her breath and pretending to black out , miranda's dumping the contents of the sugar bowl on the table , and various screeches , thuds , and giggles .",
+        "actual_tags": "ADV PRON VERB ADV ADP DET NOUN PRON VERB VERB ADJ NOUN ADP ADJ NOUN VERB NOUN NOUN DET NOUN CONJ VERB PRT VERB PRT . NOUN NOUN DET NOUN ADP DET NOUN NOUN ADP DET NOUN . CONJ ADJ NOUN . NOUN . CONJ NOUN .",
+        "CRF_tags": "ADV PRON VERB ADJ ADP DET NOUN PRON VERB VERB ADJ NOUN ADP ADJ NOUN VERB PRT VERB DET NOUN CONJ VERB PRT VERB PRT . NOUN VERB DET NOUN ADP DET NOUN NOUN ADP DET NOUN . CONJ ADJ NOUN . NOUN . CONJ NOUN .",
+        "num_CRF_mismatches": 4,
+        "HMM_tags": "ADV PRON VERB ADJ ADP DET NOUN PRON VERB VERB ADJ NOUN ADP ADJ NOUN ADP NOUN VERB DET NOUN CONJ VERB ADP NOUN PRT . NOUN VERB DET NOUN ADP DET NOUN NOUN ADP DET NOUN . CONJ ADJ NOUN . NOUN . CONJ NOUN .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "deep",
+                "ADV",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "like",
+                "VERB",
+                "VERB",
+                "ADP"
+            ],
+            [
+                "jennie's",
+                "NOUN",
+                "PRT",
+                "NOUN"
+            ],
+            [
+                "holding",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "to",
+                "PRT",
+                "PRT",
+                "ADP"
+            ],
+            [
+                "black",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "dumping",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ]
+        ]
+    },
+    "53904": {
+        "words": "thus to has light stress both in that was the conclusion that i came to and in that was the conclusion i came to .",
+        "actual_tags": "ADV ADP VERB ADJ NOUN DET ADP DET VERB DET NOUN PRON PRON VERB ADP CONJ ADP DET VERB DET NOUN PRON VERB ADP .",
+        "CRF_tags": "ADV PRT VERB ADJ NOUN DET ADP DET VERB DET NOUN ADP PRON VERB PRT CONJ ADP DET VERB DET NOUN PRON VERB PRT .",
+        "num_CRF_mismatches": 4,
+        "HMM_tags": "ADV PRT VERB ADJ NOUN DET ADP PRON VERB DET NOUN ADP PRON VERB PRT CONJ ADP PRON VERB DET NOUN PRON VERB PRT .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "to",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "that",
+                "DET",
+                "DET",
+                "PRON"
+            ],
+            [
+                "that",
+                "PRON",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "to",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "that",
+                "DET",
+                "DET",
+                "PRON"
+            ],
+            [
+                "to",
+                "ADP",
+                "PRT",
+                "PRT"
+            ]
+        ]
+    }
+}

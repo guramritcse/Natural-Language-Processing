@@ -1,0 +1,240 @@
+{
+    "1421": {
+        "words": "to be katharine ross , and work in a nicer shop somewhere , at a little more money so she could have prettier clothes , and learn ladies' manners and all like that , and get to know different people than up to now , not just the ones like her here , with foreign-sounding names , the ones went to the same church and -- different place , different job , different people , she'd be all different too .",
+        "actual_tags": "PRT VERB NOUN NOUN . CONJ VERB ADP DET ADJ NOUN ADV . ADP DET ADV ADJ NOUN ADP PRON VERB VERB ADJ NOUN . CONJ VERB NOUN NOUN CONJ PRT ADP DET . CONJ VERB PRT VERB ADJ NOUN ADP ADP ADP ADV . ADV ADV DET NOUN ADP PRON ADV . ADP ADJ NOUN . DET NOUN VERB ADP DET ADJ NOUN CONJ . ADJ NOUN . ADJ NOUN . ADJ NOUN . PRT VERB ADV ADJ ADV .",
+        "CRF_tags": "PRT VERB NOUN NOUN . CONJ NOUN ADP DET ADJ NOUN ADV . ADP DET ADV ADJ NOUN ADP PRON VERB VERB ADJ NOUN . CONJ VERB NOUN NOUN CONJ PRT ADP DET . CONJ VERB PRT VERB ADJ NOUN ADP PRT ADP ADV . ADV ADV DET NOUN ADP PRON ADV . ADP ADJ NOUN . DET NOUN VERB ADP DET ADJ NOUN CONJ . ADJ NOUN . ADJ NOUN . ADJ NOUN . PRT VERB ADV ADJ ADV .",
+        "num_CRF_mismatches": 2,
+        "HMM_tags": "PRT VERB NOUN NOUN . CONJ NOUN ADP DET ADJ NOUN ADV . ADP DET ADJ ADJ NOUN ADV PRON VERB VERB ADJ NOUN . CONJ VERB NOUN NOUN CONJ PRT VERB PRON . CONJ VERB PRT VERB ADJ NOUN ADP PRT PRT ADV . ADV ADV DET NOUN ADP DET ADV . ADP ADJ NOUN . DET NOUN VERB ADP DET ADJ NOUN CONJ . ADJ NOUN . ADJ NOUN . ADJ NOUN . PRT VERB PRT ADJ ADV .",
+        "num_HMM_mismatches": 9,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "work",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "little",
+                "ADV",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "so",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "like",
+                "ADP",
+                "ADP",
+                "VERB"
+            ],
+            [
+                "that",
+                "DET",
+                "DET",
+                "PRON"
+            ],
+            [
+                "up",
+                "ADP",
+                "PRT",
+                "PRT"
+            ],
+            [
+                "to",
+                "ADP",
+                "ADP",
+                "PRT"
+            ],
+            [
+                "her",
+                "PRON",
+                "PRON",
+                "DET"
+            ],
+            [
+                "all",
+                "ADV",
+                "ADV",
+                "PRT"
+            ]
+        ]
+    },
+    "4667": {
+        "words": "an ah coudn ansuh him an so ah said ' aw right , ah gay-ess , an his fathuh didn uttuh one wohd an aftuh huhmun was gone , the majuh laughed an tole me thet he an the bawh had been hevin an occasional drink t'gethuh f'ovuh a yeah , onleh an occasional one , but just the same it was behahn mah back , an ah doan think thet's nahce at all , d'you '' ? ?",
+        "actual_tags": "CONJ PRON VERB VERB PRON CONJ ADV PRON VERB . ADV ADV . PRON VERB . CONJ DET NOUN VERB VERB NUM NOUN CONJ ADP NOUN VERB VERB . DET NOUN VERB CONJ VERB PRON ADP PRON CONJ DET NOUN VERB VERB VERB DET ADJ NOUN ADV ADP DET NOUN . ADV DET ADJ NUM . CONJ ADV DET ADJ PRON VERB ADP DET NOUN . CONJ PRON VERB VERB PRT ADJ ADP PRT . X . . .",
+        "CRF_tags": "DET PRON VERB VERB PRON CONJ ADV PRON VERB . ADV ADV . PRON VERB . CONJ DET NOUN VERB VERB NUM NOUN CONJ ADP NOUN VERB VERB . DET NOUN VERB CONJ VERB PRON ADP PRON CONJ DET NOUN VERB VERB VERB DET ADJ NOUN ADV ADP DET ADV . ADV DET ADJ NUM . CONJ ADV DET ADJ PRON VERB ADP DET NOUN . CONJ PRON VERB VERB PRT ADJ ADP PRT . X . . .",
+        "num_CRF_mismatches": 2,
+        "HMM_tags": "DET PRON VERB VERB PRON DET ADV PRT VERB . ADV ADV . PRON VERB . DET DET NOUN VERB VERB NUM NOUN DET ADP NOUN VERB VERB . DET NOUN VERB DET NOUN PRON ADP PRON DET DET NOUN VERB VERB VERB DET ADJ NOUN ADV ADP DET NOUN . ADV DET ADJ NOUN . CONJ ADV DET ADJ PRON VERB ADP DET NOUN . DET PRON VERB VERB PRT ADJ ADP PRT . X . . .",
+        "num_HMM_mismatches": 10,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "an",
+                "CONJ",
+                "DET",
+                "DET"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ],
+            [
+                "ah",
+                "PRON",
+                "PRON",
+                "PRT"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ],
+            [
+                "tole",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ],
+            [
+                "yeah",
+                "NOUN",
+                "ADV",
+                "NOUN"
+            ],
+            [
+                "one",
+                "NUM",
+                "NUM",
+                "NOUN"
+            ],
+            [
+                "an",
+                "CONJ",
+                "CONJ",
+                "DET"
+            ]
+        ]
+    },
+    "34114": {
+        "words": "he saw her emerge suddenly , coming in her unhesitant fashion , her back stiff , her head erect , facing with contempt the night and whatever she would encounter , as if in her extreme disdain and indifference she would pass by all the outraged looks of those whom she might approach .",
+        "actual_tags": "PRON VERB PRON VERB ADV . VERB ADP DET ADJ NOUN . DET NOUN ADJ . DET NOUN ADJ . VERB ADP NOUN DET NOUN CONJ DET PRON VERB VERB . ADP ADP ADP DET ADJ NOUN CONJ NOUN PRON VERB VERB ADV PRT DET VERB NOUN ADP DET PRON PRON VERB VERB .",
+        "CRF_tags": "PRON VERB PRON VERB ADV . VERB ADP DET ADJ NOUN . DET ADV ADJ . DET NOUN ADJ . VERB ADP NOUN DET NOUN CONJ DET PRON VERB VERB . ADP ADP ADP DET ADJ NOUN CONJ NOUN PRON VERB VERB ADP PRT DET VERB NOUN ADP DET PRON PRON VERB VERB .",
+        "num_CRF_mismatches": 2,
+        "HMM_tags": "PRON VERB PRON VERB ADV . VERB ADP DET ADJ NOUN . PRON ADV ADJ . DET NOUN VERB . VERB ADP NOUN DET NOUN CONJ DET PRON VERB VERB . ADP ADP ADP DET ADJ NOUN CONJ NOUN PRON VERB VERB ADP PRT DET VERB VERB ADP DET PRON PRON VERB NOUN .",
+        "num_HMM_mismatches": 6,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "her",
+                "DET",
+                "DET",
+                "PRON"
+            ],
+            [
+                "back",
+                "NOUN",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "erect",
+                "ADJ",
+                "ADJ",
+                "VERB"
+            ],
+            [
+                "by",
+                "ADV",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "looks",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "approach",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "44078": {
+        "words": "as the world's top sportsman -- pro or amateur -- sports illustrated tapped golf's confident arnold palmer ( time cover , may 2 ) , who staged two cliffhanging rallies to win both the masters and u.s. open crowns , went on to win a record $80,738 for the year .",
+        "actual_tags": "ADP DET NOUN ADJ NOUN . ADJ CONJ ADJ . NOUN VERB VERB NOUN ADJ NOUN NOUN . NOUN NOUN . NOUN NUM . . PRON VERB NUM VERB NOUN PRT VERB DET DET NOUN CONJ NOUN NOUN NOUN . VERB PRT PRT VERB DET NOUN NOUN ADP DET NOUN .",
+        "CRF_tags": "ADP DET NOUN ADJ NOUN . ADJ CONJ ADJ . NOUN VERB VERB NOUN ADJ NOUN NOUN . NOUN NOUN . VERB NUM . . PRON VERB NUM VERB NOUN PRT VERB DET DET NOUN CONJ NOUN ADJ NOUN . VERB PRT PRT VERB DET NOUN NOUN ADP DET NOUN .",
+        "num_CRF_mismatches": 2,
+        "HMM_tags": "ADP DET NOUN NOUN NOUN . NOUN CONJ NOUN . NOUN VERB VERB NOUN ADJ NOUN NOUN . NOUN NOUN . VERB NUM . . PRON VERB NUM VERB VERB PRT VERB DET DET NOUN CONJ NOUN ADJ NOUN . VERB ADP PRT VERB DET NOUN NOUN ADP DET NOUN .",
+        "num_HMM_mismatches": 7,
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "top",
+                "ADJ",
+                "ADJ",
+                "NOUN"
+            ],
+            [
+                "pro",
+                "ADJ",
+                "ADJ",
+                "NOUN"
+            ],
+            [
+                "amateur",
+                "ADJ",
+                "ADJ",
+                "NOUN"
+            ],
+            [
+                "may",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "rallies",
+                "NOUN",
+                "NOUN",
+                "VERB"
+            ],
+            [
+                "open",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "on",
+                "PRT",
+                "PRT",
+                "ADP"
+            ]
+        ]
+    }
+}

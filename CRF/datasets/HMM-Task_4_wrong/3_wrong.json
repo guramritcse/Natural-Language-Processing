@@ -1,0 +1,230 @@
+{
+    "824": {
+        "words": "he could no longer build anything , whether a private residence in his pennsylvania county or a church in brazil , without it being obvious that he had done it , and while here and there he was taken to task for again developing the same airy technique , they were such fanciful and sometimes even playful buildings that the public felt assured by its sense of recognition after a time , a quality of authentic uniqueness about them , which , once established by an artist as his private vision , is no longer disputable as to its other values .",
+        "actual_tags": "PRON VERB DET ADJ VERB NOUN . ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ DET NOUN ADP NOUN . ADP PRON VERB ADJ ADP PRON VERB VERB PRON . CONJ ADP ADV CONJ ADV PRON VERB VERB ADP NOUN ADP ADV VERB DET ADJ ADJ NOUN . PRON VERB ADV ADJ CONJ ADV ADV ADJ NOUN ADP DET NOUN VERB VERB ADP DET NOUN ADP NOUN ADP DET NOUN . DET NOUN ADP ADJ NOUN ADP PRON . DET . ADV VERB ADP DET NOUN ADP DET ADJ NOUN . VERB DET ADJ ADJ ADP ADP DET ADJ NOUN .",
+        "CRF_tags": "PRON VERB DET ADJ VERB NOUN . ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ DET NOUN ADP NOUN . ADP PRON VERB ADJ ADP PRON VERB VERB PRON . CONJ ADP ADV CONJ ADV PRON VERB VERB ADP NOUN ADP ADV VERB DET ADJ ADJ NOUN . PRON VERB ADJ ADJ CONJ ADV ADV ADJ NOUN ADP DET NOUN VERB VERB ADP DET NOUN ADP NOUN ADP DET NOUN . DET NOUN ADP ADJ NOUN ADP PRON . DET . ADV VERB ADP DET NOUN ADP DET ADJ NOUN . VERB ADV ADV ADJ ADP ADP DET ADJ NOUN .",
+        "HMM_tags": "PRON VERB ADV ADV VERB NOUN . ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ DET NOUN ADP NOUN . ADP PRON VERB ADJ ADP PRON VERB VERB PRON . CONJ ADP ADV CONJ ADV PRON VERB VERB ADP NOUN ADP ADV VERB DET ADJ ADJ NOUN . PRON VERB ADJ ADJ CONJ ADV ADV ADJ NOUN ADP DET NOUN VERB VERB ADP DET NOUN ADP NOUN ADP DET NOUN . DET NOUN ADP ADJ NOUN ADP PRON . DET . ADV VERB ADP DET NOUN ADP DET ADJ NOUN . VERB DET ADJ ADJ ADP PRT DET ADJ NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "no",
+                "DET",
+                "DET",
+                "ADV"
+            ],
+            [
+                "longer",
+                "ADJ",
+                "ADJ",
+                "ADV"
+            ],
+            [
+                "such",
+                "ADV",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "no",
+                "DET",
+                "ADV",
+                "DET"
+            ],
+            [
+                "longer",
+                "ADJ",
+                "ADV",
+                "ADJ"
+            ],
+            [
+                "to",
+                "ADP",
+                "ADP",
+                "PRT"
+            ]
+        ]
+    },
+    "911": {
+        "words": "the recovery will probably be sparked by a rising rate of housing starts next spring in response to more readily available mortgage credit , as well as by an expansion of government spending , well sustained consumer spending , and some rebuilding of business inventories .",
+        "actual_tags": "DET NOUN VERB ADV VERB VERB ADP DET VERB NOUN ADP VERB NOUN ADJ NOUN ADP NOUN ADP ADV ADV ADJ NOUN NOUN . ADV ADV ADP ADP DET NOUN ADP NOUN NOUN . ADV VERB NOUN NOUN . CONJ DET NOUN ADP NOUN NOUN .",
+        "CRF_tags": "DET NOUN VERB ADV VERB VERB ADP DET VERB NOUN ADP NOUN VERB ADJ NOUN ADP NOUN ADP ADV ADV ADJ NOUN NOUN . ADV ADV ADP ADP DET NOUN ADP NOUN VERB . ADV VERB NOUN NOUN . CONJ DET NOUN ADP NOUN NOUN .",
+        "HMM_tags": "DET NOUN VERB ADV VERB VERB ADP DET VERB NOUN ADP NOUN VERB ADJ NOUN ADP NOUN ADP ADV ADV ADJ NOUN NOUN . ADP ADV ADV ADP DET NOUN ADP NOUN NOUN . ADV VERB NOUN NOUN . CONJ DET NOUN ADP NOUN NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "housing",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "starts",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "as",
+                "ADV",
+                "ADV",
+                "ADP"
+            ],
+            [
+                "as",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "spending",
+                "NOUN",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    },
+    "2101": {
+        "words": "there is much to be said for a college that , while happily attuned to the sophisticated ivies , still gives its students a chance to get up early in the morning and drive along back roads where a glimpse of small game , deer , or even bear is not uncommon .",
+        "actual_tags": "PRT VERB ADJ PRT VERB VERB ADP DET NOUN PRON . ADP ADV VERB ADP DET ADJ NOUN . ADV VERB DET NOUN DET NOUN PRT VERB PRT ADV ADP DET NOUN CONJ VERB ADP ADJ NOUN ADV DET NOUN ADP ADJ NOUN . NOUN . CONJ ADV NOUN VERB ADV ADJ .",
+        "CRF_tags": "PRT VERB ADJ PRT VERB VERB ADP DET NOUN PRON . ADP ADV VERB ADP DET ADJ NOUN . ADV VERB DET NOUN DET NOUN PRT VERB PRT ADV ADP DET NOUN CONJ VERB ADV ADV NOUN ADV DET NOUN ADP ADJ NOUN . NOUN . CONJ ADV VERB VERB ADV ADJ .",
+        "HMM_tags": "PRT VERB ADJ PRT VERB VERB ADP DET NOUN ADP . ADP ADV VERB ADP DET ADJ NOUN . ADV VERB DET NOUN DET NOUN PRT VERB PRT ADV ADP DET NOUN CONJ NOUN ADP NOUN NOUN ADV DET NOUN ADP ADJ NOUN . NOUN . CONJ ADV VERB VERB ADV ADJ .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "that",
+                "PRON",
+                "PRON",
+                "ADP"
+            ],
+            [
+                "drive",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ],
+            [
+                "along",
+                "ADP",
+                "ADV",
+                "ADP"
+            ],
+            [
+                "back",
+                "ADJ",
+                "ADV",
+                "NOUN"
+            ],
+            [
+                "bear",
+                "NOUN",
+                "VERB",
+                "VERB"
+            ]
+        ]
+    },
+    "5139": {
+        "words": "`` we won't live long enough if i wait for you , besides which you don't need to worry -- there'll be plenty more '' .",
+        "actual_tags": ". PRON VERB VERB ADJ ADV ADP PRON VERB ADP PRON . ADV DET PRON VERB VERB PRT VERB . PRT VERB NOUN ADJ . .",
+        "CRF_tags": ". PRON VERB VERB ADV ADV ADP PRON VERB ADP PRON . ADP DET PRON VERB VERB PRT VERB . PRT VERB ADV ADJ . .",
+        "HMM_tags": ". PRON VERB VERB ADV ADV ADP PRON VERB ADP PRON . ADP DET PRON VERB VERB PRT VERB . PRT VERB ADV ADV . .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "long",
+                "ADJ",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "besides",
+                "ADV",
+                "ADP",
+                "ADP"
+            ],
+            [
+                "plenty",
+                "NOUN",
+                "ADV",
+                "ADV"
+            ],
+            [
+                "more",
+                "ADJ",
+                "ADJ",
+                "ADV"
+            ]
+        ]
+    },
+    "6132": {
+        "words": "to serenissimus such tribes as the cossacks of the don or those ex-bandits the zaporogian cossacks ( in whose islands along the lower dnieper the polish novelist sienkiewicz would one day place with fire and sword ) were just elements for enforced resettlement in , say , bessarabia , where , as `` the faithful of the black sea borders '' , he could use their presence as bargaining points in the czarina's territorial claims against turkey .",
+        "actual_tags": "ADP NOUN ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ DET NOUN DET ADJ NOUN . ADP DET NOUN ADP DET ADJ NOUN DET ADJ NOUN NOUN VERB NUM NOUN VERB ADP NOUN CONJ NOUN . VERB ADJ NOUN ADP VERB NOUN ADP . PRT . NOUN . ADV . ADP . DET NOUN ADP DET ADJ NOUN NOUN . . PRON VERB VERB DET NOUN ADP NOUN NOUN ADP DET NOUN ADJ NOUN ADP NOUN .",
+        "CRF_tags": "ADP NOUN ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ DET NOUN DET ADJ NOUN . ADP DET NOUN ADP DET ADJ NOUN DET ADJ NOUN NOUN VERB NUM NOUN NOUN ADP NOUN CONJ NOUN . VERB ADJ NOUN ADP VERB NOUN ADP . VERB . NOUN . ADV . ADP . DET ADJ ADP DET ADJ NOUN NOUN . . PRON VERB VERB DET NOUN ADP NOUN NOUN ADP DET NOUN ADJ NOUN ADP NOUN .",
+        "HMM_tags": "ADP NOUN ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ DET NOUN DET ADJ NOUN . ADP DET NOUN ADP DET ADJ NOUN DET ADJ NOUN NOUN VERB NUM NOUN NOUN ADP NOUN CONJ NOUN . VERB ADV NOUN ADP VERB NOUN ADP . VERB . NOUN . ADV . ADV . DET NOUN ADP DET ADJ NOUN NOUN . . PRON VERB VERB DET NOUN ADP NOUN NOUN ADP DET NOUN ADJ NOUN ADP NOUN .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "place",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "just",
+                "ADJ",
+                "ADJ",
+                "ADV"
+            ],
+            [
+                "say",
+                "PRT",
+                "VERB",
+                "VERB"
+            ],
+            [
+                "as",
+                "ADP",
+                "ADP",
+                "ADV"
+            ],
+            [
+                "faithful",
+                "NOUN",
+                "ADJ",
+                "NOUN"
+            ]
+        ]
+    },
+    "6660": {
+        "words": "these differences in turn result from the fact that my yokuts vocabularies were built up of terms selected mainly to insure unambiguity of english meaning between illiterate informants and myself , within a compact and uniform territorial area , but that hoijer's vocabulary is based on swadesh's second glottochronological list which aims at eliminating all items which might be culturally or geographically determined .",
+        "actual_tags": "DET NOUN ADP NOUN VERB ADP DET NOUN ADP DET NOUN NOUN VERB VERB PRT ADP NOUN VERB ADV PRT VERB NOUN ADP NOUN NOUN ADP ADJ NOUN CONJ PRON . ADP DET ADJ CONJ ADJ ADJ NOUN . CONJ ADP NOUN NOUN VERB VERB ADP NOUN ADJ ADJ NOUN DET VERB ADP VERB PRT NOUN DET VERB VERB ADV CONJ ADV VERB .",
+        "CRF_tags": "DET NOUN ADP NOUN NOUN ADP DET NOUN ADP DET NOUN NOUN VERB VERB ADP ADP NOUN VERB ADV PRT VERB NOUN ADP ADJ NOUN ADP ADJ NOUN CONJ PRON . ADP DET ADJ CONJ ADJ ADJ NOUN . CONJ ADP NOUN NOUN VERB VERB ADP NOUN ADJ ADJ NOUN DET VERB ADP VERB PRT NOUN DET VERB VERB ADV CONJ ADV VERB .",
+        "HMM_tags": "DET NOUN ADP NOUN NOUN ADP DET NOUN ADP DET NOUN NOUN VERB VERB PRT ADP NOUN VERB ADV PRT VERB NOUN ADP ADJ NOUN ADP ADJ NOUN CONJ PRON . ADP DET ADJ CONJ ADJ ADJ NOUN . CONJ DET NOUN NOUN VERB VERB ADP NOUN ADJ ADJ NOUN DET NOUN ADP VERB PRT NOUN DET VERB VERB ADV CONJ ADV VERB .",
+        "(Word, Actual, CRF, HMM)": [
+            [
+                "result",
+                "VERB",
+                "NOUN",
+                "NOUN"
+            ],
+            [
+                "up",
+                "PRT",
+                "ADP",
+                "PRT"
+            ],
+            [
+                "english",
+                "NOUN",
+                "ADJ",
+                "ADJ"
+            ],
+            [
+                "that",
+                "ADP",
+                "ADP",
+                "DET"
+            ],
+            [
+                "aims",
+                "VERB",
+                "VERB",
+                "NOUN"
+            ]
+        ]
+    }
+}
