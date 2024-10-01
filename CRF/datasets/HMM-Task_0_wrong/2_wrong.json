@@ -1,21 +1,23 @@
 {
-    "158": {
-        "words": "at juice bars in los angeles' 35 `` health '' stores , a new sensation is a pink , high-protein cocktail , concocted of dried eggs , powdered milk and cherry-flavored no-cal , which sells for 59-cents per 8-oz. glass .",
-        "actual_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
-        "CRF_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ VERB ADJ . DET VERB ADP NOUN ADP NOUN NOUN .",
-        "HMM_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+    "236": {
+        "sentence": "it seems to me the time has come for the american press to start experimenting with ways of reporting the news that will do a better job of communicating and will be less subject to abuse by those who have learned how to manipulate the present stereotype to serve their own ends .",
+        "actual_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP VERB CONJ VERB VERB ADJ NOUN ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "hmm_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP VERB CONJ VERB VERB ADJ NOUN ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "crf_tags": "PRON VERB ADP PRON DET NOUN VERB VERB ADP DET ADJ NOUN PRT VERB VERB ADP NOUN ADP VERB DET NOUN PRON VERB VERB DET ADJ NOUN ADP VERB CONJ VERB VERB ADV ADJ ADP NOUN ADP DET PRON VERB VERB ADV PRT VERB DET ADJ NOUN PRT VERB DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 2,
+        "(word, actual, hmm, crf)": [
             [
-                "cherry-flavored",
+                "less",
                 "ADJ",
-                "VERB",
-                "ADJ"
+                "ADJ",
+                "ADV"
             ],
             [
-                "no-cal",
+                "subject",
                 "NOUN",
-                "ADJ",
-                "NOUN"
+                "NOUN",
+                "ADJ"
             ]
         ]
     }

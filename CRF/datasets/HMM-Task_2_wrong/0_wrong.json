@@ -1,1301 +1,243 @@
 {
     "58": {
-        "words": "in medicine the frequencies are much higher , transducers and the sonar beams themselves are much smaller , and different scanning techniques may be used , but the principles involved are the same as in sonar .",
+        "sentence": "in medicine the frequencies are much higher , transducers and the sonar beams themselves are much smaller , and different scanning techniques may be used , but the principles involved are the same as in sonar .",
         "actual_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ VERB NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADP ADP NOUN .",
-        "CRF_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ VERB NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADP ADP NOUN .",
-        "HMM_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ NOUN NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADV ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ NOUN NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADV ADP NOUN .",
+        "crf_tags": "ADP NOUN DET NOUN VERB ADV ADJ . NOUN CONJ DET NOUN NOUN PRON VERB ADV ADJ . CONJ ADJ VERB NOUN VERB VERB VERB . CONJ DET NOUN VERB VERB DET ADJ ADP ADP NOUN .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "scanning",
                 "VERB",
-                "VERB",
-                "NOUN"
+                "NOUN",
+                "VERB"
             ],
             [
                 "as",
                 "ADP",
-                "ADP",
-                "ADV"
-            ]
-        ]
-    },
-    "59": {
-        "words": "but curtis poured over $1 million into it and in time it again became one of the most popular weeklies of the country .",
-        "actual_tags": "CONJ NOUN VERB PRT NOUN NUM ADP PRON CONJ ADP NOUN PRON ADV VERB NUM ADP DET ADV ADJ NOUN ADP DET NOUN .",
-        "CRF_tags": "CONJ NOUN VERB PRT NOUN NUM ADP PRON CONJ ADP NOUN PRON ADV VERB NUM ADP DET ADV ADJ NOUN ADP DET NOUN .",
-        "HMM_tags": "CONJ NOUN VERB ADP NOUN NUM ADP PRON CONJ ADP NOUN PRON ADV VERB NUM ADP DET ADJ ADJ NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "over",
-                "PRT",
-                "PRT",
+                "ADV",
                 "ADP"
-            ],
-            [
-                "most",
-                "ADV",
-                "ADV",
-                "ADJ"
             ]
         ]
     },
     "69": {
-        "words": "`` you are looking tired and there you can rest .",
+        "sentence": "`` you are looking tired and there you can rest .",
         "actual_tags": ". PRON VERB VERB ADJ CONJ ADV PRON VERB VERB .",
-        "CRF_tags": ". PRON VERB VERB ADJ CONJ ADV PRON VERB VERB .",
-        "HMM_tags": ". PRON VERB VERB VERB CONJ ADV PRON VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": ". PRON VERB VERB VERB CONJ ADV PRON VERB NOUN .",
+        "crf_tags": ". PRON VERB VERB ADJ CONJ ADV PRON VERB VERB .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "tired",
                 "ADJ",
-                "ADJ",
-                "VERB"
+                "VERB",
+                "ADJ"
             ],
             [
                 "rest",
                 "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "70": {
-        "words": "this , of course , is baseball's most remarkable mark : the 60 home runs hit in 1927 by the incorrigible epicure , the incredible athlete , george herman ( babe ) ruth of the yankees .",
-        "actual_tags": "DET . ADP NOUN . VERB NOUN ADV ADJ NOUN . DET NUM NOUN NOUN VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
-        "CRF_tags": "DET . ADP NOUN . VERB NOUN ADV ADJ NOUN . DET NUM NOUN NOUN VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
-        "HMM_tags": "DET . ADP NOUN . VERB PRT ADV ADJ NOUN . DET NUM NOUN VERB VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "baseball's",
-                "NOUN",
-                "NOUN",
-                "PRT"
-            ],
-            [
-                "runs",
-                "NOUN",
                 "NOUN",
                 "VERB"
             ]
         ]
     },
     "75": {
-        "words": "it appeared from the limited information available that the aerated lagoon might offer a satisfactory means of increasing the capacity of existing oxidation ponds as well as providing the same degree of treatment in a smaller volume .",
+        "sentence": "it appeared from the limited information available that the aerated lagoon might offer a satisfactory means of increasing the capacity of existing oxidation ponds as well as providing the same degree of treatment in a smaller volume .",
         "actual_tags": "PRON VERB ADP DET VERB NOUN ADJ ADP DET VERB NOUN VERB VERB DET ADJ NOUN ADP VERB DET NOUN ADP VERB NOUN NOUN ADV ADV ADP VERB DET ADJ NOUN ADP NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "PRON VERB ADP DET VERB NOUN ADJ ADP DET VERB NOUN VERB VERB DET ADJ NOUN ADP VERB DET NOUN ADP VERB NOUN NOUN ADV ADV ADP VERB DET ADJ NOUN ADP NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "PRON VERB ADP DET VERB NOUN ADJ ADP DET VERB NOUN VERB VERB DET ADJ NOUN ADP VERB DET NOUN ADP VERB NOUN NOUN ADP ADV ADV VERB DET ADJ NOUN ADP NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "PRON VERB ADP DET VERB NOUN ADJ ADP DET VERB NOUN VERB VERB DET ADJ NOUN ADP VERB DET NOUN ADP VERB NOUN NOUN ADP ADV ADV VERB DET ADJ NOUN ADP NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "PRON VERB ADP DET VERB NOUN ADJ ADP DET VERB NOUN VERB VERB DET ADJ NOUN ADP VERB DET NOUN ADP VERB NOUN NOUN ADV ADV ADP VERB DET ADJ NOUN ADP NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "as",
                 "ADV",
-                "ADV",
-                "ADP"
+                "ADP",
+                "ADV"
             ],
             [
                 "as",
                 "ADP",
-                "ADP",
-                "ADV"
+                "ADV",
+                "ADP"
             ]
         ]
     },
     "84": {
-        "words": "let's make sure first '' .",
+        "sentence": "let's make sure first '' .",
         "actual_tags": "VERB VERB ADJ ADV . .",
-        "CRF_tags": "VERB VERB ADJ ADV . .",
-        "HMM_tags": "VERB VERB ADV ADJ . .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "VERB VERB ADV ADJ . .",
+        "crf_tags": "VERB VERB ADJ ADV . .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "sure",
                 "ADJ",
-                "ADJ",
-                "ADV"
+                "ADV",
+                "ADJ"
             ],
             [
                 "first",
                 "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "85": {
-        "words": "he was wide awake , but he did not feel like doing anything .",
-        "actual_tags": "PRON VERB ADJ ADV . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
-        "CRF_tags": "PRON VERB ADJ ADV . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
-        "HMM_tags": "PRON VERB ADV ADJ . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "wide",
-                "ADJ",
                 "ADJ",
                 "ADV"
-            ],
-            [
-                "awake",
-                "ADV",
-                "ADV",
-                "ADJ"
             ]
         ]
     },
     "109": {
-        "words": "these would be paid for out of general , not payroll , taxes .",
+        "sentence": "these would be paid for out of general , not payroll , taxes .",
         "actual_tags": "DET VERB VERB VERB ADP ADP ADP ADJ . ADV NOUN . NOUN .",
-        "CRF_tags": "DET VERB VERB VERB ADP ADP ADP ADJ . ADV NOUN . NOUN .",
-        "HMM_tags": "DET VERB VERB VERB ADP PRT ADP NOUN . ADV NOUN . NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "DET VERB VERB VERB ADP PRT ADP NOUN . ADV NOUN . NOUN .",
+        "crf_tags": "DET VERB VERB VERB ADP ADP ADP ADJ . ADV NOUN . NOUN .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "out",
                 "ADP",
-                "ADP",
-                "PRT"
+                "PRT",
+                "ADP"
             ],
             [
                 "general",
                 "ADJ",
-                "ADJ",
-                "NOUN"
+                "NOUN",
+                "ADJ"
             ]
         ]
     },
     "128": {
-        "words": "the lawyer didn't know him very well although he saw him occasionally at some dinner party -- thayer , like himself , madden reflected , was the extra man so prized by hostesses -- and found him easy enough to talk to .",
+        "sentence": "the lawyer didn't know him very well although he saw him occasionally at some dinner party -- thayer , like himself , madden reflected , was the extra man so prized by hostesses -- and found him easy enough to talk to .",
         "actual_tags": "DET NOUN VERB VERB PRON ADV ADV ADP PRON VERB PRON ADV ADP DET NOUN NOUN . NOUN . ADP PRON . NOUN VERB . VERB DET ADJ NOUN ADV VERB ADP NOUN . CONJ VERB PRON ADJ ADV PRT VERB ADP .",
-        "CRF_tags": "DET NOUN VERB VERB PRON ADV ADV ADP PRON VERB PRON ADV ADP DET NOUN NOUN . NOUN . ADP PRON . NOUN VERB . VERB DET ADJ NOUN ADV VERB ADP NOUN . CONJ VERB PRON ADJ ADV PRT VERB ADP .",
-        "HMM_tags": "DET NOUN VERB VERB PRON ADV ADV ADP PRON VERB PRON ADV ADP DET NOUN NOUN . NOUN . ADP PRON . NOUN VERB . VERB DET ADJ NOUN ADV VERB ADP NOUN . CONJ VERB PRON ADV ADV PRT VERB PRT .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "DET NOUN VERB VERB PRON ADV ADV ADP PRON VERB PRON ADV ADP DET NOUN NOUN . NOUN . ADP PRON . NOUN VERB . VERB DET ADJ NOUN ADV VERB ADP NOUN . CONJ VERB PRON ADV ADV PRT VERB PRT .",
+        "crf_tags": "DET NOUN VERB VERB PRON ADV ADV ADP PRON VERB PRON ADV ADP DET NOUN NOUN . NOUN . ADP PRON . NOUN VERB . VERB DET ADJ NOUN ADV VERB ADP NOUN . CONJ VERB PRON ADJ ADV PRT VERB ADP .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "easy",
                 "ADJ",
-                "ADJ",
-                "ADV"
+                "ADV",
+                "ADJ"
             ],
             [
                 "to",
                 "ADP",
-                "ADP",
-                "PRT"
+                "PRT",
+                "ADP"
             ]
         ]
     },
     "178": {
-        "words": "and one of the best services available to the people who try to raise and can meat , to plant , grow vegetables and put them up .",
+        "sentence": "and one of the best services available to the people who try to raise and can meat , to plant , grow vegetables and put them up .",
         "actual_tags": "CONJ NUM ADP DET ADJ NOUN ADJ ADP DET NOUN PRON VERB PRT VERB CONJ VERB NOUN . PRT VERB . VERB NOUN CONJ VERB PRON PRT .",
-        "CRF_tags": "CONJ NUM ADP DET ADJ NOUN ADJ ADP DET NOUN PRON VERB PRT VERB CONJ VERB NOUN . PRT VERB . VERB NOUN CONJ VERB PRON PRT .",
-        "HMM_tags": "CONJ NUM ADP DET ADJ NOUN ADJ ADP DET NOUN PRON VERB PRT VERB CONJ VERB NOUN . ADP NOUN . VERB NOUN CONJ VERB PRON PRT .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "CONJ NUM ADP DET ADJ NOUN ADJ ADP DET NOUN PRON VERB PRT VERB CONJ VERB NOUN . ADP NOUN . VERB NOUN CONJ VERB PRON PRT .",
+        "crf_tags": "CONJ NUM ADP DET ADJ NOUN ADJ ADP DET NOUN PRON VERB PRT VERB CONJ VERB NOUN . PRT VERB . VERB NOUN CONJ VERB PRON PRT .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "to",
                 "PRT",
-                "PRT",
-                "ADP"
+                "ADP",
+                "PRT"
             ],
             [
                 "plant",
                 "VERB",
-                "VERB",
-                "NOUN"
+                "NOUN",
+                "VERB"
             ]
         ]
     },
     "199": {
-        "words": "for larger plantings , you'll need some kind of power for plowing , harrowing , disking , and cultivating .",
+        "sentence": "for larger plantings , you'll need some kind of power for plowing , harrowing , disking , and cultivating .",
         "actual_tags": "ADP ADJ NOUN . PRT VERB DET NOUN ADP NOUN ADP VERB . VERB . VERB . CONJ VERB .",
-        "CRF_tags": "ADP ADJ NOUN . PRT VERB DET NOUN ADP NOUN ADP VERB . VERB . VERB . CONJ VERB .",
-        "HMM_tags": "ADP ADJ NOUN . PRT VERB DET NOUN ADP NOUN ADP NOUN . ADJ . VERB . CONJ VERB .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "ADP ADJ NOUN . PRT VERB DET NOUN ADP NOUN ADP NOUN . ADJ . VERB . CONJ VERB .",
+        "crf_tags": "ADP ADJ NOUN . PRT VERB DET NOUN ADP NOUN ADP VERB . VERB . VERB . CONJ VERB .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "plowing",
                 "VERB",
-                "VERB",
-                "NOUN"
+                "NOUN",
+                "VERB"
             ],
             [
                 "harrowing",
                 "VERB",
-                "VERB",
-                "ADJ"
+                "ADJ",
+                "VERB"
             ]
         ]
     },
     "220": {
-        "words": "harold clurman is right to say that `` waiting for godot '' is a reflection ( he calls it a distorted reflection ) `` of the impasse and disarray of europe's present politics , ethic , and common way of life '' .",
+        "sentence": "harold clurman is right to say that `` waiting for godot '' is a reflection ( he calls it a distorted reflection ) `` of the impasse and disarray of europe's present politics , ethic , and common way of life '' .",
         "actual_tags": "NOUN NOUN VERB ADJ PRT VERB ADP . VERB ADP NOUN . VERB DET NOUN . PRON VERB PRON DET VERB NOUN . . ADP DET NOUN CONJ NOUN ADP NOUN ADJ NOUN . NOUN . CONJ ADJ NOUN ADP NOUN . .",
-        "CRF_tags": "NOUN NOUN VERB ADJ PRT VERB ADP . VERB ADP NOUN . VERB DET NOUN . PRON VERB PRON DET VERB NOUN . . ADP DET NOUN CONJ NOUN ADP NOUN ADJ NOUN . NOUN . CONJ ADJ NOUN ADP NOUN . .",
-        "HMM_tags": "NOUN NOUN VERB ADV PRT VERB PRON . VERB ADP NOUN . VERB DET NOUN . PRON VERB PRON DET VERB NOUN . . ADP DET NOUN CONJ NOUN ADP NOUN ADJ NOUN . NOUN . CONJ ADJ NOUN ADP NOUN . .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "NOUN NOUN VERB ADV PRT VERB PRON . VERB ADP NOUN . VERB DET NOUN . PRON VERB PRON DET VERB NOUN . . ADP DET NOUN CONJ NOUN ADP NOUN ADJ NOUN . NOUN . CONJ ADJ NOUN ADP NOUN . .",
+        "crf_tags": "NOUN NOUN VERB ADJ PRT VERB ADP . VERB ADP NOUN . VERB DET NOUN . PRON VERB PRON DET VERB NOUN . . ADP DET NOUN CONJ NOUN ADP NOUN ADJ NOUN . NOUN . CONJ ADJ NOUN ADP NOUN . .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "right",
                 "ADJ",
-                "ADJ",
-                "ADV"
+                "ADV",
+                "ADJ"
             ],
             [
                 "that",
                 "ADP",
-                "ADP",
-                "PRON"
+                "PRON",
+                "ADP"
             ]
         ]
     },
     "275": {
-        "words": "the aid has undertaken the redecoration of the white house library as a project in connection with the work being done by first lady jacqueline kennedy's fine arts advisory committee to secure antiques for the presidential home .",
+        "sentence": "the aid has undertaken the redecoration of the white house library as a project in connection with the work being done by first lady jacqueline kennedy's fine arts advisory committee to secure antiques for the presidential home .",
         "actual_tags": "DET NOUN VERB VERB DET NOUN ADP DET ADJ NOUN NOUN ADP DET NOUN ADP NOUN ADP DET NOUN VERB VERB ADP ADJ NOUN NOUN NOUN ADJ NOUN ADJ NOUN PRT VERB NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "DET NOUN VERB VERB DET NOUN ADP DET ADJ NOUN NOUN ADP DET NOUN ADP NOUN ADP DET NOUN VERB VERB ADP ADJ NOUN NOUN NOUN ADJ NOUN ADJ NOUN PRT VERB NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "DET NOUN VERB VERB DET NOUN ADP DET ADJ NOUN NOUN ADP DET NOUN ADP NOUN ADP DET NOUN VERB VERB ADP ADJ NOUN NOUN NOUN ADJ NOUN ADJ NOUN ADP ADJ NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "DET NOUN VERB VERB DET NOUN ADP DET ADJ NOUN NOUN ADP DET NOUN ADP NOUN ADP DET NOUN VERB VERB ADP ADJ NOUN NOUN NOUN ADJ NOUN ADJ NOUN ADP ADJ NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "DET NOUN VERB VERB DET NOUN ADP DET ADJ NOUN NOUN ADP DET NOUN ADP NOUN ADP DET NOUN VERB VERB ADP ADJ NOUN NOUN NOUN ADJ NOUN ADJ NOUN PRT VERB NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "to",
                 "PRT",
-                "PRT",
-                "ADP"
+                "ADP",
+                "PRT"
             ],
             [
                 "secure",
                 "VERB",
-                "VERB",
-                "ADJ"
+                "ADJ",
+                "VERB"
             ]
         ]
     },
     "277": {
-        "words": "there is no justification for systematizing the random statements of irenaeus about the image of god beyond this , nor for reading into his imprecise usage the later theological distinction between the image of god ( humanity ) and the similitude of god ( immortality ) .",
+        "sentence": "there is no justification for systematizing the random statements of irenaeus about the image of god beyond this , nor for reading into his imprecise usage the later theological distinction between the image of god ( humanity ) and the similitude of god ( immortality ) .",
         "actual_tags": "PRT VERB DET NOUN ADP VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP NOUN ADP DET . CONJ ADP VERB ADP DET ADJ NOUN DET ADJ ADJ NOUN ADP DET NOUN ADP NOUN . NOUN . CONJ DET NOUN ADP NOUN . NOUN . .",
-        "CRF_tags": "PRT VERB DET NOUN ADP VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP NOUN ADP DET . CONJ ADP VERB ADP DET ADJ NOUN DET ADJ ADJ NOUN ADP DET NOUN ADP NOUN . NOUN . CONJ DET NOUN ADP NOUN . NOUN . .",
-        "HMM_tags": "PRT VERB DET NOUN ADP VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP NOUN ADP DET . CONJ ADP NOUN ADP DET ADJ NOUN DET ADV ADJ NOUN ADP DET NOUN ADP NOUN . NOUN . CONJ DET NOUN ADP NOUN . NOUN . .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "PRT VERB DET NOUN ADP VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP NOUN ADP DET . CONJ ADP NOUN ADP DET ADJ NOUN DET ADV ADJ NOUN ADP DET NOUN ADP NOUN . NOUN . CONJ DET NOUN ADP NOUN . NOUN . .",
+        "crf_tags": "PRT VERB DET NOUN ADP VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP NOUN ADP DET . CONJ ADP VERB ADP DET ADJ NOUN DET ADJ ADJ NOUN ADP DET NOUN ADP NOUN . NOUN . CONJ DET NOUN ADP NOUN . NOUN . .",
+        "hmm_mismatches": 2,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": [
             [
                 "reading",
                 "VERB",
-                "VERB",
-                "NOUN"
+                "NOUN",
+                "VERB"
             ],
             [
                 "later",
                 "ADJ",
-                "ADJ",
-                "ADV"
-            ]
-        ]
-    },
-    "301": {
-        "words": "pat saw gyp carmer staggering forward , a half-filled bottle upraised as if to strike .",
-        "actual_tags": "NOUN VERB NOUN NOUN VERB ADV . DET ADJ NOUN VERB ADP ADP PRT VERB .",
-        "CRF_tags": "NOUN VERB NOUN NOUN VERB ADV . DET ADJ NOUN VERB ADP ADP PRT VERB .",
-        "HMM_tags": "NOUN VERB NOUN NOUN VERB ADV . DET ADJ NOUN VERB ADV ADP PRT NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "as",
-                "ADP",
-                "ADP",
-                "ADV"
-            ],
-            [
-                "strike",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "303": {
-        "words": "it might be rough on edythe at first , but linda and john between them could make a settlement handsome enough to soothe her , to send her back to cleveland or anywhere .",
-        "actual_tags": "PRON VERB VERB ADJ ADP NOUN ADP ADJ . CONJ NOUN CONJ NOUN ADP PRON VERB VERB DET NOUN ADJ ADV PRT VERB PRON . PRT VERB PRON ADV ADP NOUN CONJ ADV .",
-        "CRF_tags": "PRON VERB VERB ADJ ADP NOUN ADP ADJ . CONJ NOUN CONJ NOUN ADP PRON VERB VERB DET NOUN ADJ ADV PRT VERB PRON . PRT VERB PRON ADV ADP NOUN CONJ ADV .",
-        "HMM_tags": "PRON VERB VERB ADJ ADP NOUN ADP ADJ . CONJ NOUN CONJ NOUN ADP PRON VERB VERB DET NOUN ADJ ADV PRT VERB PRON . PRT VERB DET NOUN ADP NOUN CONJ ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "her",
-                "PRON",
-                "PRON",
-                "DET"
-            ],
-            [
-                "back",
-                "ADV",
-                "ADV",
-                "NOUN"
-            ]
-        ]
-    },
-    "304": {
-        "words": "whether in prose or poetry , all of heidenstam's later work was concerned with sweden .",
-        "actual_tags": "ADP ADP NOUN CONJ NOUN . PRT ADP NOUN ADJ NOUN VERB VERB ADP NOUN .",
-        "CRF_tags": "ADP ADP NOUN CONJ NOUN . PRT ADP NOUN ADJ NOUN VERB VERB ADP NOUN .",
-        "HMM_tags": "ADP ADP NOUN CONJ NOUN . PRT ADP NOUN ADV VERB VERB VERB ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "later",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ],
-            [
-                "work",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "338": {
-        "words": "houston police got to know diane two years ago when the vice squad picked her up for questioning about a call girl ring .",
-        "actual_tags": "NOUN NOUN VERB PRT VERB NOUN NUM NOUN ADV ADV DET NOUN NOUN VERB PRON PRT ADP VERB ADP DET NOUN NOUN NOUN .",
-        "CRF_tags": "NOUN NOUN VERB PRT VERB NOUN NUM NOUN ADV ADV DET NOUN NOUN VERB PRON PRT ADP VERB ADP DET NOUN NOUN NOUN .",
-        "HMM_tags": "NOUN NOUN VERB PRT VERB NOUN NUM NOUN ADV ADV DET ADJ NOUN VERB PRON PRT ADP NOUN ADP DET NOUN NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "vice",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ],
-            [
-                "questioning",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "347": {
-        "words": "it won't open from inside .",
-        "actual_tags": "PRON VERB VERB ADP ADV .",
-        "CRF_tags": "PRON VERB VERB ADP ADV .",
-        "HMM_tags": "PRON VERB ADJ ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "open",
-                "VERB",
-                "VERB",
-                "ADJ"
-            ],
-            [
-                "inside",
-                "ADV",
-                "ADV",
-                "NOUN"
-            ]
-        ]
-    },
-    "351": {
-        "words": "perhaps he was a little more sympathetic to the sides of beef that hung silently from his hooks .",
-        "actual_tags": "ADV PRON VERB DET ADV ADV ADJ ADP DET NOUN ADP NOUN PRON VERB ADV ADP DET NOUN .",
-        "CRF_tags": "ADV PRON VERB DET ADV ADV ADJ ADP DET NOUN ADP NOUN PRON VERB ADV ADP DET NOUN .",
-        "HMM_tags": "ADV PRON VERB DET ADJ ADJ ADJ ADP DET NOUN ADP NOUN PRON VERB ADV ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "little",
-                "ADV",
                 "ADV",
                 "ADJ"
-            ],
-            [
-                "more",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "354": {
-        "words": "he looked at her out of himself , she thought , as he did only for an instant at a time , the look which always surprised her even now when his uncombable hair was yellowing a little and his breath came hard through his nicotine-choked lungs , the look of the gaunt youth she had suddenly found herself staring at in the tate gallery on a thursday once .",
-        "actual_tags": "PRON VERB ADP PRON ADP ADP PRON . PRON VERB . ADP PRON VERB ADV ADP DET NOUN ADP DET NOUN . DET NOUN DET ADV VERB PRON ADV ADV ADV DET ADJ NOUN VERB VERB DET ADJ CONJ DET NOUN VERB ADV ADP DET ADJ NOUN . DET NOUN ADP DET ADJ NOUN PRON VERB ADV VERB PRON VERB ADP ADP DET NOUN NOUN ADP DET NOUN ADV .",
-        "CRF_tags": "PRON VERB ADP PRON ADP ADP PRON . PRON VERB . ADP PRON VERB ADV ADP DET NOUN ADP DET NOUN . DET NOUN DET ADV VERB PRON ADV ADV ADV DET ADJ NOUN VERB VERB DET ADJ CONJ DET NOUN VERB ADV ADP DET ADJ NOUN . DET NOUN ADP DET ADJ NOUN PRON VERB ADV VERB PRON VERB ADP ADP DET NOUN NOUN ADP DET NOUN ADV .",
-        "HMM_tags": "PRON VERB ADP PRON PRT ADP PRON . PRON VERB . ADP PRON VERB ADV ADP DET NOUN ADP DET NOUN . DET VERB DET ADV VERB PRON ADV ADV ADV DET ADJ NOUN VERB VERB DET ADJ CONJ DET NOUN VERB ADV ADP DET ADJ NOUN . DET NOUN ADP DET ADJ NOUN PRON VERB ADV VERB PRON VERB ADP ADP DET NOUN NOUN ADP DET NOUN ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "out",
-                "ADP",
-                "ADP",
-                "PRT"
-            ],
-            [
-                "look",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "369": {
-        "words": "her nose was higher of bridge , her complexion so pale as to be quite susceptible to sunburn , and the fish and vegetable diet of her forebears had given her teeth that were white and regular and strong .",
-        "actual_tags": "DET NOUN VERB ADJ ADP NOUN . DET NOUN ADV ADJ ADP PRT VERB ADV ADJ ADP NOUN . CONJ DET NOUN CONJ NOUN NOUN ADP DET NOUN VERB VERB PRON NOUN PRON VERB ADJ CONJ ADJ CONJ ADJ .",
-        "CRF_tags": "DET NOUN VERB ADJ ADP NOUN . DET NOUN ADV ADJ ADP PRT VERB ADV ADJ ADP NOUN . CONJ DET NOUN CONJ NOUN NOUN ADP DET NOUN VERB VERB PRON NOUN PRON VERB ADJ CONJ ADJ CONJ ADJ .",
-        "HMM_tags": "DET NOUN VERB ADJ ADP NOUN . DET NOUN ADP ADJ ADP PRT VERB ADV ADJ ADP NOUN . CONJ DET NOUN CONJ NOUN NOUN ADP DET NOUN VERB VERB DET NOUN PRON VERB ADJ CONJ ADJ CONJ ADJ .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "so",
-                "ADV",
-                "ADV",
-                "ADP"
-            ],
-            [
-                "her",
-                "PRON",
-                "PRON",
-                "DET"
-            ]
-        ]
-    },
-    "390": {
-        "words": "i started my tour of them at the turkish government tourist office , next to pan american's office on the left as you enter the driveway that leads to the hilton hotel .",
-        "actual_tags": "PRON VERB DET NOUN ADP PRON ADP DET ADJ NOUN NOUN NOUN . ADP ADP ADJ NOUN NOUN ADP DET NOUN ADP PRON VERB DET NOUN PRON VERB ADP DET NOUN NOUN .",
-        "CRF_tags": "PRON VERB DET NOUN ADP PRON ADP DET ADJ NOUN NOUN NOUN . ADP ADP ADJ NOUN NOUN ADP DET NOUN ADP PRON VERB DET NOUN PRON VERB ADP DET NOUN NOUN .",
-        "HMM_tags": "PRON VERB DET NOUN ADP PRON ADP DET ADJ NOUN NOUN NOUN . ADJ ADP NOUN NOUN NOUN ADP DET NOUN ADP PRON VERB DET NOUN PRON VERB ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "next",
-                "ADP",
-                "ADP",
-                "ADJ"
-            ],
-            [
-                "pan",
-                "ADJ",
-                "ADJ",
-                "NOUN"
-            ]
-        ]
-    },
-    "401": {
-        "words": "he didn't have to telephone .",
-        "actual_tags": "PRON VERB VERB PRT VERB .",
-        "CRF_tags": "PRON VERB VERB PRT VERB .",
-        "HMM_tags": "PRON VERB VERB ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "telephone",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "431": {
-        "words": "beginning in 1960 , the matching requirements for the base allotment are being adjusted ( upward or downward , as required ) 25% a year , so that by 1963 the entire support allotment will be matched on the basis of a 40% pivot state share , with maximum and minimum state shares of 50% and 30% , respectively .",
-        "actual_tags": "VERB ADP NUM . DET VERB NOUN ADP DET NOUN NOUN VERB VERB VERB . ADV CONJ ADV . ADP VERB . NOUN DET NOUN . ADP ADP ADP NUM DET ADJ NOUN NOUN VERB VERB VERB ADP DET NOUN ADP DET NOUN NOUN NOUN NOUN . ADP ADJ CONJ ADJ NOUN NOUN ADP NOUN CONJ NOUN . ADV .",
-        "CRF_tags": "VERB ADP NUM . DET VERB NOUN ADP DET NOUN NOUN VERB VERB VERB . ADV CONJ ADV . ADP VERB . NOUN DET NOUN . ADP ADP ADP NUM DET ADJ NOUN NOUN VERB VERB VERB ADP DET NOUN ADP DET NOUN NOUN NOUN NOUN . ADP ADJ CONJ ADJ NOUN NOUN ADP NOUN CONJ NOUN . ADV .",
-        "HMM_tags": "NOUN ADP NUM . DET VERB NOUN ADP DET NOUN NOUN VERB VERB VERB . ADV CONJ ADV . ADP VERB . NOUN DET NOUN . ADV ADP ADP NUM DET ADJ NOUN NOUN VERB VERB VERB ADP DET NOUN ADP DET NOUN NOUN NOUN NOUN . ADP ADJ CONJ ADJ NOUN NOUN ADP NOUN CONJ NOUN . ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "beginning",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "so",
-                "ADP",
-                "ADP",
-                "ADV"
-            ]
-        ]
-    },
-    "433": {
-        "words": "it would challenge sharply not the cult of the motor car itself but some of its ancillary beliefs and practices -- for instance , the doctrine that the fulfillment of life consists in proceeding from hither to yon , not for any advantage to be gained by arrival but merely to avoid the cardinal sin of stasis , or , as it is generally termed , staying put .",
-        "actual_tags": "PRON VERB VERB ADV ADV DET NOUN ADP DET NOUN NOUN PRON CONJ DET ADP DET ADJ NOUN CONJ NOUN . ADP NOUN . DET NOUN ADP DET NOUN ADP NOUN VERB ADP VERB ADP ADV ADP ADV . ADV ADP DET NOUN PRT VERB VERB ADP NOUN CONJ ADV PRT VERB DET ADJ NOUN ADP NOUN . CONJ . ADP PRON VERB ADV VERB . VERB VERB .",
-        "CRF_tags": "PRON VERB VERB ADV ADV DET NOUN ADP DET NOUN NOUN PRON CONJ DET ADP DET ADJ NOUN CONJ NOUN . ADP NOUN . DET NOUN ADP DET NOUN ADP NOUN VERB ADP VERB ADP ADV ADP ADV . ADV ADP DET NOUN PRT VERB VERB ADP NOUN CONJ ADV PRT VERB DET ADJ NOUN ADP NOUN . CONJ . ADP PRON VERB ADV VERB . VERB VERB .",
-        "HMM_tags": "PRON VERB VERB ADV ADV DET NOUN ADP DET NOUN NOUN PRON CONJ DET ADP DET ADJ NOUN CONJ NOUN . ADP NOUN . DET NOUN ADP DET NOUN ADP NOUN VERB ADP NOUN ADP ADV PRT ADV . ADV ADP DET NOUN PRT VERB VERB ADP NOUN CONJ ADV PRT VERB DET ADJ NOUN ADP NOUN . CONJ . ADP PRON VERB ADV VERB . VERB VERB .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "proceeding",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "to",
-                "ADP",
-                "ADP",
-                "PRT"
-            ]
-        ]
-    },
-    "510": {
-        "words": "he should personally consider the potential of a faculty member proposed for tenure , to guard against the mistake of making this profoundly serious commitment turn solely upon the man's former achievements .",
-        "actual_tags": "PRON VERB ADV VERB DET NOUN ADP DET NOUN NOUN VERB ADP NOUN . PRT VERB ADP DET NOUN ADP VERB DET ADV ADJ NOUN VERB ADV ADP DET NOUN ADJ NOUN .",
-        "CRF_tags": "PRON VERB ADV VERB DET NOUN ADP DET NOUN NOUN VERB ADP NOUN . PRT VERB ADP DET NOUN ADP VERB DET ADV ADJ NOUN VERB ADV ADP DET NOUN ADJ NOUN .",
-        "HMM_tags": "PRON VERB ADV VERB DET NOUN ADP DET NOUN NOUN VERB ADP NOUN . ADP NOUN ADP DET NOUN ADP VERB DET ADV ADJ NOUN VERB ADV ADP DET NOUN ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "guard",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "515": {
-        "words": "an excited woman was making an emergency call over the phone : `` doctor , please come over right away .",
-        "actual_tags": "DET VERB NOUN VERB VERB DET NOUN NOUN ADP DET NOUN . . NOUN . PRT VERB PRT ADV ADV .",
-        "CRF_tags": "DET VERB NOUN VERB VERB DET NOUN NOUN ADP DET NOUN . . NOUN . PRT VERB PRT ADV ADV .",
-        "HMM_tags": "DET VERB NOUN VERB VERB DET NOUN VERB ADP DET NOUN . . NOUN . VERB VERB PRT ADV ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "call",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ],
-            [
-                "please",
-                "PRT",
-                "PRT",
-                "VERB"
-            ]
-        ]
-    },
-    "527": {
-        "words": "thanks '' , was her answer the next day .",
-        "actual_tags": "NOUN . . VERB DET NOUN DET ADJ NOUN .",
-        "CRF_tags": "NOUN . . VERB DET NOUN DET ADJ NOUN .",
-        "HMM_tags": "NOUN . . VERB PRON VERB DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "her",
-                "DET",
-                "DET",
-                "PRON"
-            ],
-            [
-                "answer",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "533": {
-        "words": "it takes place in the household , a rite of well-wishing for myriad occasions -- for the traveler , a wedding , a newborn child , the sick , the new year , for any good purpose .",
-        "actual_tags": "PRON VERB NOUN ADP DET NOUN . DET NOUN ADP NOUN ADP NOUN NOUN . ADP DET NOUN . DET NOUN . DET ADJ NOUN . DET ADJ . DET ADJ NOUN . ADP DET ADJ NOUN .",
-        "CRF_tags": "PRON VERB NOUN ADP DET NOUN . DET NOUN ADP NOUN ADP NOUN NOUN . ADP DET NOUN . DET NOUN . DET ADJ NOUN . DET ADJ . DET ADJ NOUN . ADP DET ADJ NOUN .",
-        "HMM_tags": "PRON VERB VERB ADP DET NOUN . DET NOUN ADP NOUN ADP ADJ NOUN . ADP DET NOUN . DET NOUN . DET ADJ NOUN . DET ADJ . DET ADJ NOUN . ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "place",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ],
-            [
-                "myriad",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ]
-        ]
-    },
-    "551": {
-        "words": "it had a festering hole as big as a silver dollar .",
-        "actual_tags": "PRON VERB DET VERB NOUN ADV ADJ ADP DET NOUN NOUN .",
-        "CRF_tags": "PRON VERB DET VERB NOUN ADV ADJ ADP DET NOUN NOUN .",
-        "HMM_tags": "PRON VERB DET VERB NOUN ADP ADJ ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "as",
-                "ADV",
-                "ADV",
-                "ADP"
-            ],
-            [
-                "silver",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ]
-        ]
-    },
-    "553": {
-        "words": "by relaxing the throat muscles and expanding the oral cavity well into the frontal sinuses , she could direct the vowel sounds into the most felicitous position for proper reproduction through her throat microphone .",
-        "actual_tags": "ADP VERB DET NOUN NOUN CONJ VERB DET ADJ NOUN ADV ADP DET ADJ NOUN . PRON VERB VERB DET NOUN NOUN ADP DET ADV ADJ NOUN ADP ADJ NOUN ADP DET NOUN NOUN .",
-        "CRF_tags": "ADP VERB DET NOUN NOUN CONJ VERB DET ADJ NOUN ADV ADP DET ADJ NOUN . PRON VERB VERB DET NOUN NOUN ADP DET ADV ADJ NOUN ADP ADJ NOUN ADP DET NOUN NOUN .",
-        "HMM_tags": "ADP VERB DET NOUN NOUN CONJ VERB DET ADJ NOUN ADV ADP DET ADJ NOUN . PRON VERB VERB DET NOUN VERB ADP DET ADJ ADJ NOUN ADP ADJ NOUN ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "sounds",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ],
-            [
-                "most",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "564": {
-        "words": "palmer's 281 for the four rounds at augusta was a comfortable four strokes ahead of the next closest pro , but it was barely good enough for a second-place tie with coe .",
-        "actual_tags": "NOUN NUM ADP DET NUM NOUN ADP NOUN VERB DET ADJ NUM NOUN ADV ADP DET ADV ADJ NOUN . CONJ PRON VERB ADV ADJ ADV ADP DET NOUN NOUN ADP NOUN .",
-        "CRF_tags": "NOUN NUM ADP DET NUM NOUN ADP NOUN VERB DET ADJ NUM NOUN ADV ADP DET ADV ADJ NOUN . CONJ PRON VERB ADV ADJ ADV ADP DET NOUN NOUN ADP NOUN .",
-        "HMM_tags": "NOUN NUM ADP DET NUM NOUN ADP NOUN VERB DET ADJ NUM NOUN ADV ADP DET ADJ ADJ NOUN . CONJ PRON VERB ADV ADJ ADV ADP DET NOUN VERB ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "next",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ],
-            [
-                "tie",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "596": {
-        "words": "to find a place for them in their theory of knowledge would require them to revise the theory radically , and yet that theory was what they regarded as their most important discovery .",
-        "actual_tags": "PRT VERB DET NOUN ADP PRON ADP DET NOUN ADP NOUN VERB VERB PRON PRT VERB DET NOUN ADV . CONJ ADV DET NOUN VERB DET PRON VERB ADP DET ADV ADJ NOUN .",
-        "CRF_tags": "PRT VERB DET NOUN ADP PRON ADP DET NOUN ADP NOUN VERB VERB PRON PRT VERB DET NOUN ADV . CONJ ADV DET NOUN VERB DET PRON VERB ADP DET ADV ADJ NOUN .",
-        "HMM_tags": "PRT VERB DET NOUN ADP PRON ADP DET NOUN ADP NOUN VERB VERB PRON PRT VERB DET NOUN ADV . CONJ ADV ADP NOUN VERB DET PRON VERB ADP DET ADJ ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "that",
-                "DET",
-                "DET",
-                "ADP"
-            ],
-            [
-                "most",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "605": {
-        "words": "he went on to say : `` in the first place , industry per se is not dedicated to the role of savior of foundering municipalities .",
-        "actual_tags": "PRON VERB PRT PRT VERB . . ADP DET ADJ NOUN . NOUN ADP X VERB ADV VERB ADP DET NOUN ADP NOUN ADP VERB NOUN .",
-        "CRF_tags": "PRON VERB PRT PRT VERB . . ADP DET ADJ NOUN . NOUN ADP X VERB ADV VERB ADP DET NOUN ADP NOUN ADP VERB NOUN .",
-        "HMM_tags": "PRON VERB ADP PRT VERB . . ADP DET ADJ NOUN . NOUN X X VERB ADV VERB ADP DET NOUN ADP NOUN ADP VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "on",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "per",
-                "ADP",
-                "ADP",
-                "X"
-            ]
-        ]
-    },
-    "618": {
-        "words": "ground meats are usually prepared from scrap meats at the local level , whereas irradiation at economic volumes of production would require central processing and distribution facilities .",
-        "actual_tags": "VERB NOUN VERB ADV VERB ADP NOUN NOUN ADP DET ADJ NOUN . ADP NOUN ADP ADJ NOUN ADP NOUN VERB VERB ADJ VERB CONJ NOUN NOUN .",
-        "CRF_tags": "VERB NOUN VERB ADV VERB ADP NOUN NOUN ADP DET ADJ NOUN . ADP NOUN ADP ADJ NOUN ADP NOUN VERB VERB ADJ VERB CONJ NOUN NOUN .",
-        "HMM_tags": "NOUN NOUN VERB ADV VERB ADP NOUN NOUN ADP DET ADJ NOUN . ADP NOUN ADP ADJ NOUN ADP NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "ground",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "processing",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "635": {
-        "words": "the statement was also made that undoubtedly the railroad had received some compensating benefit from the telegraphers , but that it was difficult to imagine what could balance a job for life .",
-        "actual_tags": "DET NOUN VERB ADV VERB ADP ADV DET NOUN VERB VERB DET VERB NOUN ADP DET NOUN . CONJ ADP PRON VERB ADJ PRT VERB DET VERB VERB DET NOUN ADP NOUN .",
-        "CRF_tags": "DET NOUN VERB ADV VERB ADP ADV DET NOUN VERB VERB DET VERB NOUN ADP DET NOUN . CONJ ADP PRON VERB ADJ PRT VERB DET VERB VERB DET NOUN ADP NOUN .",
-        "HMM_tags": "DET NOUN VERB ADV VERB PRON ADV DET NOUN VERB VERB DET VERB NOUN ADP DET NOUN . CONJ ADP PRON VERB ADJ PRT VERB DET VERB NOUN DET NOUN ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "that",
-                "ADP",
-                "ADP",
-                "PRON"
-            ],
-            [
-                "balance",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "671": {
-        "words": "we would all meet at ten o'clock at the kehl bridge , five miles from strasbourg , and march triumphantly across into germany .",
-        "actual_tags": "PRON VERB PRT VERB ADP NUM ADV ADP DET NOUN NOUN . NUM NOUN ADP NOUN . CONJ VERB ADV PRT ADP NOUN .",
-        "CRF_tags": "PRON VERB PRT VERB ADP NUM ADV ADP DET NOUN NOUN . NUM NOUN ADP NOUN . CONJ VERB ADV PRT ADP NOUN .",
-        "HMM_tags": "PRON VERB PRT VERB ADP NUM ADV ADP DET NOUN NOUN . NUM NOUN ADP NOUN . CONJ NOUN ADV ADP ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "march",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "across",
-                "PRT",
-                "PRT",
-                "ADP"
-            ]
-        ]
-    },
-    "725": {
-        "words": "determine if the particular state's unadjusted allotment ( result obtained in item 11 above ) is less than its minimum ( base ) allotment , and if so raise its unadjusted allotment to its minimum allotment .",
-        "actual_tags": "VERB ADP DET ADJ NOUN ADJ NOUN . NOUN VERB ADP NOUN NUM ADV . VERB ADJ ADP DET ADJ . NOUN . NOUN . CONJ ADP ADV VERB DET ADJ NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "VERB ADP DET ADJ NOUN ADJ NOUN . NOUN VERB ADP NOUN NUM ADV . VERB ADJ ADP DET ADJ . NOUN . NOUN . CONJ ADP ADV VERB DET ADJ NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "VERB ADP DET ADJ NOUN ADJ NOUN . NOUN VERB ADP NOUN NUM ADV . VERB ADV ADP DET NOUN . NOUN . NOUN . CONJ ADP ADV VERB DET ADJ NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "less",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ],
-            [
-                "minimum",
-                "ADJ",
-                "ADJ",
-                "NOUN"
-            ]
-        ]
-    },
-    "753": {
-        "words": "the opening scene shows this method at its most individual .",
-        "actual_tags": "DET VERB NOUN VERB DET NOUN ADP DET ADV ADJ .",
-        "CRF_tags": "DET VERB NOUN VERB DET NOUN ADP DET ADV ADJ .",
-        "HMM_tags": "DET VERB NOUN VERB DET NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "most",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ],
-            [
-                "individual",
-                "ADJ",
-                "ADJ",
-                "NOUN"
-            ]
-        ]
-    },
-    "754": {
-        "words": "more than 500 juniors and seniors are taking part in the program and 100 firms offer jobs on an educational rather than a need basis .",
-        "actual_tags": "ADJ ADP NUM NOUN CONJ NOUN VERB VERB NOUN ADP DET NOUN CONJ NUM NOUN VERB NOUN ADP DET ADJ ADP ADP DET NOUN NOUN .",
-        "CRF_tags": "ADJ ADP NUM NOUN CONJ NOUN VERB VERB NOUN ADP DET NOUN CONJ NUM NOUN VERB NOUN ADP DET ADJ ADP ADP DET NOUN NOUN .",
-        "HMM_tags": "ADV ADP NUM NOUN CONJ NOUN VERB VERB NOUN ADP DET NOUN CONJ NUM NOUN VERB NOUN ADP DET ADJ ADV ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "more",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ],
-            [
-                "rather",
-                "ADP",
-                "ADP",
-                "ADV"
-            ]
-        ]
-    },
-    "758": {
-        "words": "the data reported here are either from spectra from which the adsorbed water resonance could easily be eliminated or from spectra of samples evacuated and sealed off at 375-degrees-c which contain no adsorbed water .",
-        "actual_tags": "DET NOUN VERB ADV VERB CONJ ADP NOUN ADP DET DET VERB NOUN NOUN VERB ADV VERB VERB CONJ ADP NOUN ADP NOUN VERB CONJ VERB PRT ADP NOUN DET VERB DET VERB NOUN .",
-        "CRF_tags": "DET NOUN VERB ADV VERB CONJ ADP NOUN ADP DET DET VERB NOUN NOUN VERB ADV VERB VERB CONJ ADP NOUN ADP NOUN VERB CONJ VERB PRT ADP NOUN DET VERB DET VERB NOUN .",
-        "HMM_tags": "DET NOUN VERB ADV VERB ADV ADP NOUN ADP DET DET VERB NOUN NOUN VERB ADV VERB VERB CONJ ADP NOUN ADP NOUN VERB CONJ VERB PRT ADP NOUN DET VERB ADV VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "either",
-                "CONJ",
-                "CONJ",
-                "ADV"
-            ],
-            [
-                "no",
-                "DET",
-                "DET",
-                "ADV"
-            ]
-        ]
-    },
-    "763": {
-        "words": "this use is expected to increase to about 50 million visits by 1972 .",
-        "actual_tags": "DET NOUN VERB VERB PRT VERB ADP ADV NUM NUM NOUN ADP NUM .",
-        "CRF_tags": "DET NOUN VERB VERB PRT VERB ADP ADV NUM NUM NOUN ADP NUM .",
-        "HMM_tags": "DET NOUN VERB VERB PRT VERB PRT ADP NUM NUM NOUN ADP NUM .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "ADP",
-                "ADP",
-                "PRT"
-            ],
-            [
-                "about",
-                "ADV",
-                "ADV",
-                "ADP"
-            ]
-        ]
-    },
-    "771": {
-        "words": "these cut-down plants will bud and blossom in record time and will behave just as they did in early spring .",
-        "actual_tags": "DET ADJ NOUN VERB VERB CONJ VERB ADP NOUN NOUN CONJ VERB VERB ADV ADP PRON VERB ADP ADJ NOUN .",
-        "CRF_tags": "DET ADJ NOUN VERB VERB CONJ VERB ADP NOUN NOUN CONJ VERB VERB ADV ADP PRON VERB ADP ADJ NOUN .",
-        "HMM_tags": "DET ADJ NOUN VERB NOUN CONJ NOUN ADP NOUN NOUN CONJ VERB VERB ADV ADP PRON VERB ADP ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "bud",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "blossom",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "800": {
-        "words": "the reason was to speed up domestic production in the ussr , which khrushchev promised upon grabbing power , and try to end the permanent recession in russian living standards .",
-        "actual_tags": "DET NOUN VERB PRT VERB PRT ADJ NOUN ADP DET NOUN . DET NOUN VERB ADP VERB NOUN . CONJ VERB PRT VERB DET ADJ NOUN ADP ADJ VERB NOUN .",
-        "CRF_tags": "DET NOUN VERB PRT VERB PRT ADJ NOUN ADP DET NOUN . DET NOUN VERB ADP VERB NOUN . CONJ VERB PRT VERB DET ADJ NOUN ADP ADJ VERB NOUN .",
-        "HMM_tags": "DET NOUN VERB PRT VERB PRT ADJ NOUN ADP DET NOUN . DET NOUN VERB ADP NOUN NOUN . CONJ VERB PRT VERB DET ADJ NOUN ADP ADJ NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "grabbing",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "living",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "802": {
-        "words": "except that no state shall have an allotment percentage less than 33-1/3% nor more than 75% .",
-        "actual_tags": "ADP ADP DET NOUN VERB VERB DET NOUN NOUN ADJ ADP NOUN CONJ ADJ ADP NOUN .",
-        "CRF_tags": "ADP ADP DET NOUN VERB VERB DET NOUN NOUN ADJ ADP NOUN CONJ ADJ ADP NOUN .",
-        "HMM_tags": "ADP ADP DET NOUN VERB VERB DET NOUN NOUN ADV ADP NOUN CONJ ADV ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "less",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ],
-            [
-                "more",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ]
-        ]
-    },
-    "805": {
-        "words": "while 2-year-olds are still gaining most of the attention at the track , green horses are starting to go a bit , and jimmy cruise has several that can really make it .",
-        "actual_tags": "ADP NOUN VERB ADV VERB ADJ ADP DET NOUN ADP DET NOUN . ADJ NOUN VERB VERB PRT VERB DET NOUN . CONJ NOUN NOUN VERB ADJ PRON VERB ADV VERB PRON .",
-        "CRF_tags": "ADP NOUN VERB ADV VERB ADJ ADP DET NOUN ADP DET NOUN . ADJ NOUN VERB VERB PRT VERB DET NOUN . CONJ NOUN NOUN VERB ADJ PRON VERB ADV VERB PRON .",
-        "HMM_tags": "ADP NOUN VERB ADV VERB ADV ADP DET NOUN ADP DET NOUN . ADJ NOUN VERB VERB PRT VERB DET NOUN . CONJ NOUN NOUN VERB ADJ ADP VERB ADV VERB PRON .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "most",
-                "ADJ",
-                "ADJ",
-                "ADV"
-            ],
-            [
-                "that",
-                "PRON",
-                "PRON",
-                "ADP"
-            ]
-        ]
-    },
-    "831": {
-        "words": "i didn't know a human could feed so fast and still be beautiful .",
-        "actual_tags": "PRON VERB VERB DET NOUN VERB VERB ADV ADV CONJ ADV VERB ADJ .",
-        "CRF_tags": "PRON VERB VERB DET NOUN VERB VERB ADV ADV CONJ ADV VERB ADJ .",
-        "HMM_tags": "PRON VERB VERB DET ADJ VERB VERB ADV ADJ CONJ ADV VERB ADJ .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "human",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ],
-            [
-                "fast",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "846": {
-        "words": "`` the human ego being what it is '' , i put in , `` science fiction has always assumed that the creatures on the planets of a thousand larger solar systems than ours must look like gigantic tube-nosed fruit bats .",
-        "actual_tags": ". DET NOUN NOUN VERB DET PRON VERB . . PRON VERB PRT . . NOUN NOUN VERB ADV VERB ADP DET NOUN ADP DET NOUN ADP DET NUM ADJ ADJ NOUN ADP PRON VERB VERB ADP ADJ ADJ NOUN NOUN .",
-        "CRF_tags": ". DET NOUN NOUN VERB DET PRON VERB . . PRON VERB PRT . . NOUN NOUN VERB ADV VERB ADP DET NOUN ADP DET NOUN ADP DET NUM ADJ ADJ NOUN ADP PRON VERB VERB ADP ADJ ADJ NOUN NOUN .",
-        "HMM_tags": ". DET ADJ NOUN VERB DET PRON VERB . . PRON VERB ADP . . NOUN NOUN VERB ADV VERB ADP DET NOUN ADP DET NOUN ADP DET NUM ADJ ADJ NOUN ADP PRON VERB VERB ADP ADJ ADJ NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "human",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ],
-            [
-                "in",
-                "PRT",
-                "PRT",
-                "ADP"
-            ]
-        ]
-    },
-    "852": {
-        "words": "you want from me the story , but a story is about ' why ' and then , perhaps , about how .",
-        "actual_tags": "PRON VERB ADP PRON DET NOUN . CONJ DET NOUN VERB ADP . ADV . CONJ ADV . ADV . ADP ADV .",
-        "CRF_tags": "PRON VERB ADP PRON DET NOUN . CONJ DET NOUN VERB ADP . ADV . CONJ ADV . ADV . ADP ADV .",
-        "HMM_tags": "PRON VERB ADP PRON DET NOUN . CONJ DET NOUN VERB ADV . ADV . CONJ ADV . ADV . ADV ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "about",
-                "ADP",
-                "ADP",
-                "ADV"
-            ],
-            [
-                "about",
-                "ADP",
-                "ADP",
-                "ADV"
-            ]
-        ]
-    },
-    "882": {
-        "words": "and the life they lead is undisciplined and for the most part unproductive , even though they make a fetish of devoting themselves to some creative pursuit -- writing , painting , music .",
-        "actual_tags": "CONJ DET NOUN PRON VERB VERB ADJ CONJ ADP DET ADJ NOUN ADJ . ADV ADP PRON VERB DET NOUN ADP VERB PRON ADP DET ADJ NOUN . VERB . VERB . NOUN .",
-        "CRF_tags": "CONJ DET NOUN PRON VERB VERB ADJ CONJ ADP DET ADJ NOUN ADJ . ADV ADP PRON VERB DET NOUN ADP VERB PRON ADP DET ADJ NOUN . VERB . VERB . NOUN .",
-        "HMM_tags": "CONJ DET NOUN PRON VERB VERB ADJ CONJ ADP DET ADJ NOUN ADJ . ADV ADP PRON VERB DET NOUN ADP VERB PRON ADP DET ADJ NOUN . NOUN . NOUN . NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "writing",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "painting",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "883": {
-        "words": "in the first place , a good many writers who are said to use folklore , do not , unless one counts an occasional superstition or tale .",
-        "actual_tags": "ADP DET ADJ NOUN . DET ADJ ADJ NOUN PRON VERB VERB PRT VERB NOUN . VERB ADV . ADP NOUN VERB DET ADJ NOUN CONJ NOUN .",
-        "CRF_tags": "ADP DET ADJ NOUN . DET ADJ ADJ NOUN PRON VERB VERB PRT VERB NOUN . VERB ADV . ADP NOUN VERB DET ADJ NOUN CONJ NOUN .",
-        "HMM_tags": "ADP DET ADJ NOUN . DET ADJ ADJ NOUN PRON VERB VERB PRT VERB NOUN . VERB ADV . ADP NUM NOUN DET ADJ NOUN CONJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "one",
-                "NOUN",
-                "NOUN",
-                "NUM"
-            ],
-            [
-                "counts",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "912": {
-        "words": "the existing reverence for centrality must have been still further stimulated toward the close of the second century b.c. , when the han emperor wu ti ordered the dynastic color changed to yellow -- which symbolized the center among the traditional five directions -- and took 5 as the dynastic number , believing that he would thus place himself , his imperial family , and the nation under the most auspicious influences .",
-        "actual_tags": "DET VERB NOUN ADP NOUN VERB VERB VERB ADV ADV VERB ADP DET NOUN ADP DET ADJ NOUN NOUN . ADV DET NOUN NOUN NOUN NOUN VERB DET ADJ NOUN VERB ADP NOUN . DET VERB DET NOUN ADP DET ADJ NUM NOUN . CONJ VERB NUM ADP DET ADJ NOUN . VERB ADP PRON VERB ADV VERB PRON . DET ADJ NOUN . CONJ DET NOUN ADP DET ADV ADJ NOUN .",
-        "CRF_tags": "DET VERB NOUN ADP NOUN VERB VERB VERB ADV ADV VERB ADP DET NOUN ADP DET ADJ NOUN NOUN . ADV DET NOUN NOUN NOUN NOUN VERB DET ADJ NOUN VERB ADP NOUN . DET VERB DET NOUN ADP DET ADJ NUM NOUN . CONJ VERB NUM ADP DET ADJ NOUN . VERB ADP PRON VERB ADV VERB PRON . DET ADJ NOUN . CONJ DET NOUN ADP DET ADV ADJ NOUN .",
-        "HMM_tags": "DET VERB NOUN ADP NOUN VERB VERB VERB ADV ADV VERB ADP DET NOUN ADP DET ADJ NOUN NOUN . ADV DET NOUN NOUN NOUN NOUN VERB DET ADJ NOUN VERB ADP ADJ . DET VERB DET NOUN ADP DET ADJ NUM NOUN . CONJ VERB NUM ADP DET ADJ NOUN . VERB ADP PRON VERB ADV VERB PRON . DET ADJ NOUN . CONJ DET NOUN ADP DET ADJ ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "yellow",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ],
-            [
-                "most",
-                "ADV",
-                "ADV",
-                "ADJ"
-            ]
-        ]
-    },
-    "920": {
-        "words": "he believed in being seen near the front lines and he was there .",
-        "actual_tags": "PRON VERB ADP VERB VERB ADP DET ADJ NOUN CONJ PRON VERB ADV .",
-        "CRF_tags": "PRON VERB ADP VERB VERB ADP DET ADJ NOUN CONJ PRON VERB ADV .",
-        "HMM_tags": "PRON VERB PRT VERB VERB ADP DET ADJ NOUN CONJ PRON VERB PRT .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "in",
-                "ADP",
-                "ADP",
-                "PRT"
-            ],
-            [
-                "there",
-                "ADV",
-                "ADV",
-                "PRT"
-            ]
-        ]
-    },
-    "946": {
-        "words": "while i respect his sincere concern for peace , he made four points that i would like to question .",
-        "actual_tags": "ADP PRON VERB DET ADJ NOUN ADP NOUN . PRON VERB NUM NOUN ADP PRON VERB VERB PRT VERB .",
-        "CRF_tags": "ADP PRON VERB DET ADJ NOUN ADP NOUN . PRON VERB NUM NOUN ADP PRON VERB VERB PRT VERB .",
-        "HMM_tags": "ADP PRON VERB DET ADJ NOUN ADP NOUN . PRON VERB NUM NOUN ADP PRON VERB VERB ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "question",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "952": {
-        "words": "she was then trained on the trot until december 29 , hitched to a breaking cart once around the half-mile track and hoppled again .",
-        "actual_tags": "PRON VERB ADV VERB ADP DET NOUN ADP NOUN NUM . VERB ADP DET VERB NOUN ADV ADP DET NOUN NOUN CONJ VERB ADV .",
-        "CRF_tags": "PRON VERB ADV VERB ADP DET NOUN ADP NOUN NUM . VERB ADP DET VERB NOUN ADV ADP DET NOUN NOUN CONJ VERB ADV .",
-        "HMM_tags": "PRON VERB ADV VERB ADP DET NOUN ADP NOUN NUM . VERB ADP DET NOUN VERB ADV ADP DET NOUN NOUN CONJ VERB ADV .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "breaking",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "cart",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "968": {
-        "words": "daniel forbes , her divorced husband , lived there .",
-        "actual_tags": "NOUN NOUN . DET VERB NOUN . VERB ADV .",
-        "CRF_tags": "NOUN NOUN . DET VERB NOUN . VERB ADV .",
-        "HMM_tags": "NOUN NOUN . PRON VERB NOUN . VERB PRT .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "her",
-                "DET",
-                "DET",
-                "PRON"
-            ],
-            [
-                "there",
-                "ADV",
-                "ADV",
-                "PRT"
-            ]
-        ]
-    },
-    "1001": {
-        "words": "canada alone has been somewhat out of step with the oslo attempt to get all the allied cars back on the track behind the nato locomotive .",
-        "actual_tags": "NOUN ADV VERB VERB ADV ADP ADP NOUN ADP DET NOUN NOUN PRT VERB PRT DET VERB NOUN ADV ADP DET NOUN ADP DET NOUN NOUN .",
-        "CRF_tags": "NOUN ADV VERB VERB ADV ADP ADP NOUN ADP DET NOUN NOUN PRT VERB PRT DET VERB NOUN ADV ADP DET NOUN ADP DET NOUN NOUN .",
-        "HMM_tags": "NOUN ADV VERB VERB ADV PRT ADP NOUN ADP DET NOUN VERB PRT VERB PRT DET VERB NOUN ADV ADP DET NOUN ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "out",
-                "ADP",
-                "ADP",
-                "PRT"
-            ],
-            [
-                "attempt",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "1002": {
-        "words": "the ireland we usually hear about in the theater is a place of bitter political or domestic unrest , lightened occasionally with flashes of native wit and charm .",
-        "actual_tags": "DET NOUN PRON ADV VERB ADP ADP DET NOUN VERB DET NOUN ADP ADJ ADJ CONJ ADJ NOUN . VERB ADV ADP NOUN ADP NOUN NOUN CONJ NOUN .",
-        "CRF_tags": "DET NOUN PRON ADV VERB ADP ADP DET NOUN VERB DET NOUN ADP ADJ ADJ CONJ ADJ NOUN . VERB ADV ADP NOUN ADP NOUN NOUN CONJ NOUN .",
-        "HMM_tags": "DET NOUN PRON ADV VERB ADV ADP DET NOUN VERB DET NOUN ADP ADJ ADJ CONJ ADJ NOUN . VERB ADV ADP NOUN ADP ADJ NOUN CONJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "about",
-                "ADP",
-                "ADP",
-                "ADV"
-            ],
-            [
-                "native",
-                "NOUN",
-                "NOUN",
-                "ADJ"
-            ]
-        ]
-    },
-    "1034": {
-        "words": "carl , who was stationed in appleton , wisconsin , organizing for the social democrats , was in berger's office and made it his business to escort paula to the streetcar .",
-        "actual_tags": "NOUN . PRON VERB VERB ADP NOUN . NOUN . VERB ADP DET ADJ NOUN . VERB ADP NOUN NOUN CONJ VERB PRON DET NOUN PRT VERB NOUN ADP DET NOUN .",
-        "CRF_tags": "NOUN . PRON VERB VERB ADP NOUN . NOUN . VERB ADP DET ADJ NOUN . VERB ADP NOUN NOUN CONJ VERB PRON DET NOUN PRT VERB NOUN ADP DET NOUN .",
-        "HMM_tags": "NOUN . PRON VERB VERB ADP NOUN . NOUN . VERB ADP DET ADJ NOUN . VERB ADP NOUN NOUN CONJ VERB PRON DET NOUN ADP NOUN NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "escort",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "1040": {
-        "words": "her mother called her paus'l , a luxemburg endearment meaning `` pussycat '' .",
-        "actual_tags": "DET NOUN VERB PRON NOUN . DET NOUN NOUN VERB . NOUN . .",
-        "CRF_tags": "DET NOUN VERB PRON NOUN . DET NOUN NOUN VERB . NOUN . .",
-        "HMM_tags": "DET NOUN VERB DET NOUN . DET NOUN NOUN NOUN . NOUN . .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "her",
-                "PRON",
-                "PRON",
-                "DET"
-            ],
-            [
-                "meaning",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "1118": {
-        "words": "you can use heat-absorbing glass to stop the sun , double glass and insulated glass to combat condensation .",
-        "actual_tags": "PRON VERB VERB ADJ NOUN PRT VERB DET NOUN . ADJ NOUN CONJ VERB NOUN PRT VERB NOUN .",
-        "CRF_tags": "PRON VERB VERB ADJ NOUN PRT VERB DET NOUN . ADJ NOUN CONJ VERB NOUN PRT VERB NOUN .",
-        "HMM_tags": "PRON VERB VERB ADJ NOUN PRT VERB DET NOUN . ADJ NOUN CONJ VERB NOUN ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "to",
-                "PRT",
-                "PRT",
-                "ADP"
-            ],
-            [
-                "combat",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "1159": {
-        "words": "the activities of the planning division are defined in considerable detail in the enabling act of the development council , which assigns to the agency both broad responsibilities and specific duties in the field of planning .",
-        "actual_tags": "DET NOUN ADP DET VERB NOUN VERB VERB ADP ADJ NOUN ADP DET VERB NOUN ADP DET NOUN NOUN . DET VERB ADP DET NOUN DET ADJ NOUN CONJ ADJ NOUN ADP DET NOUN ADP VERB .",
-        "CRF_tags": "DET NOUN ADP DET VERB NOUN VERB VERB ADP ADJ NOUN ADP DET VERB NOUN ADP DET NOUN NOUN . DET VERB ADP DET NOUN DET ADJ NOUN CONJ ADJ NOUN ADP DET NOUN ADP VERB .",
-        "HMM_tags": "DET NOUN ADP DET NOUN NOUN VERB VERB ADP ADJ NOUN ADP DET VERB NOUN ADP DET NOUN NOUN . DET VERB ADP DET NOUN DET ADJ NOUN CONJ ADJ NOUN ADP DET NOUN ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "planning",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ],
-            [
-                "planning",
-                "VERB",
-                "VERB",
-                "NOUN"
-            ]
-        ]
-    },
-    "1170": {
-        "words": "the skiff was headed for the very center of the nebula -- toward that place which , jack knew now , could hold nothing less important than the very core of the angel's life and religion .",
-        "actual_tags": "DET NOUN VERB VERB ADP DET ADJ NOUN ADP DET NOUN . ADP DET NOUN DET . NOUN VERB ADV . VERB VERB NOUN ADV ADJ ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ NOUN .",
-        "CRF_tags": "DET NOUN VERB VERB ADP DET ADJ NOUN ADP DET NOUN . ADP DET NOUN DET . NOUN VERB ADV . VERB VERB NOUN ADV ADJ ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ NOUN .",
-        "HMM_tags": "DET NOUN VERB VERB ADP DET ADJ NOUN ADP DET NOUN . ADP PRON VERB DET . NOUN VERB ADV . VERB VERB NOUN ADV ADJ ADP DET ADJ NOUN ADP DET NOUN NOUN CONJ NOUN .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "that",
-                "DET",
-                "DET",
-                "PRON"
-            ],
-            [
-                "place",
-                "NOUN",
-                "NOUN",
-                "VERB"
-            ]
-        ]
-    },
-    "1184": {
-        "words": "it is good to be able to compute displacement so that changes in it resulting from boring and stroking can be computed .",
-        "actual_tags": "PRON VERB ADJ PRT VERB ADJ PRT VERB NOUN ADP ADP NOUN ADP PRON VERB ADP VERB CONJ NOUN VERB VERB VERB .",
-        "CRF_tags": "PRON VERB ADJ PRT VERB ADJ PRT VERB NOUN ADP ADP NOUN ADP PRON VERB ADP VERB CONJ NOUN VERB VERB VERB .",
-        "HMM_tags": "PRON VERB ADJ PRT VERB ADJ PRT VERB NOUN ADP DET NOUN ADP PRON VERB ADP NOUN CONJ NOUN VERB VERB VERB .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "that",
-                "ADP",
-                "ADP",
-                "DET"
-            ],
-            [
-                "boring",
-                "VERB",
-                "VERB",
-                "NOUN"
             ]
         ]
     }

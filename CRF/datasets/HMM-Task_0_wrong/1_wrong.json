@@ -1,71 +1,65 @@
 {
-    "14": {
-        "words": "mahzeer's office '' .",
-        "actual_tags": "NOUN NOUN . .",
-        "CRF_tags": "PRT NOUN . .",
-        "HMM_tags": "NOUN NOUN . .",
-        "(Word, Actual, CRF, HMM)": [
-            [
-                "mahzeer's",
-                "NOUN",
-                "PRT",
-                "NOUN"
-            ]
-        ]
-    },
     "53": {
-        "words": "there , ernest gross further assured him :",
+        "sentence": "there , ernest gross further assured him :",
         "actual_tags": "ADV . NOUN NOUN ADV VERB PRON .",
-        "CRF_tags": "PRT . NOUN NOUN ADV VERB PRON .",
-        "HMM_tags": "ADV . NOUN NOUN ADV VERB PRON .",
-        "(Word, Actual, CRF, HMM)": [
+        "hmm_tags": "ADV . NOUN NOUN ADV VERB PRON .",
+        "crf_tags": "PRT . NOUN NOUN ADV VERB PRON .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 1,
+        "(word, actual, hmm, crf)": [
             [
                 "there",
                 "ADV",
-                "PRT",
-                "ADV"
+                "ADV",
+                "PRT"
             ]
         ]
     },
-    "115": {
-        "words": "colorful , bright eastman chromspun fabrics , with the magenta , pink and white tones predominating as well as golden shades are used with composite .",
-        "actual_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
-        "CRF_tags": "ADJ . ADJ NOUN VERB NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
-        "HMM_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+    "171": {
+        "sentence": "further , change is a form of motion , it occurs as the act of a being in potency insofar as it is in potency and has not yet reached the terminus of the change .",
+        "actual_tags": "ADV . NOUN VERB DET NOUN ADP NOUN . PRON VERB ADP DET NOUN ADP DET NOUN ADP NOUN ADV ADP PRON VERB ADP NOUN CONJ VERB ADV ADV VERB DET NOUN ADP DET NOUN .",
+        "hmm_tags": "ADV . NOUN VERB DET NOUN ADP NOUN . PRON VERB ADP DET NOUN ADP DET NOUN ADP NOUN ADV ADP PRON VERB ADP NOUN CONJ VERB ADV ADV VERB DET NOUN ADP DET NOUN .",
+        "crf_tags": "ADV . NOUN VERB DET NOUN ADP NOUN . PRON VERB ADP DET NOUN ADP DET VERB ADP NOUN ADV ADP PRON VERB ADP NOUN CONJ VERB ADV ADV VERB DET NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 1,
+        "(word, actual, hmm, crf)": [
             [
-                "chromspun",
+                "being",
                 "NOUN",
-                "VERB",
-                "NOUN"
+                "NOUN",
+                "VERB"
             ]
         ]
     },
-    "121": {
-        "words": "product research and development",
-        "actual_tags": "NOUN NOUN CONJ NOUN",
-        "CRF_tags": "VERB NOUN CONJ NOUN",
-        "HMM_tags": "NOUN NOUN CONJ NOUN",
-        "(Word, Actual, CRF, HMM)": [
+    "177": {
+        "sentence": "it was just that little accidents played into her hands .",
+        "actual_tags": "PRON VERB ADV ADP ADJ NOUN VERB ADP DET NOUN .",
+        "hmm_tags": "PRON VERB ADV ADP ADJ NOUN VERB ADP DET NOUN .",
+        "crf_tags": "PRON VERB ADV DET ADJ NOUN VERB ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 1,
+        "(word, actual, hmm, crf)": [
             [
-                "product",
-                "NOUN",
-                "VERB",
-                "NOUN"
+                "that",
+                "ADP",
+                "ADP",
+                "DET"
             ]
         ]
     },
-    "131": {
-        "words": "the police were disqualified along with certain categories of naturalized citizens , criminals and those punished for protectorate activities .",
-        "actual_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
-        "CRF_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP ADJ NOUN .",
-        "HMM_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": [
+    "256": {
+        "sentence": "he gave me a straight , honest answer .",
+        "actual_tags": "PRON VERB PRON DET ADJ . ADJ NOUN .",
+        "hmm_tags": "PRON VERB PRON DET ADJ . ADJ NOUN .",
+        "crf_tags": "PRON VERB PRON DET ADV . ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 1,
+        "(word, actual, hmm, crf)": [
             [
-                "protectorate",
-                "NOUN",
+                "straight",
                 "ADJ",
-                "NOUN"
+                "ADJ",
+                "ADV"
             ]
         ]
     }

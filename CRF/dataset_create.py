@@ -1,24 +1,26 @@
-import nltk
-from nltk.corpus import brown
-import random
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pickle
-from crf import CRF
-import json
-import re
+import sys
 import os
+import pickle
+import json
+from tqdm import tqdm  # Import tqdm for progress tracking
+from crf import CRF
+import numpy as np
 
-# Load the model
+# Add the parent directory (HMM-Task) to sys.path
+hmm_task_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'HMM-Task'))
+sys.path.append(hmm_task_dir)
+from hmm3 import HMM3
+
+# Load the CRF and HMM models
 def load_model(filename):
     with open(filename, 'rb') as f:
-        model = pickle.load(f)
-    return model
+        return pickle.load(f)
 
-def compare_lists(list1, list2):
-    mismatches = [(i, x, y) for i, (x, y) in enumerate(zip(list1, list2), start=1) if x != y]
-    return mismatches
+# Compare two lists of tags and return mismatches
+def compare_tags(actual, predicted):
+    return [(i, a, p) for i, (a, p) in enumerate(zip(actual, predicted), start=1) if a != p]
+
+# Append results to a JSON file without overwriting
 
 def append_to_json_file(filepath, new_data):
     # Load existing data or initialize an empty dictionary
@@ -38,100 +40,79 @@ def append_to_json_file(filepath, new_data):
     with open(filepath, 'w') as f:
         json.dump(data, f, indent=4)
 
-# Main function
+# Main function for prediction and mismatch categorization
 def main():
-    # Load the model
-    model = load_model("results/model.pkl")
+    
+    # unpickle models/test_data.pkl
+    test_data = pickle.load(open("models/test_data.pkl", "rb"))
+    # Load CRF and HMM models
+    crf_model = load_model('models/crf_model.pkl')
+    hmm_model = load_model('models/hmm_model.pkl')
+    # Categorize the mismatches for HMM and CRF
+    mismatch_categories = [0, 1, 2, 3, 4, 5, '>=6']
+    sentences_processed = 0
+    hmmCategory = None
+    crfCategory = None
+    for index, sentence in enumerate(test_data[:300]):
+        sentences_processed += 1
+        output_json = {}    
+        joined_sentence = " ".join([word for word, tag in sentence])
+        
+        # Predict tags using CRF and HMM models
+        hmmTags = hmm_model.predict([word for word, tag in sentence])
+        crfTags = crf_model.predict([[word, "X"] for word, tag in sentence])
+        actualTags = [tag for word, tag in sentence]
+        words = [word for word, tag in sentence]
 
-    # pick indices from ../HMM-Task/1_wrong.json
-    for filename in os.listdir("../HMM-Task/datasets"):
-        if filename.endswith("_wrong.json"):
-            with open(f"../HMM-Task/datasets/{filename}", 'r') as f:
-                file_number = filename.split("_")[0]
-                data = json.load(f)
-                
-                for key, value in data.items():
-                    output_json = {}
-                    sentence = value["words"]
-                    words = sentence.split()
+        assert len(hmmTags) == len(crfTags) == len(actualTags) == len(words)
 
-                    tags_list = value["actual_tags"].split()
+        # Compare the actual tags with the predicted tags
+        hmmMismatches = compare_tags(actualTags, hmmTags)
+        crfMismatches = compare_tags(actualTags, crfTags)
+        numHMM = len(hmmMismatches)
+        numCRF = len(crfMismatches)
+        hmmCategory = mismatch_categories[min(numHMM, 6)]
+        if hmmCategory == 6:
+            hmmCategory = '>=6'
+        crfCategory = mismatch_categories[min(numCRF, 6)]
+        if crfCategory == 6:
+            crfCategory = '>=6'
 
-                    # Combine them into a list of tuples
-                    word_tag_pairs = [[word, "X"] for word in words]
+        dir = f"data/HMM-Task_{hmmCategory}_wrong"
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        
+        mismatch_tuples = []
+        for word, actual, hmm, crf in zip(words, actualTags, hmmTags, crfTags):
+            if crf != actual:
+                mismatch_tuples.append([word, actual, hmm, crf])
+            elif crf != hmm and hmm == actual:
+                mismatch_tuples.append([word, actual, hmm, crf])
+            elif crf != actual and hmm != actual:
+                mismatch_tuples.append([word, actual, hmm, crf])
+            elif hmm != actual:
+                mismatch_tuples.append([word, actual, hmm, crf])
+        
+        output_json[index] = {
+            "sentence": joined_sentence,
+            "actual_tags": " ".join(actualTags),
+            "hmm_tags": " ".join(hmmTags),
+            "crf_tags": " ".join(crfTags),
+            "hmm_mismatches": numHMM,
+            "crf_mismatches": numCRF,
+            "(word, actual, hmm, crf)": mismatch_tuples
+        }
 
-                    crf_tags = model.predict(word_tag_pairs)
-                    hmm_tags = value["predicted_tags"].split()
-                    actual_tags = value["actual_tags"].split()
-                    mismatches = compare_lists(actual_tags, crf_tags)
-                    num_mismatches = len(mismatches)
-                    # assert len(actual_tags) == len(crf_tags) == len(hmm_tags)
-                    assert len(actual_tags) == len(crf_tags) == len(hmm_tags), \
-                        f"Tag length mismatch! Actual: {len(actual_tags)}, CRF: {len(crf_tags)}, HMM: {len(hmm_tags)}"
-                    # Collect and filter mismatches based on specified conditions
+        append_to_json_file(f"{dir}/{crfCategory}_wrong.json", output_json)
 
-                    mismatch_tuples = []
-                    for word, actual, crf, hmm in zip(words, actual_tags, crf_tags, hmm_tags):
-                        # CRF and actual differ
-                        if crf != actual:
-                            mismatch_tuples.append((word, actual, crf, hmm))
-                        # CRF and HMM differ but HMM is the same as actual
-                        elif crf != hmm and hmm == actual:
-                            mismatch_tuples.append((word, actual, crf, hmm))
-                        # Both CRF and HMM differ from actual
-                        elif crf != actual and hmm != actual:
-                            mismatch_tuples.append((word, actual, crf, hmm))
-                        # HMM differs from actual
-                        elif hmm != actual:
-                            mismatch_tuples.append((word, actual, crf, hmm))
+        with open(f"{dir}/{crfCategory}_wrong.txt", 'a') as f:
+            f.write(f"{index}: {joined_sentence}\n")
 
+        with open('./sentences.txt', 'a') as f:
+            f.write(f"{index}: {joined_sentence}\n")
 
-                    if file_number == ">=6":
-                        
-                        output_json[key] = {
-                                "words": sentence,
-                                "actual_tags": value["actual_tags"],
-                                "CRF_tags": " ".join(crf_tags),
-                                "num_CRF_mismatches": num_mismatches,
-                                "HMM_tags": value["predicted_tags"],
-                                "num_HMM_mismatches": value["num_wrong_tags"],
-                                "(Word, Actual, CRF, HMM)": mismatch_tuples
-                            }
-                    else:
-                        output_json[key] = {
-                        "words": sentence,
-                        "actual_tags": value["actual_tags"],
-                        "CRF_tags": " ".join(crf_tags),
-                        "HMM_tags": value["predicted_tags"],
-                        "(Word, Actual, CRF, HMM)": mismatch_tuples
-                    }
-                        
-                    file_prefix = filename.split(".")[0]
-                    if 0 <= num_mismatches < 6:
-                        file_prefix = filename.split(".")[0]
-                        if not os.path.exists(f"datasets/HMM-Task_{file_prefix}"):
-                            os.makedirs(f"datasets/HMM-Task_{file_prefix}")
+    print(f"Processed {sentences_processed} sentences")
 
-                        # Write to text file
-                        with open(f"datasets/HMM-Task_{file_prefix}/{num_mismatches}_wrong.txt", 'a') as f:
-                            f.write(f"{key}: {sentence}\n")
-
-                        # Append to the JSON file (ensuring we do not overwrite)
-                        append_to_json_file(f"datasets/HMM-Task_{file_prefix}/{num_mismatches}_wrong.json", output_json)
-
-                    # Save JSON and text files for >= 6 mismatches
-                    elif num_mismatches >= 6:
-                        file_prefix = filename.split(".")[0]
-                        if not os.path.exists(f"datasets/HMM-Task_{file_prefix}"):
-                            os.makedirs(f"datasets/HMM-Task_{file_prefix}")
-
-                        # Write to text file
-                        with open(f"datasets/HMM-Task_{file_prefix}/>=6_wrong.txt", 'a') as f:
-                            f.write(f"{key}: {sentence}\n")
-
-                        # Append to the JSON file (ensuring we do not overwrite)
-                        append_to_json_file(f"datasets/HMM-Task_{file_prefix}/>=6_wrong.json", output_json)
-                
-
+# main
 if __name__ == "__main__":
     main()

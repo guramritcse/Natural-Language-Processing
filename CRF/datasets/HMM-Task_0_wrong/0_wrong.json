@@ -1,660 +1,1658 @@
 {
     "0": {
-        "words": "stars for marriage",
+        "sentence": "stars for marriage",
         "actual_tags": "NOUN ADP NOUN",
-        "CRF_tags": "NOUN ADP NOUN",
-        "HMM_tags": "NOUN ADP NOUN",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN ADP NOUN",
+        "crf_tags": "NOUN ADP NOUN",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "1": {
-        "words": "during the first pass of phase 3 , , references to the actual addresses of index words and electronic switches are collected and the availability table is updated .",
+        "sentence": "during the first pass of phase 3 , , references to the actual addresses of index words and electronic switches are collected and the availability table is updated .",
         "actual_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
-        "CRF_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
-        "HMM_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
+        "crf_tags": "ADP DET ADJ NOUN ADP NOUN NUM . . NOUN ADP DET ADJ NOUN ADP NOUN NOUN CONJ ADJ NOUN VERB VERB CONJ DET NOUN NOUN VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "3": {
-        "words": "books are not the only resource of the system .",
+        "sentence": "books are not the only resource of the system .",
         "actual_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
-        "CRF_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
-        "HMM_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
+        "crf_tags": "NOUN VERB ADV DET ADJ NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "5": {
-        "words": "during the hottest part of the day , of course , the sun comes straight down and there isn't any shade '' .",
+        "sentence": "during the hottest part of the day , of course , the sun comes straight down and there isn't any shade '' .",
         "actual_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
-        "CRF_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
-        "HMM_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
+        "crf_tags": "ADP DET ADJ NOUN ADP DET NOUN . ADP NOUN . DET NOUN VERB ADV PRT CONJ PRT VERB DET NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "6": {
-        "words": "however , it was virtually impossible to screen the mob outside , even if bonner had manpower available for the purpose .",
+        "sentence": "however , it was virtually impossible to screen the mob outside , even if bonner had manpower available for the purpose .",
         "actual_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
-        "CRF_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
-        "HMM_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
+        "crf_tags": "ADV . PRON VERB ADV ADJ PRT VERB DET NOUN ADV . ADV ADP NOUN VERB NOUN ADJ ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "7": {
-        "words": "but there are at least two reasons for contemplating one's mind in even a cracked mirror .",
+        "sentence": "but there are at least two reasons for contemplating one's mind in even a cracked mirror .",
         "actual_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
-        "CRF_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
-        "HMM_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
+        "crf_tags": "CONJ PRT VERB ADP ADJ NUM NOUN ADP VERB NOUN NOUN ADP ADV DET VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "8": {
-        "words": "well-wishers around the world hoped that the congo would quickly assume a respectable position in the society of nations .",
+        "sentence": "well-wishers around the world hoped that the congo would quickly assume a respectable position in the society of nations .",
         "actual_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
-        "CRF_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
-        "HMM_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
+        "crf_tags": "NOUN ADP DET NOUN VERB ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "10": {
-        "words": "eugenia sighed .",
+        "sentence": "eugenia sighed .",
         "actual_tags": "NOUN VERB .",
-        "CRF_tags": "NOUN VERB .",
-        "HMM_tags": "NOUN VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB .",
+        "crf_tags": "NOUN VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "11": {
-        "words": "( 3 )",
+        "sentence": "( 3 )",
         "actual_tags": ". NUM .",
-        "CRF_tags": ". NUM .",
-        "HMM_tags": ". NUM .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". NUM .",
+        "crf_tags": ". NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "14": {
+        "sentence": "mahzeer's office '' .",
+        "actual_tags": "NOUN NOUN . .",
+        "hmm_tags": "NOUN NOUN . .",
+        "crf_tags": "NOUN NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "15": {
-        "words": "''",
+        "sentence": "''",
         "actual_tags": ".",
-        "CRF_tags": ".",
-        "HMM_tags": ".",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ".",
+        "crf_tags": ".",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "16": {
-        "words": "`` a bullet '' , she answered .",
+        "sentence": "`` a bullet '' , she answered .",
         "actual_tags": ". DET NOUN . . PRON VERB .",
-        "CRF_tags": ". DET NOUN . . PRON VERB .",
-        "HMM_tags": ". DET NOUN . . PRON VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". DET NOUN . . PRON VERB .",
+        "crf_tags": ". DET NOUN . . PRON VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "19": {
-        "words": "the war to subdue them taxed the resources of the colony and piled up enormous debts .",
+        "sentence": "the war to subdue them taxed the resources of the colony and piled up enormous debts .",
         "actual_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
-        "CRF_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
-        "HMM_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
+        "crf_tags": "DET NOUN PRT VERB PRON VERB DET NOUN ADP DET NOUN CONJ VERB PRT ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "20": {
-        "words": "under this plan both cranston and providence would be on the uniform fiscal year but would still be using the same installment periods .",
+        "sentence": "under this plan both cranston and providence would be on the uniform fiscal year but would still be using the same installment periods .",
         "actual_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
-        "CRF_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
-        "HMM_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
+        "crf_tags": "ADP DET NOUN DET NOUN CONJ NOUN VERB VERB ADP DET ADJ ADJ NOUN CONJ VERB ADV VERB VERB DET ADJ NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "22": {
-        "words": "she did suddenly , through the link of memory with his father , old titus , who must have been in his nineties when henrietta ran away .",
+        "sentence": "she did suddenly , through the link of memory with his father , old titus , who must have been in his nineties when henrietta ran away .",
         "actual_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
-        "CRF_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
-        "HMM_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
+        "crf_tags": "PRON VERB ADV . ADP DET NOUN ADP NOUN ADP DET NOUN . ADJ NOUN . PRON VERB VERB VERB ADP DET NOUN ADV NOUN VERB ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "23": {
-        "words": "he generally heard freddy's suggestions without interest , being absorbed by his own prospering concerns .",
+        "sentence": "he generally heard freddy's suggestions without interest , being absorbed by his own prospering concerns .",
         "actual_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
-        "CRF_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
-        "HMM_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
+        "crf_tags": "PRON ADV VERB NOUN NOUN ADP NOUN . VERB VERB ADP DET ADJ VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "25": {
-        "words": "the valves were normal except for thin yellow plaques on the inferior surface of the mitral leaflets .",
+        "sentence": "the valves were normal except for thin yellow plaques on the inferior surface of the mitral leaflets .",
         "actual_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "DET NOUN VERB ADJ ADP ADP ADJ ADJ NOUN ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "28": {
-        "words": "they killed big charlie , dumped his body in my rose garden two nights ago .",
+        "sentence": "they killed big charlie , dumped his body in my rose garden two nights ago .",
         "actual_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
-        "CRF_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
-        "HMM_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
+        "crf_tags": "PRON VERB ADJ NOUN . VERB DET NOUN ADP DET NOUN NOUN NUM NOUN ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "30": {
-        "words": "mutants may also be developed with changes in biochemical properties that are of importance in identification .",
+        "sentence": "mutants may also be developed with changes in biochemical properties that are of importance in identification .",
         "actual_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
-        "CRF_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
-        "HMM_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
+        "crf_tags": "NOUN VERB ADV VERB VERB ADP NOUN ADP ADJ NOUN PRON VERB ADP NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "31": {
-        "words": "in the century from 1815 to 1914 the law of nations became international law .",
+        "sentence": "in the century from 1815 to 1914 the law of nations became international law .",
         "actual_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
-        "CRF_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
-        "HMM_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
+        "crf_tags": "ADP DET NOUN ADP NUM ADP NUM DET NOUN ADP NOUN VERB ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "32": {
-        "words": "part of his house had been moved to the other side of the road .",
+        "sentence": "part of his house had been moved to the other side of the road .",
         "actual_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
-        "CRF_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
-        "HMM_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
+        "crf_tags": "NOUN ADP DET NOUN VERB VERB VERB ADP DET ADJ NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "33": {
-        "words": "nate '' ! !",
+        "sentence": "nate '' ! !",
         "actual_tags": "NOUN . . .",
-        "CRF_tags": "NOUN . . .",
-        "HMM_tags": "NOUN . . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN . . .",
+        "crf_tags": "NOUN . . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "34": {
-        "words": "the crystallographic data given include interaxial angles and unit cell dimensions ; ;",
+        "sentence": "the crystallographic data given include interaxial angles and unit cell dimensions ; ;",
         "actual_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
-        "CRF_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
-        "HMM_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
+        "crf_tags": "DET ADJ NOUN VERB VERB ADJ NOUN CONJ NOUN NOUN NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "35": {
-        "words": "if desired , sprinkle with 1 teaspoon drained crushed pineapple .",
+        "sentence": "if desired , sprinkle with 1 teaspoon drained crushed pineapple .",
         "actual_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
-        "CRF_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
-        "HMM_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
+        "crf_tags": "ADP VERB . VERB ADP NUM NOUN VERB VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "37": {
-        "words": "what are the relevant data ? ?",
+        "sentence": "what are the relevant data ? ?",
         "actual_tags": "DET VERB DET ADJ NOUN . .",
-        "CRF_tags": "DET VERB DET ADJ NOUN . .",
-        "HMM_tags": "DET VERB DET ADJ NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET VERB DET ADJ NOUN . .",
+        "crf_tags": "DET VERB DET ADJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "40": {
-        "words": "we attended the premieres of his concertos , symphonies , and suites ; ;",
+        "sentence": "we attended the premieres of his concertos , symphonies , and suites ; ;",
         "actual_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
-        "CRF_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
-        "HMM_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
+        "crf_tags": "PRON VERB DET NOUN ADP DET NOUN . NOUN . CONJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "42": {
-        "words": "she might like to take him to st. peter's .",
+        "sentence": "she might like to take him to st. peter's .",
         "actual_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
-        "CRF_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
-        "HMM_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
+        "crf_tags": "PRON VERB VERB PRT VERB PRON ADP NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "44": {
-        "words": "they had a two-hour luncheon together in `` an atmosphere of cordial understanding and relaxation '' , she said .",
+        "sentence": "they had a two-hour luncheon together in `` an atmosphere of cordial understanding and relaxation '' , she said .",
         "actual_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
-        "CRF_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
-        "HMM_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
+        "crf_tags": "PRON VERB DET ADJ NOUN ADV ADP . DET NOUN ADP ADJ NOUN CONJ NOUN . . PRON VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "46": {
-        "words": "in addition , their establishment made it unnecessary to begin publication of a contemplated air force medical bulletin .",
+        "sentence": "in addition , their establishment made it unnecessary to begin publication of a contemplated air force medical bulletin .",
         "actual_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
-        "CRF_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
-        "HMM_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
+        "crf_tags": "ADP NOUN . DET NOUN VERB PRON ADJ PRT VERB NOUN ADP DET VERB NOUN NOUN ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "49": {
-        "words": "he was determined to spend an industrious summer .",
+        "sentence": "he was determined to spend an industrious summer .",
         "actual_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
-        "CRF_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
-        "HMM_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
+        "crf_tags": "PRON VERB VERB PRT VERB DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "50": {
-        "words": "( however , there is little evidence that the late lumumba was a communist .",
+        "sentence": "( however , there is little evidence that the late lumumba was a communist .",
         "actual_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
-        "CRF_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
-        "HMM_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
+        "crf_tags": ". ADV . PRT VERB ADJ NOUN ADP DET ADJ NOUN VERB DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "51": {
-        "words": "take augustine's doctrine of grace given and grace withheld : have you pondered the dramatic qualities in this theology ? ?",
+        "sentence": "take augustine's doctrine of grace given and grace withheld : have you pondered the dramatic qualities in this theology ? ?",
         "actual_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
-        "CRF_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
-        "HMM_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
+        "crf_tags": "VERB NOUN NOUN ADP NOUN VERB CONJ NOUN VERB . VERB PRON VERB DET ADJ NOUN ADP DET NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "52": {
-        "words": "there's only one way they can get out now and that's through the gap -- if we ride hard we can take them '' .",
+        "sentence": "there's only one way they can get out now and that's through the gap -- if we ride hard we can take them '' .",
         "actual_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
-        "CRF_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
-        "HMM_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
+        "crf_tags": "PRT ADV NUM NOUN PRON VERB VERB PRT ADV CONJ PRT ADP DET NOUN . ADP PRON VERB ADV PRON VERB VERB PRON . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "54": {
-        "words": "a daughter , mrs. sidney s. stein jr. , dorenzo , calif. ; ;",
+        "sentence": "a daughter , mrs. sidney s. stein jr. , dorenzo , calif. ; ;",
         "actual_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
-        "CRF_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
-        "HMM_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
+        "crf_tags": "DET NOUN . NOUN NOUN NOUN NOUN NOUN . NOUN . NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "55": {
-        "words": "some are blest with an abundance of good health -- some are in poor health and many are invalids .",
+        "sentence": "some are blest with an abundance of good health -- some are in poor health and many are invalids .",
         "actual_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
-        "CRF_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
-        "HMM_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
+        "crf_tags": "DET VERB VERB ADP DET NOUN ADP ADJ NOUN . DET VERB ADP ADJ NOUN CONJ ADJ VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "56": {
-        "words": "and shelby carlson , cleveland .",
+        "sentence": "and shelby carlson , cleveland .",
         "actual_tags": "CONJ NOUN NOUN . NOUN .",
-        "CRF_tags": "CONJ NOUN NOUN . NOUN .",
-        "HMM_tags": "CONJ NOUN NOUN . NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "CONJ NOUN NOUN . NOUN .",
+        "crf_tags": "CONJ NOUN NOUN . NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "57": {
-        "words": "in plato's judgment , the arts play a meaningful role in society only in the education of the young , prior to the full development of their intellectual powers .",
+        "sentence": "in plato's judgment , the arts play a meaningful role in society only in the education of the young , prior to the full development of their intellectual powers .",
         "actual_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "ADP NOUN NOUN . DET NOUN VERB DET ADJ NOUN ADP NOUN ADV ADP DET NOUN ADP DET ADJ . ADV ADP DET ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "61": {
-        "words": "historians have traditionally regarded the great debates of the seventeen nineties as polarizing the issues of centralized vs. limited government , with hamilton and the nationalists supporting the former and jefferson and madison upholding the latter position .",
+        "sentence": "historians have traditionally regarded the great debates of the seventeen nineties as polarizing the issues of centralized vs. limited government , with hamilton and the nationalists supporting the former and jefferson and madison upholding the latter position .",
         "actual_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
-        "CRF_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
-        "HMM_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
+        "crf_tags": "NOUN VERB ADV VERB DET ADJ NOUN ADP DET NUM NOUN ADP VERB DET NOUN ADP VERB ADP VERB NOUN . ADP NOUN CONJ DET NOUN VERB DET ADJ CONJ NOUN CONJ NOUN VERB DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "64": {
-        "words": "you'll find an old transit in the basement .",
+        "sentence": "you'll find an old transit in the basement .",
         "actual_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
-        "CRF_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
-        "HMM_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
+        "crf_tags": "PRT VERB DET ADJ NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "65": {
-        "words": "for this change is not a change from one positive position to another , but a change from order and truth to disorder and negation .",
+        "sentence": "for this change is not a change from one positive position to another , but a change from order and truth to disorder and negation .",
         "actual_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
-        "CRF_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
-        "HMM_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
+        "crf_tags": "ADP DET NOUN VERB ADV DET NOUN ADP NUM ADJ NOUN ADP DET . CONJ DET NOUN ADP NOUN CONJ NOUN ADP NOUN CONJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "70": {
+        "sentence": "this , of course , is baseball's most remarkable mark : the 60 home runs hit in 1927 by the incorrigible epicure , the incredible athlete , george herman ( babe ) ruth of the yankees .",
+        "actual_tags": "DET . ADP NOUN . VERB NOUN ADV ADJ NOUN . DET NUM NOUN NOUN VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
+        "hmm_tags": "DET . ADP NOUN . VERB NOUN ADV ADJ NOUN . DET NUM NOUN NOUN VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
+        "crf_tags": "DET . ADP NOUN . VERB NOUN ADV ADJ NOUN . DET NUM NOUN NOUN VERB ADP NUM ADP DET ADJ NOUN . DET ADJ NOUN . NOUN NOUN . NOUN . NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "71": {
-        "words": "as their interpreter and guide , he had broken with tuskegee and become a spokesman of the coloured people of the world .",
+        "sentence": "as their interpreter and guide , he had broken with tuskegee and become a spokesman of the coloured people of the world .",
         "actual_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
-        "CRF_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
-        "HMM_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
+        "crf_tags": "ADP DET NOUN CONJ NOUN . PRON VERB VERB ADP NOUN CONJ VERB DET NOUN ADP DET VERB NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "73": {
-        "words": "strenuous efforts were made to remove pin pricking from administration statements .",
+        "sentence": "strenuous efforts were made to remove pin pricking from administration statements .",
         "actual_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
-        "CRF_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
-        "HMM_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
+        "crf_tags": "ADJ NOUN VERB VERB PRT VERB NOUN VERB ADP NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "76": {
-        "words": "there is a broad spectrum of organisms from which selection for a specified military purpose might be made .",
+        "sentence": "there is a broad spectrum of organisms from which selection for a specified military purpose might be made .",
         "actual_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
-        "CRF_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
-        "HMM_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
+        "crf_tags": "PRT VERB DET ADJ NOUN ADP NOUN ADP DET NOUN ADP DET VERB ADJ NOUN VERB VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "77": {
-        "words": "only 27% ( 11 subjects ) gave a positive kohnstamm reaction when completely naive concerning the phenomenon .",
+        "sentence": "only 27% ( 11 subjects ) gave a positive kohnstamm reaction when completely naive concerning the phenomenon .",
         "actual_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
-        "CRF_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
-        "HMM_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
+        "crf_tags": "ADV NOUN . NUM NOUN . VERB DET ADJ NOUN NOUN ADV ADV ADJ ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "78": {
-        "words": "shortening the results in this manner will not have any detrimental effect on the accuracy of the final result .",
+        "sentence": "shortening the results in this manner will not have any detrimental effect on the accuracy of the final result .",
         "actual_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
-        "CRF_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
-        "HMM_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "VERB DET NOUN ADP DET NOUN VERB ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "80": {
-        "words": ".",
+        "sentence": ".",
         "actual_tags": ".",
-        "CRF_tags": ".",
-        "HMM_tags": ".",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ".",
+        "crf_tags": ".",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "83": {
-        "words": "morse could have returned openly while bridget was sick in the back yard and gone up to the room he had occupied .",
+        "sentence": "morse could have returned openly while bridget was sick in the back yard and gone up to the room he had occupied .",
         "actual_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
-        "CRF_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
-        "HMM_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
+        "crf_tags": "NOUN VERB VERB VERB ADV ADP NOUN VERB ADJ ADP DET ADJ NOUN CONJ VERB PRT ADP DET NOUN PRON VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "85": {
+        "sentence": "he was wide awake , but he did not feel like doing anything .",
+        "actual_tags": "PRON VERB ADJ ADV . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
+        "hmm_tags": "PRON VERB ADJ ADV . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
+        "crf_tags": "PRON VERB ADJ ADV . CONJ PRON VERB ADV VERB ADP VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "86": {
-        "words": "conscience and religion are concerned with private sin : the civil law is concerned with public crimes .",
+        "sentence": "conscience and religion are concerned with private sin : the civil law is concerned with public crimes .",
         "actual_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
-        "CRF_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
-        "HMM_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
+        "crf_tags": "NOUN CONJ NOUN VERB VERB ADP ADJ NOUN . DET ADJ NOUN VERB VERB ADP ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "87": {
-        "words": "when it stopped he began busily typing , sitting up in a virtuous way .",
+        "sentence": "when it stopped he began busily typing , sitting up in a virtuous way .",
         "actual_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
-        "CRF_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
-        "HMM_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
+        "crf_tags": "ADV PRON VERB PRON VERB ADV VERB . VERB PRT ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "88": {
-        "words": "but the stranger was nimbler still .",
+        "sentence": "but the stranger was nimbler still .",
         "actual_tags": "CONJ DET NOUN VERB ADJ ADV .",
-        "CRF_tags": "CONJ DET NOUN VERB ADJ ADV .",
-        "HMM_tags": "CONJ DET NOUN VERB ADJ ADV .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "CONJ DET NOUN VERB ADJ ADV .",
+        "crf_tags": "CONJ DET NOUN VERB ADJ ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "91": {
-        "words": "`` on the side toward the horizon -- the southern hemisphere -- it is spring ; ;",
+        "sentence": "`` on the side toward the horizon -- the southern hemisphere -- it is spring ; ;",
         "actual_tags": ". ADP DET NOUN ADP DET NOUN . DET ADJ NOUN . PRON VERB NOUN . .",
-        "CRF_tags": ". ADP DET NOUN ADP DET NOUN . DET ADJ NOUN . PRON VERB NOUN . .",
-        "HMM_tags": ". ADP DET NOUN ADP DET NOUN . DET ADJ NOUN . PRON VERB NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". ADP DET NOUN ADP DET NOUN . DET ADJ NOUN . PRON VERB NOUN . .",
+        "crf_tags": ". ADP DET NOUN ADP DET NOUN . DET ADJ NOUN . PRON VERB NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "92": {
-        "words": "in other words its existence belongs to the period of roman britain .",
+        "sentence": "in other words its existence belongs to the period of roman britain .",
         "actual_tags": "ADP ADJ NOUN DET NOUN VERB ADP DET NOUN ADP ADJ NOUN .",
-        "CRF_tags": "ADP ADJ NOUN DET NOUN VERB ADP DET NOUN ADP ADJ NOUN .",
-        "HMM_tags": "ADP ADJ NOUN DET NOUN VERB ADP DET NOUN ADP ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP ADJ NOUN DET NOUN VERB ADP DET NOUN ADP ADJ NOUN .",
+        "crf_tags": "ADP ADJ NOUN DET NOUN VERB ADP DET NOUN ADP ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "93": {
-        "words": "it took some time to locate horn .",
+        "sentence": "it took some time to locate horn .",
         "actual_tags": "PRON VERB DET NOUN PRT VERB NOUN .",
-        "CRF_tags": "PRON VERB DET NOUN PRT VERB NOUN .",
-        "HMM_tags": "PRON VERB DET NOUN PRT VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB DET NOUN PRT VERB NOUN .",
+        "crf_tags": "PRON VERB DET NOUN PRT VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "94": {
-        "words": "forty other figures similar to 5 and 6 and the original data used in the construction of all figures and tables in this monograph have been included in the appendix .",
+        "sentence": "forty other figures similar to 5 and 6 and the original data used in the construction of all figures and tables in this monograph have been included in the appendix .",
         "actual_tags": "NUM ADJ NOUN ADJ ADP NUM CONJ NUM CONJ DET ADJ NOUN VERB ADP DET NOUN ADP PRT NOUN CONJ NOUN ADP DET NOUN VERB VERB VERB ADP DET NOUN .",
-        "CRF_tags": "NUM ADJ NOUN ADJ ADP NUM CONJ NUM CONJ DET ADJ NOUN VERB ADP DET NOUN ADP PRT NOUN CONJ NOUN ADP DET NOUN VERB VERB VERB ADP DET NOUN .",
-        "HMM_tags": "NUM ADJ NOUN ADJ ADP NUM CONJ NUM CONJ DET ADJ NOUN VERB ADP DET NOUN ADP PRT NOUN CONJ NOUN ADP DET NOUN VERB VERB VERB ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NUM ADJ NOUN ADJ ADP NUM CONJ NUM CONJ DET ADJ NOUN VERB ADP DET NOUN ADP PRT NOUN CONJ NOUN ADP DET NOUN VERB VERB VERB ADP DET NOUN .",
+        "crf_tags": "NUM ADJ NOUN ADJ ADP NUM CONJ NUM CONJ DET ADJ NOUN VERB ADP DET NOUN ADP PRT NOUN CONJ NOUN ADP DET NOUN VERB VERB VERB ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "97": {
-        "words": "marquet held my briefcase ; ;",
+        "sentence": "marquet held my briefcase ; ;",
         "actual_tags": "NOUN VERB DET NOUN . .",
-        "CRF_tags": "NOUN VERB DET NOUN . .",
-        "HMM_tags": "NOUN VERB DET NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB DET NOUN . .",
+        "crf_tags": "NOUN VERB DET NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "98": {
-        "words": "when we arrive at the events concerned in the vanished majority , they , of course , cannot impress us as anything familiar .",
+        "sentence": "when we arrive at the events concerned in the vanished majority , they , of course , cannot impress us as anything familiar .",
         "actual_tags": "ADV PRON VERB ADP DET NOUN VERB ADP DET VERB NOUN . PRON . ADP NOUN . VERB VERB PRON ADP NOUN ADJ .",
-        "CRF_tags": "ADV PRON VERB ADP DET NOUN VERB ADP DET VERB NOUN . PRON . ADP NOUN . VERB VERB PRON ADP NOUN ADJ .",
-        "HMM_tags": "ADV PRON VERB ADP DET NOUN VERB ADP DET VERB NOUN . PRON . ADP NOUN . VERB VERB PRON ADP NOUN ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV PRON VERB ADP DET NOUN VERB ADP DET VERB NOUN . PRON . ADP NOUN . VERB VERB PRON ADP NOUN ADJ .",
+        "crf_tags": "ADV PRON VERB ADP DET NOUN VERB ADP DET VERB NOUN . PRON . ADP NOUN . VERB VERB PRON ADP NOUN ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "101": {
-        "words": "but he was convinced that the realities of power -- military , economic and ideological -- were the decisive factors in the struggle with the communists and that these could not be talked away at a heads of government meeting .",
+        "sentence": "but he was convinced that the realities of power -- military , economic and ideological -- were the decisive factors in the struggle with the communists and that these could not be talked away at a heads of government meeting .",
         "actual_tags": "CONJ PRON VERB VERB ADP DET NOUN ADP NOUN . ADJ . ADJ CONJ ADJ . VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ ADP DET VERB ADV VERB VERB ADV ADP DET NOUN ADP NOUN NOUN .",
-        "CRF_tags": "CONJ PRON VERB VERB ADP DET NOUN ADP NOUN . ADJ . ADJ CONJ ADJ . VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ ADP DET VERB ADV VERB VERB ADV ADP DET NOUN ADP NOUN NOUN .",
-        "HMM_tags": "CONJ PRON VERB VERB ADP DET NOUN ADP NOUN . ADJ . ADJ CONJ ADJ . VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ ADP DET VERB ADV VERB VERB ADV ADP DET NOUN ADP NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "CONJ PRON VERB VERB ADP DET NOUN ADP NOUN . ADJ . ADJ CONJ ADJ . VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ ADP DET VERB ADV VERB VERB ADV ADP DET NOUN ADP NOUN NOUN .",
+        "crf_tags": "CONJ PRON VERB VERB ADP DET NOUN ADP NOUN . ADJ . ADJ CONJ ADJ . VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ ADP DET VERB ADV VERB VERB ADV ADP DET NOUN ADP NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "102": {
-        "words": "he didn't have to be told his son looked like him .",
+        "sentence": "he didn't have to be told his son looked like him .",
         "actual_tags": "PRON VERB VERB PRT VERB VERB DET NOUN VERB ADP PRON .",
-        "CRF_tags": "PRON VERB VERB PRT VERB VERB DET NOUN VERB ADP PRON .",
-        "HMM_tags": "PRON VERB VERB PRT VERB VERB DET NOUN VERB ADP PRON .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB VERB PRT VERB VERB DET NOUN VERB ADP PRON .",
+        "crf_tags": "PRON VERB VERB PRT VERB VERB DET NOUN VERB ADP PRON .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "104": {
-        "words": "in presenting it to other governments and to the united nations , we could propose that every nation consider the formation of its own peace corps and that the united nations sponsor the idea and form an international coordinating committee .",
+        "sentence": "in presenting it to other governments and to the united nations , we could propose that every nation consider the formation of its own peace corps and that the united nations sponsor the idea and form an international coordinating committee .",
         "actual_tags": "ADP VERB PRON ADP ADJ NOUN CONJ ADP DET VERB NOUN . PRON VERB VERB ADP DET NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN CONJ ADP DET VERB NOUN VERB DET NOUN CONJ VERB DET ADJ VERB NOUN .",
-        "CRF_tags": "ADP VERB PRON ADP ADJ NOUN CONJ ADP DET VERB NOUN . PRON VERB VERB ADP DET NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN CONJ ADP DET VERB NOUN VERB DET NOUN CONJ VERB DET ADJ VERB NOUN .",
-        "HMM_tags": "ADP VERB PRON ADP ADJ NOUN CONJ ADP DET VERB NOUN . PRON VERB VERB ADP DET NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN CONJ ADP DET VERB NOUN VERB DET NOUN CONJ VERB DET ADJ VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP VERB PRON ADP ADJ NOUN CONJ ADP DET VERB NOUN . PRON VERB VERB ADP DET NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN CONJ ADP DET VERB NOUN VERB DET NOUN CONJ VERB DET ADJ VERB NOUN .",
+        "crf_tags": "ADP VERB PRON ADP ADJ NOUN CONJ ADP DET VERB NOUN . PRON VERB VERB ADP DET NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN CONJ ADP DET VERB NOUN VERB DET NOUN CONJ VERB DET ADJ VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "105": {
-        "words": "`` as my wife puts it '' , he said , again with a twinkle in his eyes , `` all you know is your music .",
+        "sentence": "`` as my wife puts it '' , he said , again with a twinkle in his eyes , `` all you know is your music .",
         "actual_tags": ". ADP DET NOUN VERB PRON . . PRON VERB . ADV ADP DET NOUN ADP DET NOUN . . PRT PRON VERB VERB DET NOUN .",
-        "CRF_tags": ". ADP DET NOUN VERB PRON . . PRON VERB . ADV ADP DET NOUN ADP DET NOUN . . PRT PRON VERB VERB DET NOUN .",
-        "HMM_tags": ". ADP DET NOUN VERB PRON . . PRON VERB . ADV ADP DET NOUN ADP DET NOUN . . PRT PRON VERB VERB DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". ADP DET NOUN VERB PRON . . PRON VERB . ADV ADP DET NOUN ADP DET NOUN . . PRT PRON VERB VERB DET NOUN .",
+        "crf_tags": ". ADP DET NOUN VERB PRON . . PRON VERB . ADV ADP DET NOUN ADP DET NOUN . . PRT PRON VERB VERB DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "107": {
-        "words": "they have not been friendly for years '' .",
+        "sentence": "they have not been friendly for years '' .",
         "actual_tags": "PRON VERB ADV VERB ADJ ADP NOUN . .",
-        "CRF_tags": "PRON VERB ADV VERB ADJ ADP NOUN . .",
-        "HMM_tags": "PRON VERB ADV VERB ADJ ADP NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB ADV VERB ADJ ADP NOUN . .",
+        "crf_tags": "PRON VERB ADV VERB ADJ ADP NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "108": {
-        "words": "gun knew it was car 12 , the wagon , returned from delivering ingleside's drunk-and-disorderlies to the city jail .",
+        "sentence": "gun knew it was car 12 , the wagon , returned from delivering ingleside's drunk-and-disorderlies to the city jail .",
         "actual_tags": "NOUN VERB PRON VERB NOUN NUM . DET NOUN . VERB ADP VERB NOUN NOUN ADP DET NOUN NOUN .",
-        "CRF_tags": "NOUN VERB PRON VERB NOUN NUM . DET NOUN . VERB ADP VERB NOUN NOUN ADP DET NOUN NOUN .",
-        "HMM_tags": "NOUN VERB PRON VERB NOUN NUM . DET NOUN . VERB ADP VERB NOUN NOUN ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB PRON VERB NOUN NUM . DET NOUN . VERB ADP VERB NOUN NOUN ADP DET NOUN NOUN .",
+        "crf_tags": "NOUN VERB PRON VERB NOUN NUM . DET NOUN . VERB ADP VERB NOUN NOUN ADP DET NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "110": {
-        "words": "corollary .",
+        "sentence": "corollary .",
         "actual_tags": "NOUN .",
-        "CRF_tags": "NOUN .",
-        "HMM_tags": "NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN .",
+        "crf_tags": "NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "111": {
-        "words": "and they had told their mother about the tumbles .",
+        "sentence": "and they had told their mother about the tumbles .",
         "actual_tags": "CONJ PRON VERB VERB DET NOUN ADP DET NOUN .",
-        "CRF_tags": "CONJ PRON VERB VERB DET NOUN ADP DET NOUN .",
-        "HMM_tags": "CONJ PRON VERB VERB DET NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "CONJ PRON VERB VERB DET NOUN ADP DET NOUN .",
+        "crf_tags": "CONJ PRON VERB VERB DET NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "112": {
-        "words": "new machinery of coordination should not be our primary objective in the foreseeable future -- though perhaps the `` political general staff '' of western leaders proposed by sir anthony eden would serve a useful purpose .",
+        "sentence": "new machinery of coordination should not be our primary objective in the foreseeable future -- though perhaps the `` political general staff '' of western leaders proposed by sir anthony eden would serve a useful purpose .",
         "actual_tags": "ADJ NOUN ADP NOUN VERB ADV VERB DET ADJ NOUN ADP DET ADJ NOUN . ADP ADV DET . ADJ ADJ NOUN . ADP ADJ NOUN VERB ADP NOUN NOUN NOUN VERB VERB DET ADJ NOUN .",
-        "CRF_tags": "ADJ NOUN ADP NOUN VERB ADV VERB DET ADJ NOUN ADP DET ADJ NOUN . ADP ADV DET . ADJ ADJ NOUN . ADP ADJ NOUN VERB ADP NOUN NOUN NOUN VERB VERB DET ADJ NOUN .",
-        "HMM_tags": "ADJ NOUN ADP NOUN VERB ADV VERB DET ADJ NOUN ADP DET ADJ NOUN . ADP ADV DET . ADJ ADJ NOUN . ADP ADJ NOUN VERB ADP NOUN NOUN NOUN VERB VERB DET ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADJ NOUN ADP NOUN VERB ADV VERB DET ADJ NOUN ADP DET ADJ NOUN . ADP ADV DET . ADJ ADJ NOUN . ADP ADJ NOUN VERB ADP NOUN NOUN NOUN VERB VERB DET ADJ NOUN .",
+        "crf_tags": "ADJ NOUN ADP NOUN VERB ADV VERB DET ADJ NOUN ADP DET ADJ NOUN . ADP ADV DET . ADJ ADJ NOUN . ADP ADJ NOUN VERB ADP NOUN NOUN NOUN VERB VERB DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "113": {
-        "words": "`` don't '' .",
+        "sentence": "`` don't '' .",
         "actual_tags": ". VERB . .",
-        "CRF_tags": ". VERB . .",
-        "HMM_tags": ". VERB . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". VERB . .",
+        "crf_tags": ". VERB . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "114": {
-        "words": "`` if they are here , then surely i have the right to be here '' , rousseau said .",
+        "sentence": "`` if they are here , then surely i have the right to be here '' , rousseau said .",
         "actual_tags": ". ADP PRON VERB ADV . ADV ADV PRON VERB DET NOUN PRT VERB ADV . . NOUN VERB .",
-        "CRF_tags": ". ADP PRON VERB ADV . ADV ADV PRON VERB DET NOUN PRT VERB ADV . . NOUN VERB .",
-        "HMM_tags": ". ADP PRON VERB ADV . ADV ADV PRON VERB DET NOUN PRT VERB ADV . . NOUN VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". ADP PRON VERB ADV . ADV ADV PRON VERB DET NOUN PRT VERB ADV . . NOUN VERB .",
+        "crf_tags": ". ADP PRON VERB ADV . ADV ADV PRON VERB DET NOUN PRT VERB ADV . . NOUN VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "115": {
+        "sentence": "colorful , bright eastman chromspun fabrics , with the magenta , pink and white tones predominating as well as golden shades are used with composite .",
+        "actual_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "hmm_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "crf_tags": "ADJ . ADJ NOUN NOUN NOUN . ADP DET ADJ . ADJ CONJ ADJ NOUN VERB ADV ADV ADP ADJ NOUN VERB VERB ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "116": {
-        "words": "transylvania symphony conductor pfohl said yesterday that mrs. kennedy's social secretary , letitia baldrige , told about plans for white house youth concerts before the national symphony orchestra league in philadelphia last spring .",
+        "sentence": "transylvania symphony conductor pfohl said yesterday that mrs. kennedy's social secretary , letitia baldrige , told about plans for white house youth concerts before the national symphony orchestra league in philadelphia last spring .",
         "actual_tags": "NOUN NOUN NOUN NOUN VERB NOUN ADP NOUN NOUN ADJ NOUN . NOUN NOUN . VERB ADP NOUN ADP ADJ NOUN NOUN NOUN ADP DET ADJ NOUN NOUN NOUN ADP NOUN ADJ NOUN .",
-        "CRF_tags": "NOUN NOUN NOUN NOUN VERB NOUN ADP NOUN NOUN ADJ NOUN . NOUN NOUN . VERB ADP NOUN ADP ADJ NOUN NOUN NOUN ADP DET ADJ NOUN NOUN NOUN ADP NOUN ADJ NOUN .",
-        "HMM_tags": "NOUN NOUN NOUN NOUN VERB NOUN ADP NOUN NOUN ADJ NOUN . NOUN NOUN . VERB ADP NOUN ADP ADJ NOUN NOUN NOUN ADP DET ADJ NOUN NOUN NOUN ADP NOUN ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN NOUN NOUN NOUN VERB NOUN ADP NOUN NOUN ADJ NOUN . NOUN NOUN . VERB ADP NOUN ADP ADJ NOUN NOUN NOUN ADP DET ADJ NOUN NOUN NOUN ADP NOUN ADJ NOUN .",
+        "crf_tags": "NOUN NOUN NOUN NOUN VERB NOUN ADP NOUN NOUN ADJ NOUN . NOUN NOUN . VERB ADP NOUN ADP ADJ NOUN NOUN NOUN ADP DET ADJ NOUN NOUN NOUN ADP NOUN ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "117": {
-        "words": "his broad interest in literary , political , and philosophical movements opened many doors to him .",
+        "sentence": "his broad interest in literary , political , and philosophical movements opened many doors to him .",
         "actual_tags": "DET ADJ NOUN ADP ADJ . ADJ . CONJ ADJ NOUN VERB ADJ NOUN ADP PRON .",
-        "CRF_tags": "DET ADJ NOUN ADP ADJ . ADJ . CONJ ADJ NOUN VERB ADJ NOUN ADP PRON .",
-        "HMM_tags": "DET ADJ NOUN ADP ADJ . ADJ . CONJ ADJ NOUN VERB ADJ NOUN ADP PRON .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET ADJ NOUN ADP ADJ . ADJ . CONJ ADJ NOUN VERB ADJ NOUN ADP PRON .",
+        "crf_tags": "DET ADJ NOUN ADP ADJ . ADJ . CONJ ADJ NOUN VERB ADJ NOUN ADP PRON .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "121": {
+        "sentence": "product research and development",
+        "actual_tags": "NOUN NOUN CONJ NOUN",
+        "hmm_tags": "NOUN NOUN CONJ NOUN",
+        "crf_tags": "NOUN NOUN CONJ NOUN",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "122": {
-        "words": "cousin emma and cousin elec , brother and sister -- unmarried , devoted , aging -- had lived next door to the stubblefields in tuxapoka from time immemorial until the stubblefields had moved to montgomery fifteen years ago .",
+        "sentence": "cousin emma and cousin elec , brother and sister -- unmarried , devoted , aging -- had lived next door to the stubblefields in tuxapoka from time immemorial until the stubblefields had moved to montgomery fifteen years ago .",
         "actual_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN CONJ NOUN . ADJ . VERB . VERB . VERB VERB ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN ADJ ADP DET NOUN VERB VERB ADP NOUN NUM NOUN ADV .",
-        "CRF_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN CONJ NOUN . ADJ . VERB . VERB . VERB VERB ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN ADJ ADP DET NOUN VERB VERB ADP NOUN NUM NOUN ADV .",
-        "HMM_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN CONJ NOUN . ADJ . VERB . VERB . VERB VERB ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN ADJ ADP DET NOUN VERB VERB ADP NOUN NUM NOUN ADV .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN CONJ NOUN . ADJ . VERB . VERB . VERB VERB ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN ADJ ADP DET NOUN VERB VERB ADP NOUN NUM NOUN ADV .",
+        "crf_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN CONJ NOUN . ADJ . VERB . VERB . VERB VERB ADJ NOUN ADP DET NOUN ADP NOUN ADP NOUN ADJ ADP DET NOUN VERB VERB ADP NOUN NUM NOUN ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "123": {
-        "words": "is your sporting firearms and ammunition department primed for the expanding horizons ? ?",
+        "sentence": "is your sporting firearms and ammunition department primed for the expanding horizons ? ?",
         "actual_tags": "VERB DET VERB NOUN CONJ NOUN NOUN VERB ADP DET VERB NOUN . .",
-        "CRF_tags": "VERB DET VERB NOUN CONJ NOUN NOUN VERB ADP DET VERB NOUN . .",
-        "HMM_tags": "VERB DET VERB NOUN CONJ NOUN NOUN VERB ADP DET VERB NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "VERB DET VERB NOUN CONJ NOUN NOUN VERB ADP DET VERB NOUN . .",
+        "crf_tags": "VERB DET VERB NOUN CONJ NOUN NOUN VERB ADP DET VERB NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "125": {
-        "words": "at a nod from songau , four lithe and muscular girls darted to frayne's side and seized him by the arms .",
+        "sentence": "at a nod from songau , four lithe and muscular girls darted to frayne's side and seized him by the arms .",
         "actual_tags": "ADP DET NOUN ADP NOUN . NUM ADJ CONJ ADJ NOUN VERB ADP NOUN NOUN CONJ VERB PRON ADP DET NOUN .",
-        "CRF_tags": "ADP DET NOUN ADP NOUN . NUM ADJ CONJ ADJ NOUN VERB ADP NOUN NOUN CONJ VERB PRON ADP DET NOUN .",
-        "HMM_tags": "ADP DET NOUN ADP NOUN . NUM ADJ CONJ ADJ NOUN VERB ADP NOUN NOUN CONJ VERB PRON ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN ADP NOUN . NUM ADJ CONJ ADJ NOUN VERB ADP NOUN NOUN CONJ VERB PRON ADP DET NOUN .",
+        "crf_tags": "ADP DET NOUN ADP NOUN . NUM ADJ CONJ ADJ NOUN VERB ADP NOUN NOUN CONJ VERB PRON ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "126": {
-        "words": "i was delighted with paula prentiss' comedy performance , which was as fresh and unstilted as one's highest hopes might ask .",
+        "sentence": "i was delighted with paula prentiss' comedy performance , which was as fresh and unstilted as one's highest hopes might ask .",
         "actual_tags": "PRON VERB VERB ADP NOUN NOUN NOUN NOUN . DET VERB ADV ADJ CONJ ADJ ADP NOUN ADJ NOUN VERB VERB .",
-        "CRF_tags": "PRON VERB VERB ADP NOUN NOUN NOUN NOUN . DET VERB ADV ADJ CONJ ADJ ADP NOUN ADJ NOUN VERB VERB .",
-        "HMM_tags": "PRON VERB VERB ADP NOUN NOUN NOUN NOUN . DET VERB ADV ADJ CONJ ADJ ADP NOUN ADJ NOUN VERB VERB .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB VERB ADP NOUN NOUN NOUN NOUN . DET VERB ADV ADJ CONJ ADJ ADP NOUN ADJ NOUN VERB VERB .",
+        "crf_tags": "PRON VERB VERB ADP NOUN NOUN NOUN NOUN . DET VERB ADV ADJ CONJ ADJ ADP NOUN ADJ NOUN VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "127": {
-        "words": "`` listen , i never had a chance to kill an antelope .",
+        "sentence": "`` listen , i never had a chance to kill an antelope .",
         "actual_tags": ". VERB . PRON ADV VERB DET NOUN PRT VERB DET NOUN .",
-        "CRF_tags": ". VERB . PRON ADV VERB DET NOUN PRT VERB DET NOUN .",
-        "HMM_tags": ". VERB . PRON ADV VERB DET NOUN PRT VERB DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". VERB . PRON ADV VERB DET NOUN PRT VERB DET NOUN .",
+        "crf_tags": ". VERB . PRON ADV VERB DET NOUN PRT VERB DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "129": {
-        "words": "he had taken out first papers for american citizenship ; ;",
+        "sentence": "he had taken out first papers for american citizenship ; ;",
         "actual_tags": "PRON VERB VERB PRT ADJ NOUN ADP ADJ NOUN . .",
-        "CRF_tags": "PRON VERB VERB PRT ADJ NOUN ADP ADJ NOUN . .",
-        "HMM_tags": "PRON VERB VERB PRT ADJ NOUN ADP ADJ NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB VERB PRT ADJ NOUN ADP ADJ NOUN . .",
+        "crf_tags": "PRON VERB VERB PRT ADJ NOUN ADP ADJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "130": {
-        "words": "the business education program operates with the cooperation of local high schools and business firms .",
+        "sentence": "the business education program operates with the cooperation of local high schools and business firms .",
         "actual_tags": "DET NOUN NOUN NOUN VERB ADP DET NOUN ADP ADJ ADJ NOUN CONJ NOUN NOUN .",
-        "CRF_tags": "DET NOUN NOUN NOUN VERB ADP DET NOUN ADP ADJ ADJ NOUN CONJ NOUN NOUN .",
-        "HMM_tags": "DET NOUN NOUN NOUN VERB ADP DET NOUN ADP ADJ ADJ NOUN CONJ NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN NOUN NOUN VERB ADP DET NOUN ADP ADJ ADJ NOUN CONJ NOUN NOUN .",
+        "crf_tags": "DET NOUN NOUN NOUN VERB ADP DET NOUN ADP ADJ ADJ NOUN CONJ NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "131": {
+        "sentence": "the police were disqualified along with certain categories of naturalized citizens , criminals and those punished for protectorate activities .",
+        "actual_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
+        "hmm_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
+        "crf_tags": "DET NOUN VERB VERB ADV ADP ADJ NOUN ADP VERB NOUN . NOUN CONJ DET VERB ADP NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "134": {
-        "words": "the decrees proposed by the amici curiae were filed in august of 1958 .",
+        "sentence": "the decrees proposed by the amici curiae were filed in august of 1958 .",
         "actual_tags": "DET NOUN VERB ADP DET X X VERB VERB ADP NOUN ADP NUM .",
-        "CRF_tags": "DET NOUN VERB ADP DET X X VERB VERB ADP NOUN ADP NUM .",
-        "HMM_tags": "DET NOUN VERB ADP DET X X VERB VERB ADP NOUN ADP NUM .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN VERB ADP DET X X VERB VERB ADP NOUN ADP NUM .",
+        "crf_tags": "DET NOUN VERB ADP DET X X VERB VERB ADP NOUN ADP NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "135": {
-        "words": "mental telepathy ? ?",
+        "sentence": "mental telepathy ? ?",
         "actual_tags": "ADJ NOUN . .",
-        "CRF_tags": "ADJ NOUN . .",
-        "HMM_tags": "ADJ NOUN . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADJ NOUN . .",
+        "crf_tags": "ADJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "137": {
-        "words": "this mother is quite correct .",
+        "sentence": "this mother is quite correct .",
         "actual_tags": "DET NOUN VERB ADV ADJ .",
-        "CRF_tags": "DET NOUN VERB ADV ADJ .",
-        "HMM_tags": "DET NOUN VERB ADV ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN VERB ADV ADJ .",
+        "crf_tags": "DET NOUN VERB ADV ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "138": {
-        "words": "both index words and electronic switches may have been made unavailable before the start of assignment in one of the following ways .",
+        "sentence": "both index words and electronic switches may have been made unavailable before the start of assignment in one of the following ways .",
         "actual_tags": "DET NOUN NOUN CONJ ADJ NOUN VERB VERB VERB VERB ADJ ADP DET NOUN ADP NOUN ADP NUM ADP DET VERB NOUN .",
-        "CRF_tags": "DET NOUN NOUN CONJ ADJ NOUN VERB VERB VERB VERB ADJ ADP DET NOUN ADP NOUN ADP NUM ADP DET VERB NOUN .",
-        "HMM_tags": "DET NOUN NOUN CONJ ADJ NOUN VERB VERB VERB VERB ADJ ADP DET NOUN ADP NOUN ADP NUM ADP DET VERB NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN NOUN CONJ ADJ NOUN VERB VERB VERB VERB ADJ ADP DET NOUN ADP NOUN ADP NUM ADP DET VERB NOUN .",
+        "crf_tags": "DET NOUN NOUN CONJ ADJ NOUN VERB VERB VERB VERB ADJ ADP DET NOUN ADP NOUN ADP NUM ADP DET VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "139": {
-        "words": "`` what difference does your batting average make ? ?",
+        "sentence": "`` what difference does your batting average make ? ?",
         "actual_tags": ". DET NOUN VERB DET VERB NOUN VERB . .",
-        "CRF_tags": ". DET NOUN VERB DET VERB NOUN VERB . .",
-        "HMM_tags": ". DET NOUN VERB DET VERB NOUN VERB . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": ". DET NOUN VERB DET VERB NOUN VERB . .",
+        "crf_tags": ". DET NOUN VERB DET VERB NOUN VERB . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "140": {
-        "words": "in the frame are two sets of bars which interact with each other to prevent the operator from making dangerous moves .",
+        "sentence": "in the frame are two sets of bars which interact with each other to prevent the operator from making dangerous moves .",
         "actual_tags": "ADP DET NOUN VERB NUM NOUN ADP NOUN DET VERB ADP DET ADJ PRT VERB DET NOUN ADP VERB ADJ NOUN .",
-        "CRF_tags": "ADP DET NOUN VERB NUM NOUN ADP NOUN DET VERB ADP DET ADJ PRT VERB DET NOUN ADP VERB ADJ NOUN .",
-        "HMM_tags": "ADP DET NOUN VERB NUM NOUN ADP NOUN DET VERB ADP DET ADJ PRT VERB DET NOUN ADP VERB ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET NOUN VERB NUM NOUN ADP NOUN DET VERB ADP DET ADJ PRT VERB DET NOUN ADP VERB ADJ NOUN .",
+        "crf_tags": "ADP DET NOUN VERB NUM NOUN ADP NOUN DET VERB ADP DET ADJ PRT VERB DET NOUN ADP VERB ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "141": {
-        "words": "a review of these policies indicates : ( 1 )",
+        "sentence": "a review of these policies indicates : ( 1 )",
         "actual_tags": "DET NOUN ADP DET NOUN VERB . . NUM .",
-        "CRF_tags": "DET NOUN ADP DET NOUN VERB . . NUM .",
-        "HMM_tags": "DET NOUN ADP DET NOUN VERB . . NUM .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN ADP DET NOUN VERB . . NUM .",
+        "crf_tags": "DET NOUN ADP DET NOUN VERB . . NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "142": {
-        "words": "in the dim underwater light they dressed and straightened up the room , and then they went across the hall to the kitchen .",
+        "sentence": "in the dim underwater light they dressed and straightened up the room , and then they went across the hall to the kitchen .",
         "actual_tags": "ADP DET ADJ ADJ NOUN PRON VERB CONJ VERB PRT DET NOUN . CONJ ADV PRON VERB ADP DET NOUN ADP DET NOUN .",
-        "CRF_tags": "ADP DET ADJ ADJ NOUN PRON VERB CONJ VERB PRT DET NOUN . CONJ ADV PRON VERB ADP DET NOUN ADP DET NOUN .",
-        "HMM_tags": "ADP DET ADJ ADJ NOUN PRON VERB CONJ VERB PRT DET NOUN . CONJ ADV PRON VERB ADP DET NOUN ADP DET NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADP DET ADJ ADJ NOUN PRON VERB CONJ VERB PRT DET NOUN . CONJ ADV PRON VERB ADP DET NOUN ADP DET NOUN .",
+        "crf_tags": "ADP DET ADJ ADJ NOUN PRON VERB CONJ VERB PRT DET NOUN . CONJ ADV PRON VERB ADP DET NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "149": {
-        "words": "fundamentally , both these types , the amateur and the collector , are uncritical and many of them don't distinguish well between real folklore and bogus material .",
+        "sentence": "fundamentally , both these types , the amateur and the collector , are uncritical and many of them don't distinguish well between real folklore and bogus material .",
         "actual_tags": "ADV . DET DET NOUN . DET NOUN CONJ DET NOUN . VERB ADJ CONJ ADJ ADP PRON VERB VERB ADV ADP ADJ NOUN CONJ ADJ NOUN .",
-        "CRF_tags": "ADV . DET DET NOUN . DET NOUN CONJ DET NOUN . VERB ADJ CONJ ADJ ADP PRON VERB VERB ADV ADP ADJ NOUN CONJ ADJ NOUN .",
-        "HMM_tags": "ADV . DET DET NOUN . DET NOUN CONJ DET NOUN . VERB ADJ CONJ ADJ ADP PRON VERB VERB ADV ADP ADJ NOUN CONJ ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV . DET DET NOUN . DET NOUN CONJ DET NOUN . VERB ADJ CONJ ADJ ADP PRON VERB VERB ADV ADP ADJ NOUN CONJ ADJ NOUN .",
+        "crf_tags": "ADV . DET DET NOUN . DET NOUN CONJ DET NOUN . VERB ADJ CONJ ADJ ADP PRON VERB VERB ADV ADP ADJ NOUN CONJ ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "150": {
-        "words": "the blue rug was suspiciously bright and new .",
+        "sentence": "the blue rug was suspiciously bright and new .",
         "actual_tags": "DET ADJ NOUN VERB ADV ADJ CONJ ADJ .",
-        "CRF_tags": "DET ADJ NOUN VERB ADV ADJ CONJ ADJ .",
-        "HMM_tags": "DET ADJ NOUN VERB ADV ADJ CONJ ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET ADJ NOUN VERB ADV ADJ CONJ ADJ .",
+        "crf_tags": "DET ADJ NOUN VERB ADV ADJ CONJ ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "151": {
-        "words": "pumblechook's `` signature '' is the perpetually extended glad hand .",
+        "sentence": "pumblechook's `` signature '' is the perpetually extended glad hand .",
         "actual_tags": "NOUN . NOUN . VERB DET ADV VERB ADJ NOUN .",
-        "CRF_tags": "NOUN . NOUN . VERB DET ADV VERB ADJ NOUN .",
-        "HMM_tags": "NOUN . NOUN . VERB DET ADV VERB ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN . NOUN . VERB DET ADV VERB ADJ NOUN .",
+        "crf_tags": "NOUN . NOUN . VERB DET ADV VERB ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "152": {
-        "words": "henry stormed into giffen's office waving a copy of the new orleans courier , shouting that the emancipation scheme had become a public affair , and that it would reach the `` ears of the people on the plantation , and make them restless & unhappy '' .",
+        "sentence": "henry stormed into giffen's office waving a copy of the new orleans courier , shouting that the emancipation scheme had become a public affair , and that it would reach the `` ears of the people on the plantation , and make them restless & unhappy '' .",
         "actual_tags": "NOUN VERB ADP NOUN NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN . VERB ADP DET NOUN NOUN VERB VERB DET ADJ NOUN . CONJ ADP PRON VERB VERB DET . NOUN ADP DET NOUN ADP DET NOUN . CONJ VERB PRON ADJ CONJ ADJ . .",
-        "CRF_tags": "NOUN VERB ADP NOUN NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN . VERB ADP DET NOUN NOUN VERB VERB DET ADJ NOUN . CONJ ADP PRON VERB VERB DET . NOUN ADP DET NOUN ADP DET NOUN . CONJ VERB PRON ADJ CONJ ADJ . .",
-        "HMM_tags": "NOUN VERB ADP NOUN NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN . VERB ADP DET NOUN NOUN VERB VERB DET ADJ NOUN . CONJ ADP PRON VERB VERB DET . NOUN ADP DET NOUN ADP DET NOUN . CONJ VERB PRON ADJ CONJ ADJ . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NOUN VERB ADP NOUN NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN . VERB ADP DET NOUN NOUN VERB VERB DET ADJ NOUN . CONJ ADP PRON VERB VERB DET . NOUN ADP DET NOUN ADP DET NOUN . CONJ VERB PRON ADJ CONJ ADJ . .",
+        "crf_tags": "NOUN VERB ADP NOUN NOUN VERB DET NOUN ADP DET ADJ NOUN NOUN . VERB ADP DET NOUN NOUN VERB VERB DET ADJ NOUN . CONJ ADP PRON VERB VERB DET . NOUN ADP DET NOUN ADP DET NOUN . CONJ VERB PRON ADJ CONJ ADJ . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "153": {
-        "words": "west germany will face the crucial tests that lie ahead , on berlin and unification , with a coalition government .",
+        "sentence": "west germany will face the crucial tests that lie ahead , on berlin and unification , with a coalition government .",
         "actual_tags": "ADJ NOUN VERB VERB DET ADJ NOUN PRON VERB ADV . ADP NOUN CONJ NOUN . ADP DET NOUN NOUN .",
-        "CRF_tags": "ADJ NOUN VERB VERB DET ADJ NOUN PRON VERB ADV . ADP NOUN CONJ NOUN . ADP DET NOUN NOUN .",
-        "HMM_tags": "ADJ NOUN VERB VERB DET ADJ NOUN PRON VERB ADV . ADP NOUN CONJ NOUN . ADP DET NOUN NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADJ NOUN VERB VERB DET ADJ NOUN PRON VERB ADV . ADP NOUN CONJ NOUN . ADP DET NOUN NOUN .",
+        "crf_tags": "ADJ NOUN VERB VERB DET ADJ NOUN PRON VERB ADV . ADP NOUN CONJ NOUN . ADP DET NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "154": {
-        "words": "2.1 observations",
+        "sentence": "2.1 observations",
         "actual_tags": "NUM NOUN",
-        "CRF_tags": "NUM NOUN",
-        "HMM_tags": "NUM NOUN",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "NUM NOUN",
+        "crf_tags": "NUM NOUN",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "156": {
+        "sentence": "when the shouting ended , the bill passed , 114 to 4 , sending it to the senate , where a similar proposal is being sponsored by sen. george parkhouse of dallas .",
+        "actual_tags": "ADV DET NOUN VERB . DET NOUN VERB . NUM ADP NUM . VERB PRON ADP DET NOUN . ADV DET ADJ NOUN VERB VERB VERB ADP NOUN NOUN NOUN ADP NOUN .",
+        "hmm_tags": "ADV DET NOUN VERB . DET NOUN VERB . NUM ADP NUM . VERB PRON ADP DET NOUN . ADV DET ADJ NOUN VERB VERB VERB ADP NOUN NOUN NOUN ADP NOUN .",
+        "crf_tags": "ADV DET NOUN VERB . DET NOUN VERB . NUM ADP NUM . VERB PRON ADP DET NOUN . ADV DET ADJ NOUN VERB VERB VERB ADP NOUN NOUN NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "157": {
-        "words": "the women had a bright shining expectancy as they leaned out from the wall and gazed splendidly into the distance , while the men were stern but hopeful .",
+        "sentence": "the women had a bright shining expectancy as they leaned out from the wall and gazed splendidly into the distance , while the men were stern but hopeful .",
         "actual_tags": "DET NOUN VERB DET ADJ VERB NOUN ADP PRON VERB PRT ADP DET NOUN CONJ VERB ADV ADP DET NOUN . ADP DET NOUN VERB ADJ CONJ ADJ .",
-        "CRF_tags": "DET NOUN VERB DET ADJ VERB NOUN ADP PRON VERB PRT ADP DET NOUN CONJ VERB ADV ADP DET NOUN . ADP DET NOUN VERB ADJ CONJ ADJ .",
-        "HMM_tags": "DET NOUN VERB DET ADJ VERB NOUN ADP PRON VERB PRT ADP DET NOUN CONJ VERB ADV ADP DET NOUN . ADP DET NOUN VERB ADJ CONJ ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN VERB DET ADJ VERB NOUN ADP PRON VERB PRT ADP DET NOUN CONJ VERB ADV ADP DET NOUN . ADP DET NOUN VERB ADJ CONJ ADJ .",
+        "crf_tags": "DET NOUN VERB DET ADJ VERB NOUN ADP PRON VERB PRT ADP DET NOUN CONJ VERB ADV ADP DET NOUN . ADP DET NOUN VERB ADJ CONJ ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "158": {
+        "sentence": "at juice bars in los angeles' 35 `` health '' stores , a new sensation is a pink , high-protein cocktail , concocted of dried eggs , powdered milk and cherry-flavored no-cal , which sells for 59-cents per 8-oz. glass .",
+        "actual_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "hmm_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "crf_tags": "ADP NOUN NOUN ADP NOUN NOUN NUM . NOUN . NOUN . DET ADJ NOUN VERB DET ADJ . NOUN NOUN . VERB ADP VERB NOUN . VERB NOUN CONJ ADJ NOUN . DET VERB ADP NOUN ADP NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "159": {
-        "words": "the faget appointment was preposterous on several grounds .",
+        "sentence": "the faget appointment was preposterous on several grounds .",
         "actual_tags": "DET NOUN NOUN VERB ADJ ADP ADJ NOUN .",
-        "CRF_tags": "DET NOUN NOUN VERB ADJ ADP ADJ NOUN .",
-        "HMM_tags": "DET NOUN NOUN VERB ADJ ADP ADJ NOUN .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "DET NOUN NOUN VERB ADJ ADP ADJ NOUN .",
+        "crf_tags": "DET NOUN NOUN VERB ADJ ADP ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "161": {
-        "words": "he dumped me in solitary twice '' .",
+        "sentence": "he dumped me in solitary twice '' .",
         "actual_tags": "PRON VERB PRON ADP ADJ ADV . .",
-        "CRF_tags": "PRON VERB PRON ADP ADJ ADV . .",
-        "HMM_tags": "PRON VERB PRON ADP ADJ ADV . .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "PRON VERB PRON ADP ADJ ADV . .",
+        "crf_tags": "PRON VERB PRON ADP ADJ ADV . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "162": {
-        "words": "just listening to him made me feel intelligent .",
+        "sentence": "just listening to him made me feel intelligent .",
         "actual_tags": "ADV VERB ADP PRON VERB PRON VERB ADJ .",
-        "CRF_tags": "ADV VERB ADP PRON VERB PRON VERB ADJ .",
-        "HMM_tags": "ADV VERB ADP PRON VERB PRON VERB ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV VERB ADP PRON VERB PRON VERB ADJ .",
+        "crf_tags": "ADV VERB ADP PRON VERB PRON VERB ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     },
     "164": {
-        "words": "even a hasty reader will easily find in it numerous blind spots , errors of fact and argument , important exclusions , areas of ignorance and prejudice , undue emphases on trivia , examples of broad positions supported by flimsy evidence , and the like .",
+        "sentence": "even a hasty reader will easily find in it numerous blind spots , errors of fact and argument , important exclusions , areas of ignorance and prejudice , undue emphases on trivia , examples of broad positions supported by flimsy evidence , and the like .",
         "actual_tags": "ADV DET ADJ NOUN VERB ADV VERB ADP PRON ADJ ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN ADP NOUN . NOUN ADP ADJ NOUN VERB ADP ADJ NOUN . CONJ DET ADJ .",
-        "CRF_tags": "ADV DET ADJ NOUN VERB ADV VERB ADP PRON ADJ ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN ADP NOUN . NOUN ADP ADJ NOUN VERB ADP ADJ NOUN . CONJ DET ADJ .",
-        "HMM_tags": "ADV DET ADJ NOUN VERB ADV VERB ADP PRON ADJ ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN ADP NOUN . NOUN ADP ADJ NOUN VERB ADP ADJ NOUN . CONJ DET ADJ .",
-        "(Word, Actual, CRF, HMM)": []
+        "hmm_tags": "ADV DET ADJ NOUN VERB ADV VERB ADP PRON ADJ ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN ADP NOUN . NOUN ADP ADJ NOUN VERB ADP ADJ NOUN . CONJ DET ADJ .",
+        "crf_tags": "ADV DET ADJ NOUN VERB ADV VERB ADP PRON ADJ ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN . NOUN ADP NOUN CONJ NOUN . ADJ NOUN ADP NOUN . NOUN ADP ADJ NOUN VERB ADP ADJ NOUN . CONJ DET ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "166": {
+        "sentence": "in laos , the administration looked at the eisenhower administration efforts to show determination by sailing a naval fleet into southeast asian waters as a useless gesture .",
+        "actual_tags": "ADP NOUN . DET NOUN VERB ADP DET NOUN NOUN NOUN PRT VERB NOUN ADP VERB DET ADJ NOUN ADP ADJ ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_tags": "ADP NOUN . DET NOUN VERB ADP DET NOUN NOUN NOUN PRT VERB NOUN ADP VERB DET ADJ NOUN ADP ADJ ADJ NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "ADP NOUN . DET NOUN VERB ADP DET NOUN NOUN NOUN PRT VERB NOUN ADP VERB DET ADJ NOUN ADP ADJ ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "167": {
+        "sentence": "however , the proposed correlation of the many interrelated properties of crystals will reveal discrepancies in the recorded data and suggest areas for reinvestigation .",
+        "actual_tags": "ADV . DET VERB NOUN ADP DET ADJ VERB NOUN ADP NOUN VERB VERB NOUN ADP DET VERB NOUN CONJ VERB NOUN ADP NOUN .",
+        "hmm_tags": "ADV . DET VERB NOUN ADP DET ADJ VERB NOUN ADP NOUN VERB VERB NOUN ADP DET VERB NOUN CONJ VERB NOUN ADP NOUN .",
+        "crf_tags": "ADV . DET VERB NOUN ADP DET ADJ VERB NOUN ADP NOUN VERB VERB NOUN ADP DET VERB NOUN CONJ VERB NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "170": {
+        "sentence": "`` why on earth did i send him off to work ? ?",
+        "actual_tags": ". ADV ADP NOUN VERB PRON VERB PRON PRT ADP NOUN . .",
+        "hmm_tags": ". ADV ADP NOUN VERB PRON VERB PRON PRT ADP NOUN . .",
+        "crf_tags": ". ADV ADP NOUN VERB PRON VERB PRON PRT ADP NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "172": {
+        "sentence": "`` how do you do '' ? ?",
+        "actual_tags": ". ADV VERB PRON VERB . . .",
+        "hmm_tags": ". ADV VERB PRON VERB . . .",
+        "crf_tags": ". ADV VERB PRON VERB . . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "173": {
+        "sentence": "the stanford achievement test , form j , was administered by classroom teachers , consisting of a battery of six sub-tests : paragraph meaning , word meaning , spelling , language , arithmetic computation , and arithmetic reasoning .",
+        "actual_tags": "DET NOUN NOUN NOUN . NOUN NOUN . VERB VERB ADP NOUN NOUN . VERB ADP DET NOUN ADP NUM NOUN . NOUN NOUN . NOUN NOUN . NOUN . NOUN . NOUN NOUN . CONJ NOUN NOUN .",
+        "hmm_tags": "DET NOUN NOUN NOUN . NOUN NOUN . VERB VERB ADP NOUN NOUN . VERB ADP DET NOUN ADP NUM NOUN . NOUN NOUN . NOUN NOUN . NOUN . NOUN . NOUN NOUN . CONJ NOUN NOUN .",
+        "crf_tags": "DET NOUN NOUN NOUN . NOUN NOUN . VERB VERB ADP NOUN NOUN . VERB ADP DET NOUN ADP NUM NOUN . NOUN NOUN . NOUN NOUN . NOUN . NOUN . NOUN NOUN . CONJ NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "174": {
+        "sentence": "boatyards which also provide some of the above facilities may rightfully be called marinas .",
+        "actual_tags": "NOUN DET ADV VERB DET ADP DET ADJ NOUN VERB ADV VERB VERB NOUN .",
+        "hmm_tags": "NOUN DET ADV VERB DET ADP DET ADJ NOUN VERB ADV VERB VERB NOUN .",
+        "crf_tags": "NOUN DET ADV VERB DET ADP DET ADJ NOUN VERB ADV VERB VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "175": {
+        "sentence": "when kitti was alive -- and he remembered the pressure of her hand resting lightly on his arm -- she had been the center of his life .",
+        "actual_tags": "ADV NOUN VERB ADJ . CONJ PRON VERB DET NOUN ADP DET NOUN VERB ADV ADP DET NOUN . PRON VERB VERB DET NOUN ADP DET NOUN .",
+        "hmm_tags": "ADV NOUN VERB ADJ . CONJ PRON VERB DET NOUN ADP DET NOUN VERB ADV ADP DET NOUN . PRON VERB VERB DET NOUN ADP DET NOUN .",
+        "crf_tags": "ADV NOUN VERB ADJ . CONJ PRON VERB DET NOUN ADP DET NOUN VERB ADV ADP DET NOUN . PRON VERB VERB DET NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "180": {
+        "sentence": "but let us not complain of the evils of capitalism by referring to a form that is not truly capitalistic .",
+        "actual_tags": "CONJ VERB PRON ADV VERB ADP DET NOUN ADP NOUN ADP VERB ADP DET NOUN PRON VERB ADV ADV ADJ .",
+        "hmm_tags": "CONJ VERB PRON ADV VERB ADP DET NOUN ADP NOUN ADP VERB ADP DET NOUN PRON VERB ADV ADV ADJ .",
+        "crf_tags": "CONJ VERB PRON ADV VERB ADP DET NOUN ADP NOUN ADP VERB ADP DET NOUN PRON VERB ADV ADV ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "181": {
+        "sentence": "who loved her .",
+        "actual_tags": "PRON VERB PRON .",
+        "hmm_tags": "PRON VERB PRON .",
+        "crf_tags": "PRON VERB PRON .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "182": {
+        "sentence": "i suffer from mixed feelings .",
+        "actual_tags": "PRON VERB ADP VERB NOUN .",
+        "hmm_tags": "PRON VERB ADP VERB NOUN .",
+        "crf_tags": "PRON VERB ADP VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "184": {
+        "sentence": "i made you a man '' .",
+        "actual_tags": "PRON VERB PRON DET NOUN . .",
+        "hmm_tags": "PRON VERB PRON DET NOUN . .",
+        "crf_tags": "PRON VERB PRON DET NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "185": {
+        "sentence": "she did not notice that the customer seized her purchase and turned away without a smile or a word of thanks .",
+        "actual_tags": "PRON VERB ADV VERB ADP DET NOUN VERB DET NOUN CONJ VERB ADV ADP DET NOUN CONJ DET NOUN ADP NOUN .",
+        "hmm_tags": "PRON VERB ADV VERB ADP DET NOUN VERB DET NOUN CONJ VERB ADV ADP DET NOUN CONJ DET NOUN ADP NOUN .",
+        "crf_tags": "PRON VERB ADV VERB ADP DET NOUN VERB DET NOUN CONJ VERB ADV ADP DET NOUN CONJ DET NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "186": {
+        "sentence": "my head was clear .",
+        "actual_tags": "DET NOUN VERB ADJ .",
+        "hmm_tags": "DET NOUN VERB ADJ .",
+        "crf_tags": "DET NOUN VERB ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "187": {
+        "sentence": "he felt intense satisfaction .",
+        "actual_tags": "PRON VERB ADJ NOUN .",
+        "hmm_tags": "PRON VERB ADJ NOUN .",
+        "crf_tags": "PRON VERB ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "188": {
+        "sentence": "de revolutionibus is not just a collection of facts and techniques .",
+        "actual_tags": "X X VERB ADV ADV DET NOUN ADP NOUN CONJ NOUN .",
+        "hmm_tags": "X X VERB ADV ADV DET NOUN ADP NOUN CONJ NOUN .",
+        "crf_tags": "X X VERB ADV ADV DET NOUN ADP NOUN CONJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "189": {
+        "sentence": "`` i think you aren't taking me seriously , phil .",
+        "actual_tags": ". PRON VERB PRON VERB VERB PRON ADV . NOUN .",
+        "hmm_tags": ". PRON VERB PRON VERB VERB PRON ADV . NOUN .",
+        "crf_tags": ". PRON VERB PRON VERB VERB PRON ADV . NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "190": {
+        "sentence": "the forthcoming season in pittsburgh also promises to be of unusual interest .",
+        "actual_tags": "DET ADJ NOUN ADP NOUN ADV VERB PRT VERB ADP ADJ NOUN .",
+        "hmm_tags": "DET ADJ NOUN ADP NOUN ADV VERB PRT VERB ADP ADJ NOUN .",
+        "crf_tags": "DET ADJ NOUN ADP NOUN ADV VERB PRT VERB ADP ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "192": {
+        "sentence": "he said he had not heard of anybody else .",
+        "actual_tags": "PRON VERB PRON VERB ADV VERB ADP NOUN ADV .",
+        "hmm_tags": "PRON VERB PRON VERB ADV VERB ADP NOUN ADV .",
+        "crf_tags": "PRON VERB PRON VERB ADV VERB ADP NOUN ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "194": {
+        "sentence": "like yourselves , we have pride and love for our country .",
+        "actual_tags": "ADP PRON . PRON VERB NOUN CONJ NOUN ADP DET NOUN .",
+        "hmm_tags": "ADP PRON . PRON VERB NOUN CONJ NOUN ADP DET NOUN .",
+        "crf_tags": "ADP PRON . PRON VERB NOUN CONJ NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "195": {
+        "sentence": "he told hanford his son wanted to go into the field of electronics .",
+        "actual_tags": "PRON VERB NOUN DET NOUN VERB PRT VERB ADP DET NOUN ADP NOUN .",
+        "hmm_tags": "PRON VERB NOUN DET NOUN VERB PRT VERB ADP DET NOUN ADP NOUN .",
+        "crf_tags": "PRON VERB NOUN DET NOUN VERB PRT VERB ADP DET NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "196": {
+        "sentence": "of greater importance , however , is the content of those programs , which have had and are having enormous consequences for the american people .",
+        "actual_tags": "ADP ADJ NOUN . ADV . VERB DET NOUN ADP DET NOUN . DET VERB VERB CONJ VERB VERB ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_tags": "ADP ADJ NOUN . ADV . VERB DET NOUN ADP DET NOUN . DET VERB VERB CONJ VERB VERB ADJ NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "ADP ADJ NOUN . ADV . VERB DET NOUN ADP DET NOUN . DET VERB VERB CONJ VERB VERB ADJ NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "197": {
+        "sentence": "`` how do the valley people feel '' ? ?",
+        "actual_tags": ". ADV VERB DET NOUN NOUN VERB . . .",
+        "hmm_tags": ". ADV VERB DET NOUN NOUN VERB . . .",
+        "crf_tags": ". ADV VERB DET NOUN NOUN VERB . . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "198": {
+        "sentence": "you laughed and then your chest swelled and you felt you could cry for a little bit , and then a feeling hit you like a chill in your stomach and the goose bumps rippled along your arm .",
+        "actual_tags": "PRON VERB CONJ ADV DET NOUN VERB CONJ PRON VERB PRON VERB VERB ADP DET ADJ NOUN . CONJ ADV DET NOUN VERB PRON ADP DET NOUN ADP DET NOUN CONJ DET NOUN NOUN VERB ADP DET NOUN .",
+        "hmm_tags": "PRON VERB CONJ ADV DET NOUN VERB CONJ PRON VERB PRON VERB VERB ADP DET ADJ NOUN . CONJ ADV DET NOUN VERB PRON ADP DET NOUN ADP DET NOUN CONJ DET NOUN NOUN VERB ADP DET NOUN .",
+        "crf_tags": "PRON VERB CONJ ADV DET NOUN VERB CONJ PRON VERB PRON VERB VERB ADP DET ADJ NOUN . CONJ ADV DET NOUN VERB PRON ADP DET NOUN ADP DET NOUN CONJ DET NOUN NOUN VERB ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "200": {
+        "sentence": "this difference is readily clarified by referring to table 1 .",
+        "actual_tags": "DET NOUN VERB ADV VERB ADP VERB ADP NOUN NUM .",
+        "hmm_tags": "DET NOUN VERB ADV VERB ADP VERB ADP NOUN NUM .",
+        "crf_tags": "DET NOUN VERB ADV VERB ADP VERB ADP NOUN NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "201": {
+        "sentence": "synchrony prevails in the eeg of the experimental animal after administration of tranquilizers , but asynchrony after application of analeptic and psychoactive drugs .",
+        "actual_tags": "NOUN VERB ADP DET NOUN ADP DET ADJ NOUN ADP NOUN ADP NOUN . CONJ NOUN ADP NOUN ADP ADJ CONJ ADJ NOUN .",
+        "hmm_tags": "NOUN VERB ADP DET NOUN ADP DET ADJ NOUN ADP NOUN ADP NOUN . CONJ NOUN ADP NOUN ADP ADJ CONJ ADJ NOUN .",
+        "crf_tags": "NOUN VERB ADP DET NOUN ADP DET ADJ NOUN ADP NOUN ADP NOUN . CONJ NOUN ADP NOUN ADP ADJ CONJ ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "202": {
+        "sentence": "he had worked in the newspaper business since he was nineteen years old , always for the hearst service .",
+        "actual_tags": "PRON VERB VERB ADP DET NOUN NOUN ADP PRON VERB NUM NOUN ADJ . ADV ADP DET NOUN NOUN .",
+        "hmm_tags": "PRON VERB VERB ADP DET NOUN NOUN ADP PRON VERB NUM NOUN ADJ . ADV ADP DET NOUN NOUN .",
+        "crf_tags": "PRON VERB VERB ADP DET NOUN NOUN ADP PRON VERB NUM NOUN ADJ . ADV ADP DET NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "204": {
+        "sentence": "in the early days of a homogeneous population , the public school was quite satisfactory .",
+        "actual_tags": "ADP DET ADJ NOUN ADP DET ADJ NOUN . DET ADJ NOUN VERB ADV ADJ .",
+        "hmm_tags": "ADP DET ADJ NOUN ADP DET ADJ NOUN . DET ADJ NOUN VERB ADV ADJ .",
+        "crf_tags": "ADP DET ADJ NOUN ADP DET ADJ NOUN . DET ADJ NOUN VERB ADV ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "205": {
+        "sentence": "wright set his loss at $200,000 , a figure perhaps justified by the unique character of the house that had been ruined , and the faultless taste that had gone into the selection of the prints and other things that were destroyed .",
+        "actual_tags": "NOUN VERB DET NOUN ADP NOUN . DET NOUN ADV VERB ADP DET ADJ NOUN ADP DET NOUN PRON VERB VERB VERB . CONJ DET ADJ NOUN PRON VERB VERB ADP DET NOUN ADP DET NOUN CONJ ADJ NOUN PRON VERB VERB .",
+        "hmm_tags": "NOUN VERB DET NOUN ADP NOUN . DET NOUN ADV VERB ADP DET ADJ NOUN ADP DET NOUN PRON VERB VERB VERB . CONJ DET ADJ NOUN PRON VERB VERB ADP DET NOUN ADP DET NOUN CONJ ADJ NOUN PRON VERB VERB .",
+        "crf_tags": "NOUN VERB DET NOUN ADP NOUN . DET NOUN ADV VERB ADP DET ADJ NOUN ADP DET NOUN PRON VERB VERB VERB . CONJ DET ADJ NOUN PRON VERB VERB ADP DET NOUN ADP DET NOUN CONJ ADJ NOUN PRON VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "207": {
+        "sentence": "did you ask him about the whisky '' ? ?",
+        "actual_tags": "VERB PRON VERB PRON ADP DET NOUN . . .",
+        "hmm_tags": "VERB PRON VERB PRON ADP DET NOUN . . .",
+        "crf_tags": "VERB PRON VERB PRON ADP DET NOUN . . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "208": {
+        "sentence": "dynafac .",
+        "actual_tags": "NOUN .",
+        "hmm_tags": "NOUN .",
+        "crf_tags": "NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "211": {
+        "sentence": "competition from other steamship lines has cut cunard's share of sea passengers from one-third to one-fourth and this year the line showed a marked drop of profits on the atlantic run .",
+        "actual_tags": "NOUN ADP ADJ NOUN NOUN VERB VERB NOUN NOUN ADP NOUN NOUN ADP NOUN ADP NOUN CONJ DET NOUN DET NOUN VERB DET VERB NOUN ADP NOUN ADP DET ADJ NOUN .",
+        "hmm_tags": "NOUN ADP ADJ NOUN NOUN VERB VERB NOUN NOUN ADP NOUN NOUN ADP NOUN ADP NOUN CONJ DET NOUN DET NOUN VERB DET VERB NOUN ADP NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "NOUN ADP ADJ NOUN NOUN VERB VERB NOUN NOUN ADP NOUN NOUN ADP NOUN ADP NOUN CONJ DET NOUN DET NOUN VERB DET VERB NOUN ADP NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "215": {
+        "sentence": "the koreans fell back , but regrouped at the top of the hill and pinned down the cavalrymen with a screen of fire .",
+        "actual_tags": "DET NOUN VERB ADV . CONJ VERB ADP DET NOUN ADP DET NOUN CONJ VERB PRT DET NOUN ADP DET NOUN ADP NOUN .",
+        "hmm_tags": "DET NOUN VERB ADV . CONJ VERB ADP DET NOUN ADP DET NOUN CONJ VERB PRT DET NOUN ADP DET NOUN ADP NOUN .",
+        "crf_tags": "DET NOUN VERB ADV . CONJ VERB ADP DET NOUN ADP DET NOUN CONJ VERB PRT DET NOUN ADP DET NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "217": {
+        "sentence": "william parsons and william walford , drapers , asked quiney to see to business matters in london .",
+        "actual_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN . VERB NOUN PRT VERB ADP NOUN NOUN ADP NOUN .",
+        "hmm_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN . VERB NOUN PRT VERB ADP NOUN NOUN ADP NOUN .",
+        "crf_tags": "NOUN NOUN CONJ NOUN NOUN . NOUN . VERB NOUN PRT VERB ADP NOUN NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "218": {
+        "sentence": "he hit him once on the sharp point of his chin and felt the body go limp .",
+        "actual_tags": "PRON VERB PRON ADV ADP DET ADJ NOUN ADP DET NOUN CONJ VERB DET NOUN VERB ADJ .",
+        "hmm_tags": "PRON VERB PRON ADV ADP DET ADJ NOUN ADP DET NOUN CONJ VERB DET NOUN VERB ADJ .",
+        "crf_tags": "PRON VERB PRON ADV ADP DET ADJ NOUN ADP DET NOUN CONJ VERB DET NOUN VERB ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "219": {
+        "sentence": "one screeched .",
+        "actual_tags": "NUM VERB .",
+        "hmm_tags": "NUM VERB .",
+        "crf_tags": "NUM VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "221": {
+        "sentence": ")",
+        "actual_tags": ".",
+        "hmm_tags": ".",
+        "crf_tags": ".",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "222": {
+        "sentence": "simply because the subverting action of firms that are not members of the distilled spirits institute and of radio and tv stations that are not members of the nab tends to spread .",
+        "actual_tags": "ADV ADP DET VERB NOUN ADP NOUN PRON VERB ADV NOUN ADP DET VERB NOUN NOUN CONJ ADP NOUN CONJ NOUN NOUN PRON VERB ADV NOUN ADP DET NOUN VERB PRT VERB .",
+        "hmm_tags": "ADV ADP DET VERB NOUN ADP NOUN PRON VERB ADV NOUN ADP DET VERB NOUN NOUN CONJ ADP NOUN CONJ NOUN NOUN PRON VERB ADV NOUN ADP DET NOUN VERB PRT VERB .",
+        "crf_tags": "ADV ADP DET VERB NOUN ADP NOUN PRON VERB ADV NOUN ADP DET VERB NOUN NOUN CONJ ADP NOUN CONJ NOUN NOUN PRON VERB ADV NOUN ADP DET NOUN VERB PRT VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "224": {
+        "sentence": "there is also the question of whether the respondent based his answers on factual information and carefully considered judgment , or whether his answers were casual guesses .",
+        "actual_tags": "PRT VERB ADV DET NOUN ADP ADP DET NOUN VERB DET NOUN ADP ADJ NOUN CONJ ADV VERB NOUN . CONJ ADP DET NOUN VERB ADJ NOUN .",
+        "hmm_tags": "PRT VERB ADV DET NOUN ADP ADP DET NOUN VERB DET NOUN ADP ADJ NOUN CONJ ADV VERB NOUN . CONJ ADP DET NOUN VERB ADJ NOUN .",
+        "crf_tags": "PRT VERB ADV DET NOUN ADP ADP DET NOUN VERB DET NOUN ADP ADJ NOUN CONJ ADV VERB NOUN . CONJ ADP DET NOUN VERB ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "225": {
+        "sentence": "the dead spirits occupied a prominent place in every hope and in every fear .",
+        "actual_tags": "DET ADJ NOUN VERB DET ADJ NOUN ADP DET NOUN CONJ ADP DET NOUN .",
+        "hmm_tags": "DET ADJ NOUN VERB DET ADJ NOUN ADP DET NOUN CONJ ADP DET NOUN .",
+        "crf_tags": "DET ADJ NOUN VERB DET ADJ NOUN ADP DET NOUN CONJ ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "226": {
+        "sentence": "further decrees along this line were issued in 1916 and 1919 .",
+        "actual_tags": "ADJ NOUN ADP DET NOUN VERB VERB ADP NUM CONJ NUM .",
+        "hmm_tags": "ADJ NOUN ADP DET NOUN VERB VERB ADP NUM CONJ NUM .",
+        "crf_tags": "ADJ NOUN ADP DET NOUN VERB VERB ADP NUM CONJ NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "228": {
+        "sentence": "he was then noting that the big eye on the little newt hung back until the little eye had grown up to it , while the little eye on the big newt grew rapidly until it was as big as the other .",
+        "actual_tags": "PRON VERB ADV VERB ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP DET ADJ NOUN VERB VERB PRT ADP PRON . ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP PRON VERB ADV ADJ ADP DET ADJ .",
+        "hmm_tags": "PRON VERB ADV VERB ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP DET ADJ NOUN VERB VERB PRT ADP PRON . ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP PRON VERB ADV ADJ ADP DET ADJ .",
+        "crf_tags": "PRON VERB ADV VERB ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP DET ADJ NOUN VERB VERB PRT ADP PRON . ADP DET ADJ NOUN ADP DET ADJ NOUN VERB ADV ADP PRON VERB ADV ADJ ADP DET ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "230": {
+        "sentence": "he looked at the lined face with vague interest ; ;",
+        "actual_tags": "PRON VERB ADP DET VERB NOUN ADP ADJ NOUN . .",
+        "hmm_tags": "PRON VERB ADP DET VERB NOUN ADP ADJ NOUN . .",
+        "crf_tags": "PRON VERB ADP DET VERB NOUN ADP ADJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "231": {
+        "sentence": "same date , johnny lasalle trio to the jolly roger .",
+        "actual_tags": "ADJ NOUN . NOUN NOUN NOUN ADP DET ADJ NOUN .",
+        "hmm_tags": "ADJ NOUN . NOUN NOUN NOUN ADP DET ADJ NOUN .",
+        "crf_tags": "ADJ NOUN . NOUN NOUN NOUN ADP DET ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "233": {
+        "sentence": "geocentricism per se ? ?",
+        "actual_tags": "NOUN ADP X . .",
+        "hmm_tags": "NOUN ADP X . .",
+        "crf_tags": "NOUN ADP X . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "235": {
+        "sentence": "at this moment , all he could think of was what he'd been forced to undergo .",
+        "actual_tags": "ADP DET NOUN . PRT PRON VERB VERB ADP VERB DET PRT VERB VERB PRT VERB .",
+        "hmm_tags": "ADP DET NOUN . PRT PRON VERB VERB ADP VERB DET PRT VERB VERB PRT VERB .",
+        "crf_tags": "ADP DET NOUN . PRT PRON VERB VERB ADP VERB DET PRT VERB VERB PRT VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "237": {
+        "sentence": "his mind scurried frantically , seeking an exit .",
+        "actual_tags": "DET NOUN VERB ADV . VERB DET NOUN .",
+        "hmm_tags": "DET NOUN VERB ADV . VERB DET NOUN .",
+        "crf_tags": "DET NOUN VERB ADV . VERB DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "239": {
+        "sentence": "the military also had demanded pledges that there would be no changes in the laws passed by the junta and no leaders of the menderes regime now in prison would be pardoned .",
+        "actual_tags": "DET ADJ ADV VERB VERB NOUN ADP PRT VERB VERB DET NOUN ADP DET NOUN VERB ADP DET NOUN CONJ DET NOUN ADP DET NOUN NOUN ADV ADP NOUN VERB VERB VERB .",
+        "hmm_tags": "DET ADJ ADV VERB VERB NOUN ADP PRT VERB VERB DET NOUN ADP DET NOUN VERB ADP DET NOUN CONJ DET NOUN ADP DET NOUN NOUN ADV ADP NOUN VERB VERB VERB .",
+        "crf_tags": "DET ADJ ADV VERB VERB NOUN ADP PRT VERB VERB DET NOUN ADP DET NOUN VERB ADP DET NOUN CONJ DET NOUN ADP DET NOUN NOUN ADV ADP NOUN VERB VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "241": {
+        "sentence": "any such reference will make the index word or electronic switch unavailable at the end of this pass .",
+        "actual_tags": "DET ADJ NOUN VERB VERB DET NOUN NOUN CONJ ADJ NOUN ADJ ADP DET NOUN ADP DET NOUN .",
+        "hmm_tags": "DET ADJ NOUN VERB VERB DET NOUN NOUN CONJ ADJ NOUN ADJ ADP DET NOUN ADP DET NOUN .",
+        "crf_tags": "DET ADJ NOUN VERB VERB DET NOUN NOUN CONJ ADJ NOUN ADJ ADP DET NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "242": {
+        "sentence": "but with the convening of the new congress , he was the public man again , presiding over the senate until john kennedy's inauguration .",
+        "actual_tags": "CONJ ADP DET NOUN ADP DET ADJ NOUN . PRON VERB DET ADJ NOUN ADV . VERB ADP DET NOUN ADP NOUN NOUN NOUN .",
+        "hmm_tags": "CONJ ADP DET NOUN ADP DET ADJ NOUN . PRON VERB DET ADJ NOUN ADV . VERB ADP DET NOUN ADP NOUN NOUN NOUN .",
+        "crf_tags": "CONJ ADP DET NOUN ADP DET ADJ NOUN . PRON VERB DET ADJ NOUN ADV . VERB ADP DET NOUN ADP NOUN NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "243": {
+        "sentence": "art lund , a fine big actor with a great head of blond hair and a good voice , impersonates enright .",
+        "actual_tags": "NOUN NOUN . DET ADJ ADJ NOUN ADP DET ADJ NOUN ADP ADJ NOUN CONJ DET ADJ NOUN . VERB NOUN .",
+        "hmm_tags": "NOUN NOUN . DET ADJ ADJ NOUN ADP DET ADJ NOUN ADP ADJ NOUN CONJ DET ADJ NOUN . VERB NOUN .",
+        "crf_tags": "NOUN NOUN . DET ADJ ADJ NOUN ADP DET ADJ NOUN ADP ADJ NOUN CONJ DET ADJ NOUN . VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "245": {
+        "sentence": "shorter booking , but still a booking .",
+        "actual_tags": "ADJ NOUN . CONJ ADV DET NOUN .",
+        "hmm_tags": "ADJ NOUN . CONJ ADV DET NOUN .",
+        "crf_tags": "ADJ NOUN . CONJ ADV DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "246": {
+        "sentence": "members of the algol staff are nominated by the editor and business manager and appointed by the publications board .",
+        "actual_tags": "NOUN ADP DET NOUN NOUN VERB VERB ADP DET NOUN CONJ NOUN NOUN CONJ VERB ADP DET NOUN NOUN .",
+        "hmm_tags": "NOUN ADP DET NOUN NOUN VERB VERB ADP DET NOUN CONJ NOUN NOUN CONJ VERB ADP DET NOUN NOUN .",
+        "crf_tags": "NOUN ADP DET NOUN NOUN VERB VERB ADP DET NOUN CONJ NOUN NOUN CONJ VERB ADP DET NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "247": {
+        "sentence": "we moved decisively to effect an anti-communist coup d'etat .",
+        "actual_tags": "PRON VERB ADV PRT VERB DET ADJ X X .",
+        "hmm_tags": "PRON VERB ADV PRT VERB DET ADJ X X .",
+        "crf_tags": "PRON VERB ADV PRT VERB DET ADJ X X .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "250": {
+        "sentence": "on march 21 , 1957 , however , the department recommended approval of the 1-a classification .",
+        "actual_tags": "ADP NOUN NUM . NUM . ADV . DET NOUN VERB NOUN ADP DET NUM NOUN .",
+        "hmm_tags": "ADP NOUN NUM . NUM . ADV . DET NOUN VERB NOUN ADP DET NUM NOUN .",
+        "crf_tags": "ADP NOUN NUM . NUM . ADV . DET NOUN VERB NOUN ADP DET NUM NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "251": {
+        "sentence": "once , andrus walked by it , hastily scanned the bold black headline and the five-column lead of the article ( by duane bosch , staff correspondent -- age not given ) , and muttered : `` we a buncha national celebrities '' .",
+        "actual_tags": "ADV . NOUN VERB ADP PRON . ADV VERB DET ADJ ADJ NOUN CONJ DET ADJ NOUN ADP DET NOUN . ADP NOUN NOUN . NOUN NOUN . NOUN ADV VERB . . CONJ VERB . . PRON DET NOUN ADJ NOUN . .",
+        "hmm_tags": "ADV . NOUN VERB ADP PRON . ADV VERB DET ADJ ADJ NOUN CONJ DET ADJ NOUN ADP DET NOUN . ADP NOUN NOUN . NOUN NOUN . NOUN ADV VERB . . CONJ VERB . . PRON DET NOUN ADJ NOUN . .",
+        "crf_tags": "ADV . NOUN VERB ADP PRON . ADV VERB DET ADJ ADJ NOUN CONJ DET ADJ NOUN ADP DET NOUN . ADP NOUN NOUN . NOUN NOUN . NOUN ADV VERB . . CONJ VERB . . PRON DET NOUN ADJ NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "252": {
+        "sentence": "miraculously , the bottle was still in my hand , foam still geysering over my ( luckily ) waterproof watch .",
+        "actual_tags": "ADV . DET NOUN VERB ADV ADP DET NOUN . NOUN ADV VERB ADP DET . ADV . ADJ NOUN .",
+        "hmm_tags": "ADV . DET NOUN VERB ADV ADP DET NOUN . NOUN ADV VERB ADP DET . ADV . ADJ NOUN .",
+        "crf_tags": "ADV . DET NOUN VERB ADV ADP DET NOUN . NOUN ADV VERB ADP DET . ADV . ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "253": {
+        "sentence": "herr wangenheim has only recently become the city's music director , and is a young man with a clear flair for the podium .",
+        "actual_tags": "NOUN NOUN VERB ADV ADV VERB DET NOUN NOUN NOUN . CONJ VERB DET ADJ NOUN ADP DET ADJ NOUN ADP DET NOUN .",
+        "hmm_tags": "NOUN NOUN VERB ADV ADV VERB DET NOUN NOUN NOUN . CONJ VERB DET ADJ NOUN ADP DET ADJ NOUN ADP DET NOUN .",
+        "crf_tags": "NOUN NOUN VERB ADV ADV VERB DET NOUN NOUN NOUN . CONJ VERB DET ADJ NOUN ADP DET ADJ NOUN ADP DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "255": {
+        "sentence": "-- a southeast library workshop will be held here oct. 9 , conducted by mrs. gretchen schenk of summerdale , ala. , author , lecturer and library leader .",
+        "actual_tags": ". DET ADJ NOUN NOUN VERB VERB VERB ADV NOUN NUM . VERB ADP NOUN NOUN NOUN ADP NOUN . NOUN . NOUN . NOUN CONJ NOUN NOUN .",
+        "hmm_tags": ". DET ADJ NOUN NOUN VERB VERB VERB ADV NOUN NUM . VERB ADP NOUN NOUN NOUN ADP NOUN . NOUN . NOUN . NOUN CONJ NOUN NOUN .",
+        "crf_tags": ". DET ADJ NOUN NOUN VERB VERB VERB ADV NOUN NUM . VERB ADP NOUN NOUN NOUN ADP NOUN . NOUN . NOUN . NOUN CONJ NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "257": {
+        "sentence": "then he would bark to let everyone know the coast was clear .",
+        "actual_tags": "ADV PRON VERB VERB PRT VERB NOUN VERB DET NOUN VERB ADJ .",
+        "hmm_tags": "ADV PRON VERB VERB PRT VERB NOUN VERB DET NOUN VERB ADJ .",
+        "crf_tags": "ADV PRON VERB VERB PRT VERB NOUN VERB DET NOUN VERB ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "258": {
+        "sentence": "`` a year , luis ? ?",
+        "actual_tags": ". DET NOUN . NOUN . .",
+        "hmm_tags": ". DET NOUN . NOUN . .",
+        "crf_tags": ". DET NOUN . NOUN . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "260": {
+        "sentence": "gamecock ( tar heel-terka hanover ) is another promising colt , and his best time is 2:32.2 .",
+        "actual_tags": "NOUN . NOUN NOUN NOUN . VERB DET ADJ NOUN . CONJ DET ADJ NOUN VERB NUM .",
+        "hmm_tags": "NOUN . NOUN NOUN NOUN . VERB DET ADJ NOUN . CONJ DET ADJ NOUN VERB NUM .",
+        "crf_tags": "NOUN . NOUN NOUN NOUN . VERB DET ADJ NOUN . CONJ DET ADJ NOUN VERB NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "262": {
+        "sentence": "reports jim lendrum : `` by studying men on the job , we found that two men -- a carpenter and a helper -- can lay a floor faster than three .",
+        "actual_tags": "NOUN NOUN NOUN . . ADP VERB NOUN ADP DET NOUN . PRON VERB ADP NUM NOUN . DET NOUN CONJ DET NOUN . VERB VERB DET NOUN ADV ADP NUM .",
+        "hmm_tags": "NOUN NOUN NOUN . . ADP VERB NOUN ADP DET NOUN . PRON VERB ADP NUM NOUN . DET NOUN CONJ DET NOUN . VERB VERB DET NOUN ADV ADP NUM .",
+        "crf_tags": "NOUN NOUN NOUN . . ADP VERB NOUN ADP DET NOUN . PRON VERB ADP NUM NOUN . DET NOUN CONJ DET NOUN . VERB VERB DET NOUN ADV ADP NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "264": {
+        "sentence": "from fourteen states and three foreign countries they come to spend the months from mid-september to june .",
+        "actual_tags": "ADP NUM NOUN CONJ NUM ADJ NOUN PRON VERB PRT VERB DET NOUN ADP NOUN ADP NOUN .",
+        "hmm_tags": "ADP NUM NOUN CONJ NUM ADJ NOUN PRON VERB PRT VERB DET NOUN ADP NOUN ADP NOUN .",
+        "crf_tags": "ADP NUM NOUN CONJ NUM ADJ NOUN PRON VERB PRT VERB DET NOUN ADP NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "265": {
+        "sentence": "mme vienot , considerably younger and very different .",
+        "actual_tags": "NOUN NOUN . ADV ADJ CONJ ADV ADJ .",
+        "hmm_tags": "NOUN NOUN . ADV ADJ CONJ ADV ADJ .",
+        "crf_tags": "NOUN NOUN . ADV ADJ CONJ ADV ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "266": {
+        "sentence": "the first step is a comprehensive self study made by faculty , by outside consultants , or by a combination of the two .",
+        "actual_tags": "DET ADJ NOUN VERB DET ADJ NOUN NOUN VERB ADP NOUN . ADP ADJ NOUN . CONJ ADP DET NOUN ADP DET NUM .",
+        "hmm_tags": "DET ADJ NOUN VERB DET ADJ NOUN NOUN VERB ADP NOUN . ADP ADJ NOUN . CONJ ADP DET NOUN ADP DET NUM .",
+        "crf_tags": "DET ADJ NOUN VERB DET ADJ NOUN NOUN VERB ADP NOUN . ADP ADJ NOUN . CONJ ADP DET NOUN ADP DET NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "271": {
+        "sentence": "the frenchman was astonished .",
+        "actual_tags": "DET NOUN VERB VERB .",
+        "hmm_tags": "DET NOUN VERB VERB .",
+        "crf_tags": "DET NOUN VERB VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "272": {
+        "sentence": "without looking at him , without looking at anything except drexel street directly in front of her , she climbed up into one of those orange streetcars , rode away in it , and never came back .",
+        "actual_tags": "ADP VERB ADP PRON . ADP VERB ADP NOUN ADP NOUN NOUN ADV ADP NOUN ADP PRON . PRON VERB PRT ADP NUM ADP DET ADJ NOUN . VERB ADV ADP PRON . CONJ ADV VERB ADV .",
+        "hmm_tags": "ADP VERB ADP PRON . ADP VERB ADP NOUN ADP NOUN NOUN ADV ADP NOUN ADP PRON . PRON VERB PRT ADP NUM ADP DET ADJ NOUN . VERB ADV ADP PRON . CONJ ADV VERB ADV .",
+        "crf_tags": "ADP VERB ADP PRON . ADP VERB ADP NOUN ADP NOUN NOUN ADV ADP NOUN ADP PRON . PRON VERB PRT ADP NUM ADP DET ADJ NOUN . VERB ADV ADP PRON . CONJ ADV VERB ADV .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "273": {
+        "sentence": "7 .",
+        "actual_tags": "NUM .",
+        "hmm_tags": "NUM .",
+        "crf_tags": "NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "278": {
+        "sentence": "6 .",
+        "actual_tags": "NUM .",
+        "hmm_tags": "NUM .",
+        "crf_tags": "NUM .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "279": {
+        "sentence": "index words and electronic switches may be reserved in the following ways .",
+        "actual_tags": "NOUN NOUN CONJ ADJ NOUN VERB VERB VERB ADP DET VERB NOUN .",
+        "hmm_tags": "NOUN NOUN CONJ ADJ NOUN VERB VERB VERB ADP DET VERB NOUN .",
+        "crf_tags": "NOUN NOUN CONJ ADJ NOUN VERB VERB VERB ADP DET VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "280": {
+        "sentence": "rouben ter-arutunian , in his stage settings , often uses the scrim curtain behind which mr. cole has placed couples or groups who sing and set the mood for the scenes which are to follow .",
+        "actual_tags": "NOUN NOUN . ADP DET NOUN NOUN . ADV VERB DET NOUN NOUN ADP DET NOUN NOUN VERB VERB NOUN CONJ NOUN PRON VERB CONJ VERB DET NOUN ADP DET NOUN DET VERB PRT VERB .",
+        "hmm_tags": "NOUN NOUN . ADP DET NOUN NOUN . ADV VERB DET NOUN NOUN ADP DET NOUN NOUN VERB VERB NOUN CONJ NOUN PRON VERB CONJ VERB DET NOUN ADP DET NOUN DET VERB PRT VERB .",
+        "crf_tags": "NOUN NOUN . ADP DET NOUN NOUN . ADV VERB DET NOUN NOUN ADP DET NOUN NOUN VERB VERB NOUN CONJ NOUN PRON VERB CONJ VERB DET NOUN ADP DET NOUN DET VERB PRT VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "282": {
+        "sentence": "`` you're having a miserable time , aren't you ? ?",
+        "actual_tags": ". PRT VERB DET ADJ NOUN . VERB PRON . .",
+        "hmm_tags": ". PRT VERB DET ADJ NOUN . VERB PRON . .",
+        "crf_tags": ". PRT VERB DET ADJ NOUN . VERB PRON . .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "283": {
+        "sentence": "this co-operation has emboldened other southern whites to add their voices to demands for peaceable accommodation .",
+        "actual_tags": "DET NOUN VERB VERB ADJ ADJ NOUN PRT VERB DET NOUN ADP NOUN ADP ADJ NOUN .",
+        "hmm_tags": "DET NOUN VERB VERB ADJ ADJ NOUN PRT VERB DET NOUN ADP NOUN ADP ADJ NOUN .",
+        "crf_tags": "DET NOUN VERB VERB ADJ ADJ NOUN PRT VERB DET NOUN ADP NOUN ADP ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "287": {
+        "sentence": "following day was woodbury who spoke of his disapproval of brown's attempt at servile insurrection , his admiration of brown's character , and his opposition to slavery .",
+        "actual_tags": "VERB NOUN VERB NOUN PRON VERB ADP DET NOUN ADP NOUN NOUN ADP ADJ NOUN . DET NOUN ADP NOUN NOUN . CONJ DET NOUN ADP NOUN .",
+        "hmm_tags": "VERB NOUN VERB NOUN PRON VERB ADP DET NOUN ADP NOUN NOUN ADP ADJ NOUN . DET NOUN ADP NOUN NOUN . CONJ DET NOUN ADP NOUN .",
+        "crf_tags": "VERB NOUN VERB NOUN PRON VERB ADP DET NOUN ADP NOUN NOUN ADP ADJ NOUN . DET NOUN ADP NOUN NOUN . CONJ DET NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "289": {
+        "sentence": "he had a small mouth with deep furrows on either side , a large flat nose , and penetrating blue eyes .",
+        "actual_tags": "PRON VERB DET ADJ NOUN ADP ADJ NOUN ADP DET NOUN . DET ADJ ADJ NOUN . CONJ ADJ ADJ NOUN .",
+        "hmm_tags": "PRON VERB DET ADJ NOUN ADP ADJ NOUN ADP DET NOUN . DET ADJ ADJ NOUN . CONJ ADJ ADJ NOUN .",
+        "crf_tags": "PRON VERB DET ADJ NOUN ADP ADJ NOUN ADP DET NOUN . DET ADJ ADJ NOUN . CONJ ADJ ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "291": {
+        "sentence": "the game opened a busy week for washington .",
+        "actual_tags": "DET NOUN VERB DET ADJ NOUN ADP NOUN .",
+        "hmm_tags": "DET NOUN VERB DET ADJ NOUN ADP NOUN .",
+        "crf_tags": "DET NOUN VERB DET ADJ NOUN ADP NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "293": {
+        "sentence": "to me , the explanation is very simple .",
+        "actual_tags": "ADP PRON . DET NOUN VERB ADV ADJ .",
+        "hmm_tags": "ADP PRON . DET NOUN VERB ADV ADJ .",
+        "crf_tags": "ADP PRON . DET NOUN VERB ADV ADJ .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "294": {
+        "sentence": "for added strength , i also fastened a small block on each side of every frame and batten joint .",
+        "actual_tags": "ADP VERB NOUN . PRON ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ NOUN NOUN .",
+        "hmm_tags": "ADP VERB NOUN . PRON ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ NOUN NOUN .",
+        "crf_tags": "ADP VERB NOUN . PRON ADV VERB DET ADJ NOUN ADP DET NOUN ADP DET NOUN CONJ NOUN NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "295": {
+        "sentence": "they even pay me six dollars a month .",
+        "actual_tags": "PRON ADV VERB PRON NUM NOUN DET NOUN .",
+        "hmm_tags": "PRON ADV VERB PRON NUM NOUN DET NOUN .",
+        "crf_tags": "PRON ADV VERB PRON NUM NOUN DET NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "296": {
+        "sentence": "shayne stepped back to let him slump to the ground , and then dived over him through the open door into harris who was cursing loudly and trying to drag a gun from a shoulder holster , somewhat impeded by the steering wheel .",
+        "actual_tags": "NOUN VERB ADV PRT VERB PRON VERB ADP DET NOUN . CONJ ADV VERB ADP PRON ADP DET ADJ NOUN ADP NOUN PRON VERB VERB ADV CONJ VERB PRT VERB DET NOUN ADP DET NOUN NOUN . ADV VERB ADP DET VERB NOUN .",
+        "hmm_tags": "NOUN VERB ADV PRT VERB PRON VERB ADP DET NOUN . CONJ ADV VERB ADP PRON ADP DET ADJ NOUN ADP NOUN PRON VERB VERB ADV CONJ VERB PRT VERB DET NOUN ADP DET NOUN NOUN . ADV VERB ADP DET VERB NOUN .",
+        "crf_tags": "NOUN VERB ADV PRT VERB PRON VERB ADP DET NOUN . CONJ ADV VERB ADP PRON ADP DET ADJ NOUN ADP NOUN PRON VERB VERB ADV CONJ VERB PRT VERB DET NOUN ADP DET NOUN NOUN . ADV VERB ADP DET VERB NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "297": {
+        "sentence": "`` get it out '' , brannon ordered .",
+        "actual_tags": ". VERB PRON PRT . . NOUN VERB .",
+        "hmm_tags": ". VERB PRON PRT . . NOUN VERB .",
+        "crf_tags": ". VERB PRON PRT . . NOUN VERB .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
+    },
+    "298": {
+        "sentence": "the brief notes introducing each work offer salient historical or technical points , and many listeners are probably grateful for being intelligently taken by the hand through an often difficult maze .",
+        "actual_tags": "DET ADJ NOUN VERB DET NOUN VERB ADJ ADJ CONJ ADJ NOUN . CONJ ADJ NOUN VERB ADV ADJ ADP VERB ADV VERB ADP DET NOUN ADP DET ADV ADJ NOUN .",
+        "hmm_tags": "DET ADJ NOUN VERB DET NOUN VERB ADJ ADJ CONJ ADJ NOUN . CONJ ADJ NOUN VERB ADV ADJ ADP VERB ADV VERB ADP DET NOUN ADP DET ADV ADJ NOUN .",
+        "crf_tags": "DET ADJ NOUN VERB DET NOUN VERB ADJ ADJ CONJ ADJ NOUN . CONJ ADJ NOUN VERB ADV ADJ ADP VERB ADV VERB ADP DET NOUN ADP DET ADV ADJ NOUN .",
+        "hmm_mismatches": 0,
+        "crf_mismatches": 0,
+        "(word, actual, hmm, crf)": []
     }
 }
