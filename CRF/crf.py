@@ -1,5 +1,6 @@
 import math
 import sklearn_crfsuite
+from nltk.stem import LancasterStemmer
 
 def is_num(word):
     try:
@@ -17,20 +18,15 @@ def orthographic_feature(word): return {suff: word.endswith(suff) for suff in ['
 class CRF:
 
     # Initialize the HMM
-    def __init__(self):
-        self.transition_probs = {}
-        self.observation_probs = {}
-        self.tagset = set()
-        self.wordset = set()
+    def __init__(self,c1 = 0.1,c2 = 0.1, iters = 200):
         self.start_tag = "^START^_^TAG^"
         self.end_tag = "^END^_^TAG^"
-        self.punc_tag = "."
-        self.small_prob = -math.inf
+        self.stemmer = LancasterStemmer()
         self.crf = sklearn_crfsuite.CRF(
             algorithm='lbfgs',
-            c1=0.1,
-            c2=0.1,
-            max_iterations=200,
+            c1=c1,
+            c2=c2,
+            max_iterations=iters,
             all_possible_transitions=True   
         )
 
@@ -69,6 +65,8 @@ class CRF:
         # suffixes and prefixes of current tag
         pref_1, pref_2, pref_3, pref_4 = word[:1], word[:2], word[:3], word[:4]
         suff_1, suff_2, suff_3, suff_4 = word[-1:], word[-2:], word[-3:], word[-4:]
+
+        stemmed_word = self.stemmer.stem(word)
         
         features = {'word':word,            
                 'prevword': prevword,  
@@ -76,6 +74,7 @@ class CRF:
                 'nextword': nextword, 
                 'is_num': is_num(word), 
                 'is_start_num': is_first_num(word),
+                'stem': stemmed_word,
                 'is_cap': is_cap, 
                 'suff_1': suff_1,  
                 'suff_2': suff_2,  
