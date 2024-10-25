@@ -38,5 +38,5 @@ if st.button("Predict"):
         st.write("Predicted POS Tags:")
         st.dataframe(df)
     else:
-        st.error("Invalid input.")
+        st.error("Something went wrong. Try again!!!")
 

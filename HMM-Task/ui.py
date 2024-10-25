@@ -30,5 +30,5 @@ if st.button("Predict"):
         st.write("Predicted POS Tags:")
         st.dataframe(df)
     else:
-        st.error("Some words in the sentence were not found in the training data.")
+        st.error("Something went wrong. Try again!!!")
 
