@@ -1,0 +1,4 @@
+Number of training samples: 14041
+Token accuracy: 0.9821040163669645, Sentence accuracy: 0.8375325803649001, Total tokens: 46435, Total sentences: 3453, Correct tokens: 45604, Correct sentences: 2892, Test sentences: 3453
+Tag: O, Recall: 0.986144091015839, Precision: 0.9921243305680982, F1 Score: 0.9891251717594713, F0.5 Score: 0.9909224871650996, F2 Score: 0.9873343644191782
+Tag: B/I, Recall: 0.9630177514792899, Precision: 0.9363538295577131, F1 Score: 0.9494986326344577, F0.5 Score: 0.9415678333815447, F2 Score: 0.9575641685665955
