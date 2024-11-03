@@ -13,7 +13,7 @@ st.title("SVM-BASED NEI")
 model = load_model('results/model.pkl')
 
 # Input field for user to enter a sentence
-sentence_input = st.text_input("Enter a sentence:", "Washington DC is the capital of United States of America​")
+sentence_input = st.text_input("Enter a sentence:", "Washington DC is the capital of United States of America")
 
 # Button to predict POS tags
 if st.button("Predict"):

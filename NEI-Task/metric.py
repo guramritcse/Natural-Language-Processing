@@ -54,8 +54,7 @@ def evaluate(model, test_data, test_labels, number_of_tags):
     token_acc = correct_tokens / total_tokens
     sentence_acc = correct_sentences / total_sentences
     confusion_matrix = confusion_matrix
-    test_sentences = len(test_data)
-    print(f"Token accuracy: {token_acc}, Sentence accuracy: {sentence_acc}, Total tokens: {total_tokens}, Total sentences: {total_sentences}, Correct tokens: {correct_tokens}, Correct sentences: {correct_sentences}, Test sentences: {test_sentences}")
+    print(f"Token accuracy: {token_acc}, Sentence accuracy: {sentence_acc}, Total tokens: {total_tokens}, Total sentences: {total_sentences}, Correct tokens: {correct_tokens}, Correct sentences: {correct_sentences}")
     return confusion_matrix
 
 # Main function

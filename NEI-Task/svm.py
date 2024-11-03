@@ -14,10 +14,6 @@ def is_num(word):
         return 1
     except:
         return 0
-    
-# Function to check if the first character of a word is a number
-def is_first_num(word): 
-    return is_num(word[0])
 
 # Class for the SVM model
 class SVM:
@@ -42,26 +38,29 @@ class SVM:
         for i in range(len(words)):
             feature = {
                 "word": words[i],
-                "prev_word": "" if i == 0 else words[i - 1],
-                "prev_prev_word": "" if i == 0 or i == 1 else words[i - 2],
-                "next_word": "" if i == len(words) - 1 else words[i + 1],
-                "position": positions[i],
+                "prev_word": "" if positions[i][0]==0 else words[i - 1],
+                "next_word": "" if positions[i][0]==positions[i][1]-1 else words[i + 1],
+                "position": (positions[i][0] / (positions[i][1]-1)) if positions[i][1]>1 else 1,
                 "length": len(words[i]),
                 "is_punctuation": words[i] in punctuation,
                 "is_nltk_word": words[i] in nltk_words,
                 "is_num": is_num(words[i]),
-                "is_first_num": is_first_num(words[i]),
-                "is_first": i == 0,
-                "is_last": i == len(words) - 1,
+                "is_first_num": is_num(words[i][0]),
+                "is_first": positions[i][0]==0,
+                "is_last": positions[i][0]==positions[i][1]-1,
                 "prefix-1": words[i][0],
                 "prefix-2": words[i][:2],
                 "prefix-3": words[i][:3],
+                "prefix-4": words[i][:4],
+                "prefix-5": words[i][:5],
                 "suffix-1": words[i][-1],
                 "suffix-2": words[i][-2:],
                 "suffix-3": words[i][-3:],
-                "pos_tag": pos_tags[i],
-                "prev_pos_tag": "START" if i == 0 else pos_tags[i - 1],
-                "next_pos_tag": "END" if i == len(words) - 1 else pos_tags[i + 1],
+                "suffix-4": words[i][-4:],
+                "suffix-5": words[i][-5:],
+                "pos_tag": pos_tags[i][1],
+                "prev_pos_tag": "START" if positions[i][0]==0 else pos_tags[i - 1][1],
+                "next_pos_tag": "END" if positions[i][0]==positions[i][1]-1 else pos_tags[i + 1][1]
             }
             
             features.append(feature)
@@ -78,7 +77,7 @@ class SVM:
         # Get the POS tags for each word using the NLTK POS tagger
         pos_tags = [tag for sentence in train_data for tag in nltk.pos_tag(sentence)]
         # Positions of the words in the sentences
-        positions = [(i+1)/len(sentence) for sentence in train_data for i in range(len(sentence))]
+        positions = [(i, len(sentence)) for sentence in train_data for i in range(len(sentence))]
         # Extract the words
         words = [word for sentence in train_data for word in sentence]
         # Extract the tags
@@ -102,7 +101,7 @@ class SVM:
         # Get the POS tags for each word using the NLTK POS tagger
         pos_tags = [tag for sentence in test_data for tag in nltk.pos_tag(sentence)]
         # Positions of the words in the sentences
-        positions = [(i+1)/len(sentence) for sentence in test_data for i in range(len(sentence))]
+        positions = [(i, len(sentence)) for sentence in test_data for i in range(len(sentence))]
         # Extract the words
         words = [word for sentence in test_data for word in sentence]
         # Extract the features for each word
