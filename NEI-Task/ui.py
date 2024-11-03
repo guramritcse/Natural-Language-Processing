@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from metric import load_dataset, save_model, load_model
-from svm import SVM
 from nltk.tokenize import TreebankWordTokenizer
 
 # Sentence tokenizer
@@ -20,7 +19,7 @@ sentence_input = st.text_input("Enter a sentence:", "Washington DC is the capita
 if st.button("Predict"):
     # Process the sentence
     words = tokenizer.tokenize(sentence_input)
-    predicted_tags = model.predict(words)
+    predicted_tags = model.predict([words])[0].tolist()
     
     # Check if the prediction was successful
     if predicted_tags:

@@ -36,8 +36,8 @@ def evaluate(model, test_data, test_labels, number_of_tags):
     correct_sentences = 0
     total_sentences = 0
     confusion_matrix = np.zeros((number_of_tags, number_of_tags))
-    for sentence, labels in zip(test_data, test_labels):
-        predicted_tags = model.predict(sentence)
+    predicted_tags_test = model.predict(test_data, desc=1)
+    for predicted_tags, labels in zip(predicted_tags_test, test_labels):
         if len(predicted_tags) != len(labels):
             continue
         all_correct = True
@@ -79,7 +79,6 @@ def main():
     model = SVM()
 
     # Train the model
-    print("Number of training samples:", len(train_data))
     model.train(train_data, train_labels)
 
     # Save the model

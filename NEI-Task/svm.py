@@ -3,6 +3,9 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 import nltk
 import string
+import gensim.downloader as api
+import numpy as np
+from tqdm import tqdm
 
 # Function to check if a word is a number
 def is_num(word):
@@ -27,7 +30,7 @@ class SVM:
         ])
 
     # Extract features for a given sentence
-    def get_features(self, words, pos_tags):
+    def get_features(self, positions, words, pos_tags):
         try:
             nltk.data.find('corpora/words')
         except LookupError:
@@ -37,11 +40,12 @@ class SVM:
         features = []
         # Extract features for each word
         for i in range(len(words)):
-            prev_word = "" if i == 0 else words[i - 1]
-            next_word =  "" if i == len(words) - 1 else words[i + 1]
             feature = {
                 "word": words[i],
-                "position": (i+1)/len(words),
+                "prev_word": "" if i == 0 else words[i - 1],
+                "prev_prev_word": "" if i == 0 or i == 1 else words[i - 2],
+                "next_word": "" if i == len(words) - 1 else words[i + 1],
+                "position": positions[i],
                 "length": len(words[i]),
                 "is_punctuation": words[i] in punctuation,
                 "is_nltk_word": words[i] in nltk_words,
@@ -55,12 +59,11 @@ class SVM:
                 "suffix-1": words[i][-1],
                 "suffix-2": words[i][-2:],
                 "suffix-3": words[i][-3:],
-                "prev_word": prev_word,
-                "next_word": next_word,
                 "pos_tag": pos_tags[i],
                 "prev_pos_tag": "START" if i == 0 else pos_tags[i - 1],
-                "next_pos_tag": "END" if i == len(words) - 1 else pos_tags[i + 1]
+                "next_pos_tag": "END" if i == len(words) - 1 else pos_tags[i + 1],
             }
+            
             features.append(feature)
         return features
 
@@ -74,25 +77,48 @@ class SVM:
         train_data = [[word.lower() for word in sentence] for sentence in train_data]
         # Get the POS tags for each word using the NLTK POS tagger
         pos_tags = [tag for sentence in train_data for tag in nltk.pos_tag(sentence)]
+        # Positions of the words in the sentences
+        positions = [(i+1)/len(sentence) for sentence in train_data for i in range(len(sentence))]
         # Extract the words
         words = [word for sentence in train_data for word in sentence]
         # Extract the tags
         tags = [tag for sentence in train_labels for tag in sentence]
         # Extract the features for each word
-        features = self.get_features(words, pos_tags)
+        print("Extracting train features...")
+        features = self.get_features(positions, words, pos_tags)
         # Train the SVM
+        print("Training SVM...")
         self.model.fit(features, tags)
-
+        print("Training complete...")
+    
     # Predict the sequence of tags for a given sentence
-    def predict(self, sentence):
+    def predict(self, test_data, desc=0):
         try:
             nltk.data.find('taggers/averaged_perceptron_tagger_eng')
         except LookupError:
             nltk.download('averaged_perceptron_tagger_eng')
-        # Covert sentence to lower case
-        sentence = [word.lower() for word in sentence]
+        # Covert test data to lower case
+        test_data = [[word.lower() for word in sentence] for sentence in test_data]
         # Get the POS tags for each word using the NLTK POS tagger
-        pos_tags = [tag for tag in nltk.pos_tag(sentence)]
-        # Extract the features for each word and predict the tags
-        return self.model.predict(self.get_features(sentence, pos_tags)).tolist()
+        pos_tags = [tag for sentence in test_data for tag in nltk.pos_tag(sentence)]
+        # Positions of the words in the sentences
+        positions = [(i+1)/len(sentence) for sentence in test_data for i in range(len(sentence))]
+        # Extract the words
+        words = [word for sentence in test_data for word in sentence]
+        # Extract the features for each word
+        if desc:
+            print("Extracting test features...")
+        features = self.get_features(positions, words, pos_tags)
+        # Predict the tags
+        if desc:
+            print("Predicting tags...")
+        predictions = self.model.predict(features)
+        # Split the predictions into sentences
+        predicted_tags = []
+        start = 0
+        for sentence in test_data:
+            end = start + len(sentence)
+            predicted_tags.append(predictions[start:end])
+            start = end
+        return predicted_tags
         
