@@ -10,16 +10,19 @@ tokenizer = TreebankWordTokenizer()
 st.title("SVM-BASED NEI")
 
 # Load the model
-model = load_model('results/model.pkl')
+model_1 = load_model('results/model_1.pkl')
+model_2 = load_model('results/model_2.pkl')
 
 # Input field for user to enter a sentence
-sentence_input = st.text_input("Enter a sentence:", "Washington DC is the capital of United States of America")
+sentence_input = st.text_input("Enter a sentence:", "Seoul is the capital of Republic of Korea")
 
 # Button to predict POS tags
 if st.button("Predict"):
     # Process the sentence
     words = tokenizer.tokenize(sentence_input)
-    predicted_tags = model.predict([words])[0].tolist()
+    predicted_tags_1 = model_1.predict([words], desc=0, type=1)[0].tolist()
+    predicted_tags_2 = model_2.predict([words], desc=0, type=2)[0].tolist()
+    predicted_tags = [1 if predicted_tag_1 == 1 or predicted_tag_2 == 1 else 0 for predicted_tag_1, predicted_tag_2 in zip(predicted_tags_1, predicted_tags_2)]
     
     # Check if the prediction was successful
     if predicted_tags:

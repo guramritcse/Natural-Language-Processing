@@ -26,7 +26,7 @@ class SVM:
         ])
 
     # Extract features for a given sentence
-    def get_features(self, positions, words, pos_tags):
+    def get_features(self, positions, words, pos_tags, type):
         try:
             nltk.data.find('corpora/words')
         except LookupError:
@@ -62,18 +62,24 @@ class SVM:
                 "prev_pos_tag": "START" if positions[i][0]==0 else pos_tags[i - 1][1],
                 "next_pos_tag": "END" if positions[i][0]==positions[i][1]-1 else pos_tags[i + 1][1]
             }
-            
+            if type == 2:
+                feature.update({"lower": words[i].lower(),
+                "upper": words[i].upper(),
+                "is_capitalized": words[i][0].upper() == words[i][0],
+                "is_all_caps": words[i].upper() == words[i],
+                "is_all_lower": words[i].lower() == words[i]})
             features.append(feature)
         return features
 
     # Train the SVM on a given dataset
-    def train(self, train_data, train_labels):
+    def train(self, train_data, train_labels, type=1):
         try:
             nltk.data.find('taggers/averaged_perceptron_tagger_eng')
         except LookupError:
             nltk.download('averaged_perceptron_tagger_eng')
-        # Covert train data to lower case
-        train_data = [[word.lower() for word in sentence] for sentence in train_data]
+        if type == 1:
+            # Covert train data to lower case
+            train_data = [[word.lower() for word in sentence] for sentence in train_data]
         # Get the POS tags for each word using the NLTK POS tagger
         pos_tags = [tag for sentence in train_data for tag in nltk.pos_tag(sentence)]
         # Positions of the words in the sentences
@@ -84,20 +90,21 @@ class SVM:
         tags = [tag for sentence in train_labels for tag in sentence]
         # Extract the features for each word
         print("Extracting train features...")
-        features = self.get_features(positions, words, pos_tags)
+        features = self.get_features(positions, words, pos_tags, type)
         # Train the SVM
         print("Training SVM...")
         self.model.fit(features, tags)
         print("Training complete...")
     
     # Predict the sequence of tags for a given sentence
-    def predict(self, test_data, desc=0):
+    def predict(self, test_data, desc=0, type=1):
         try:
             nltk.data.find('taggers/averaged_perceptron_tagger_eng')
         except LookupError:
             nltk.download('averaged_perceptron_tagger_eng')
-        # Covert test data to lower case
-        test_data = [[word.lower() for word in sentence] for sentence in test_data]
+        if type == 1:
+            # Covert test data to lower case
+            test_data = [[word.lower() for word in sentence] for sentence in test_data]
         # Get the POS tags for each word using the NLTK POS tagger
         pos_tags = [tag for sentence in test_data for tag in nltk.pos_tag(sentence)]
         # Positions of the words in the sentences
@@ -107,7 +114,7 @@ class SVM:
         # Extract the features for each word
         if desc:
             print("Extracting test features...")
-        features = self.get_features(positions, words, pos_tags)
+        features = self.get_features(positions, words, pos_tags, type)
         # Predict the tags
         if desc:
             print("Predicting tags...")
