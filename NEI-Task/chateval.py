@@ -30,8 +30,7 @@ def main():
     for i, entry in enumerate(entries):
         all_correct_pred = True
         all_correct_chat = True
-        pred = model.predict(entry['sentence'])
-        print(i)
+        pred = model.predict([entry['sentence']])[0]
         for predicted_tag, actual_tag, chat_tag in zip(pred, entry['label'], entry['chatlabel']):
             total_tokens += 1
             if predicted_tag == actual_tag:
